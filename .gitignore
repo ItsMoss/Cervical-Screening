@@ -4,3 +4,5 @@
 .cache/
 _build/
 __pycache__/
+*.pdf
+*.pptx

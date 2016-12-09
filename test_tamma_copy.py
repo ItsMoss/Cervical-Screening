@@ -17,7 +17,7 @@ def test_remove_glare():
     assert output2 == expected_output2
 
     input3 = [1] * 256
-    expected_output3 = [0] * 256
+    expected_output3 = [1] + [0] * 255
     output3 = tm.remove_glare(input3, 0)
     assert output3 == expected_output3
 

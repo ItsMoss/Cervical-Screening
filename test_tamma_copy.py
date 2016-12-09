@@ -44,13 +44,13 @@ def test_stat_analysis():
     """
 
     input1 = [1] * 10 + [0] * 246
-    expected_output1 = [5.5, 1.0, 5.5, 3.0]
+    expected_output1 = [4.5, 0.0, 4.5, 2.9]
     output1 = tm.stat_analysis(input1)
     assert output1 == expected_output1
 
     input2 = list(range(10)) + [0] * 246
     expected_output2 = [6.3, 9.0, 7.0, 2.2]
-    output1 = tm.stat_analysis(input2)
+    output2 = tm.stat_analysis(input2)
     assert output2 == expected_output2
 
     input3 = [0]*15 + list(range(10)) + [0] * 231
@@ -59,8 +59,8 @@ def test_stat_analysis():
     assert output3 == expected_output3
 
     input4 = [0]*15 + list(range(10)) + [0] * 5 \
-             + list(range(10)) + [0] * 226
-    expected_output4 = [28.8, 24, 27.5, 7.9]
+             + list(range(10)) + [0] * 216
+    expected_output4 = [28.8, 24, 27.5, 7.8]
     output4 = tm.stat_analysis(input4)
     assert output4 == expected_output4
 

@@ -1,4 +1,5 @@
 # This file is for containing all functionality used in create_svm and main
+import cv2 as cv2
 
 
 def parse_SVM_CLA():
@@ -22,3 +23,20 @@ def parse_SVM_CLA():
     args = par.parse_args()
 
     return args
+
+
+def read_image(image_name, color=True):
+    """
+    This function reads in an image
+
+    :param str image_name: name of input image
+    :param ble color: whether the image should be read in as a color image or \
+    not; default is True otherwise a grayscale image will be read
+    :return ndarray image: resulting image matrix
+    """
+    if color is True:
+        image = cv2.imread(image_name, 1)
+    else:
+        image = cv2.imread(image_name, 0)
+
+    return image

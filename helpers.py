@@ -338,6 +338,15 @@ def init_log_file(fname, name, log_level):
     return
 
 
+colorDict = {"red": (0, 0, 255),
+             "orange": (0, 165, 255),
+             "yellow": (0, 255, 255),
+             "green": (0, 255, 0),
+             "blue": (255, 0, 0),
+             "violet": (255, 0, 255),
+             "white": (255, 255, 255),
+             "black": (0, 0, 0)}
+
 logDict = {"DEBUG": 10,
            "INFO": 20,
            "WARNING": 30,

@@ -1,5 +1,7 @@
 # This file is for creating the SVM that will be used in cervical_main.py
 
+# parse CLA always comes first!
+
 # 1. Initialize empty lists for both dysplasia and healthy images
 # These lists will have elements that are dictionaries whose keys have values
 # that are also dictionaries in order to map a channel to a statistical value

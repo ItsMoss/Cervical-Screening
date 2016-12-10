@@ -3,5 +3,4 @@ image: python:3.5
 test:
   script:
   - pip install -r requirements.txt
-  - conda install -c menpo opencv3=3.1.0
   - py.test -v --cov

@@ -166,3 +166,16 @@ def test_channel_stats():
     assert output1["mode"] == 255
     assert output1["median"] == 128
     assert output1["mean"] == 128
+
+    # Test channel 2
+    test2 = ones(COLORMAX, uint8)
+    for i in range(COLORMAX // 2):
+        test2[i] = 0
+    test2[250] = 5
+    test2[133] = 3
+    test2[132] = 2
+    test2[134] = 2
+    output2 = cer.channel_stats(test2)
+    assert output2["mode"] == 250
+    assert output2["median"] == 191
+    assert output2["mean"] == 102 + (2 / 15)

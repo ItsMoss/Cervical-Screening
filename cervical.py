@@ -88,3 +88,41 @@ def create_grayscale_channel(image):
             channel[image[row][col]] += 1
 
     return channel
+
+
+def channel_stats(channel):
+    """
+    This function calculates various statistics on an input color channel
+
+    :param ndarray channel: input channel (red, gree, blue, or grayscale)
+    :return dict stats: various stats on the input channel data
+    """
+    maximum = max(channel)
+    mode = 1
+
+    total = sum(channel)
+    halfTot = total // 2
+    cumSum = 0
+    median = 0
+    foundMedian = False
+
+    cumProdSum = 0
+
+    for i, v in enumerate(channel):
+        if i == 0:
+            continue
+        if channel[-i] == maximum and COLORMAX - i > mode:
+            mode = COLORMAX - i
+        cumSum += v
+        if cumSum >= halfTot and foundMedian is False:
+            median = i
+            foundMedian = True
+        cumProdSum += i * v
+
+    mean = cumProdSum / 255
+
+    stats = {"mode": mode,
+             "median": median,
+             "mean": mean}
+
+    return stats

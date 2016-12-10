@@ -154,3 +154,15 @@ def test_create_grayscale_channel():
     assert output2[botright] > 0
     assert sum(output2) == 4
     assert len(output2) == COLORMAX
+
+
+def test_channel_stats():
+    """
+    Tests functionality of channel_stats from cervical.py
+    """
+    # Test channel 1
+    test1 = ones(COLORMAX, uint8)
+    output1 = cer.channel_stats(test1)
+    assert output1["mode"] == 255
+    assert output1["median"] == 128
+    assert output1["mean"] == 128

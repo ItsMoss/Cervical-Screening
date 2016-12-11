@@ -332,10 +332,48 @@ def init_log_file(fname, name, log_level):
     import logging as log
 
     log.basicConfig(filename=fname+'.log', level=logDict[log_level])
-    message = "This file is a B-Mode U/S log for "+name+"\n"
+    message = "This file is a SVM Training Data log for "+name+"\n"
     log.info(message)
 
     return
+
+
+def print_channel_stats(channel, log=False):
+    """
+    This function prints all statistics for an input color channel for an image
+
+    :param dict channel: channel containing its statistics
+    :param ble log: whether statistics should be logged to a file or not
+    """
+    if log is False:
+        print("Mode: %d" % channel["mode"])
+        print("Median: %d" % channel["median"])
+        print("Mean: %.2f\n" % channel["mean"])
+    else:
+        from logging import info
+        info("Mode: %d" % channel["mode"])
+        info("Median: %d" % channel["median"])
+        info("Mean: %.2f\n" % channel["mean"])
+
+    return
+
+
+def create_image_name(img_type, img_n):
+    """
+    Creates image name based off of input parameters (should match an already \
+    created .tif image)
+
+    :param str img_type: dysplasia or healthy image
+    :param int img_n: image number
+    :return str img_name: resulting image name
+    """
+    if (img_type != "dysplasia" and img_type != "healthy") or img_n < 0:
+        raise ValueError
+
+    if img_n < 10:
+        return img_type+'0'+str(img_n)+".tif"
+
+    return img_type+str(img_n)+".tif"
 
 
 colorDict = {"red": (0, 0, 255),

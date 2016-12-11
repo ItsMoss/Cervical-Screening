@@ -166,3 +166,31 @@ def test_channel_stats():
     assert output1["mode"] == 255
     assert output1["median"] == 128
     assert output1["mean"] == 128
+
+    # Test channel 2 - Pseudo random
+    test2 = 0 * ones(COLORMAX, uint8)
+    randMode = randrange(COLORMAX)
+    randval1 = randrange(COLORMAX)
+    randval2 = randrange(COLORMAX)
+    randval3 = randrange(COLORMAX)
+    test2[randMode] = 5
+    test2[randval1] += 1
+    test2[randval2] += 1
+    test2[randval3] += 1
+    output2 = cer.channel_stats(test2)
+    assert output2["mode"] == randMode
+    assert output2["median"] == randMode
+    assert output2["mean"] == (randval1 + randval2 + randval3 + 5*randMode) / 8
+
+    # Test channel 3 - Random
+    test3 = ones(COLORMAX, uint8)
+    for i, v in enumerate(test3):
+        test3[i] = randrange(11) * v
+
+    maxval = max(test3[1:])
+
+    output3 = cer.channel_stats(test3)
+    assert output3["mode"] > 0 and output3["mode"] < 256
+    assert test3[output3["mode"]] == maxval
+    assert output3["median"] > 0 and output3["median"] < 256
+    assert output3["mean"] > 0 and output3["mean"] < 256

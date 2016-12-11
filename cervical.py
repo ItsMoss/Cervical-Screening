@@ -97,11 +97,11 @@ def channel_stats(channel):
     :param ndarray channel: input channel (red, gree, blue, or grayscale)
     :return dict stats: various stats on the input channel data
     """
-    maximum = max(channel)
+    maximum = max(channel[1:])
     mode = 1
 
-    total = sum(channel)
-    halfTot = total // 2
+    total = sum(channel[1:])
+    halfTot = total / 2
     cumSum = 0
     median = 0
     foundMedian = False
@@ -119,7 +119,7 @@ def channel_stats(channel):
             foundMedian = True
         cumProdSum += i * v
 
-    mean = cumProdSum / 255
+    mean = cumProdSum / total
 
     stats = {"mode": mode,
              "median": median,

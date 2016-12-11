@@ -338,14 +338,14 @@ def init_log_file(fname, name, log_level):
     return
 
 
-def print_channel_stats(channel, file=None):
+def print_channel_stats(channel, log=False):
     """
     This function prints all statistics for an input color channel for an image
 
     :param dict channel: channel containing its statistics
-    :param str file: optional argument of log filename to write to
+    :param ble log: whether statistics should be logged to a file or not
     """
-    if file is None:
+    if log is False:
         print("Mode: %d" % channel["mode"])
         print("Median: %d" % channel["median"])
         print("Mean: %.2f\n" % channel["mean"])

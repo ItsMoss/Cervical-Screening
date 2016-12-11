@@ -5,6 +5,7 @@ from logging import info
 
 dysplasia = "dysplasia"
 healthy = "healthy"
+training = "trainindata"
 
 
 def main():
@@ -12,7 +13,7 @@ def main():
     main_args = cer.parse_SVM_CLA()
     dirname = main_args.directory
 
-    helps.init_log_file("trainingdata", "Moss", "INFO")
+    helps.init_log_file(training, "Moss", "INFO")
 
     # 1. Initialize empty lists for both dysplasia and healthy images
     # These lists will have elements that are dictionaries to dictionaries to
@@ -40,22 +41,22 @@ def main():
         # 2b. Blue channel analysis
         bluestats = cer.channel_stats(channels["blue"])
         info("BLUE")
-        helps.print_channel_stats(bluestats, "trainingdata.log")
+        helps.print_channel_stats(bluestats, True)
 
         # 2c. Green channel analysis
         greenstats = cer.channel_stats(channels["green"])
         info("GREEN")
-        helps.print_channel_stats(greenstats, "trainingdata.log")
+        helps.print_channel_stats(greenstats, True)
 
         # 2d. Red channel analysis
         redstats = cer.channel_stats(channels["red"])
         info("RED")
-        helps.print_channel_stats(redstats, "trainingdata.log")
+        helps.print_channel_stats(redstats, True)
 
         # 2e. Grayscale channel analysis
         graystats = cer.channel_stats(channels["gray"])
         info("GRAYSCALE")
-        helps.print_channel_stats(graystats, "trainingdata.log")
+        helps.print_channel_stats(graystats, True)
 
         # 2f. Create dictionary of dictionary of dictionary
         allstats = {"red": redstats,
@@ -88,22 +89,22 @@ def main():
         # 3b. Blue channel analysis
         bluestats = cer.channel_stats(channels["blue"])
         info("BLUE")
-        helps.print_channel_stats(bluestats, "trainingdata.log")
+        helps.print_channel_stats(bluestats, True)
 
         # 3c. Green channel analysis
         greenstats = cer.channel_stats(channels["green"])
         info("GREEN")
-        helps.print_channel_stats(greenstats, "trainingdata.log")
+        helps.print_channel_stats(greenstats, True)
 
         # 3d. Red channel analysis
         redstats = cer.channel_stats(channels["red"])
         info("RED")
-        helps.print_channel_stats(redstats, "trainingdata.log")
+        helps.print_channel_stats(redstats, True)
 
         # 3e. Grayscale channel analysis
         graystats = cer.channel_stats(channels["gray"])
         info("GRAYSCALE")
-        helps.print_channel_stats(graystats, "trainingdata.log")
+        helps.print_channel_stats(graystats, True)
 
         # 3f. Create dictionary of dictionary of dictionary
         allstats = {"red": redstats,

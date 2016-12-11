@@ -5,7 +5,7 @@ from logging import info
 
 dysplasia = "dysplasia"
 healthy = "healthy"
-training = "trainindata"
+training = "trainingdata"
 
 
 def main():

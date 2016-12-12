@@ -376,6 +376,24 @@ def create_image_name(img_type, img_n):
     return img_type+str(img_n)+".tif"
 
 
+def plot_histogram(histArray, n, titleStr):
+    """
+    Plots a histogram
+
+    :param ndarray histArray: array of values
+    :param int n: figure number to be used
+    :param str titleStr: histogram title to be used
+    """
+    from matplotlib.pyplot import figure, title, hist, show
+
+    figure(n)
+    title(titleStr)
+    hist(histArray, len(histArray))
+    show()
+
+    return
+
+
 colorDict = {"red": (0, 0, 255),
              "orange": (0, 165, 255),
              "yellow": (0, 255, 255),

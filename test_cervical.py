@@ -162,6 +162,7 @@ def test_channel_stats():
     """
     # Test channel 1
     test1 = ones(COLORMAX, uint8)
+    test1[0] = COLORMAX  # this should not affect results
     output1 = cer.channel_stats(test1)
     assert output1["mode"] == 255
     assert output1["median"] == 128

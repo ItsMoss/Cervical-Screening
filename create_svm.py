@@ -112,7 +112,7 @@ def main():
                     "blue": bluestats,
                     "gray": graystats}
 
-        imagestats = {dys_n: allstats}
+        imagestats = {hea_n: allstats}
 
         # 3g. Update/append list for healthy images
         allHealthy.append(imagestats)

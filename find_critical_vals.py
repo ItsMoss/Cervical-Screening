@@ -42,6 +42,15 @@ def main():
     info("GRAY")
     helps.print_channel_stats(graystats, True)
 
+    # 6. Write the third 25% boundary for RG and second for B to output file
+    with open(abnormal+".txt", 'w') as f:
+        f.write("red ")
+        f.write("%d %d\n" % (redstats["median"], redstats["thirdQrt"]))
+        f.write("green ")
+        f.write("%d %d\n" % (greenstats["median"], greenstats["thirdQrt"]))
+        f.write("blue ")
+        f.write("%d %d\n" % (bluestats["firstQrt"], bluestats["median"]))
+
 
 if __name__ == "__main__":
     main()

@@ -332,11 +332,81 @@ def init_log_file(fname, name, log_level):
     import logging as log
 
     log.basicConfig(filename=fname+'.log', level=logDict[log_level])
-    message = "This file is a B-Mode U/S log for "+name+"\n"
+    message = "This file is a SVM Training Data log for "+name+"\n"
     log.info(message)
 
     return
 
+
+def print_channel_stats(channel, log=False):
+    """
+    This function prints all statistics for an input color channel for an image
+
+    :param dict channel: channel containing its statistics
+    :param ble log: whether statistics should be logged to a file or not
+    """
+    if log is False:
+        print("Mode: %d" % channel["mode"])
+        print("1st Quartile: %d" % channel["firstQrt"])
+        print("Median: %d" % channel["median"])
+        print("3rd Quartile: %d" % channel["thirdQrt"])
+        print("Mean: %.2f\n" % channel["mean"])
+    else:
+        from logging import info
+        info("Mode: %d" % channel["mode"])
+        info("1st Quartile: %d" % channel["firstQrt"])
+        info("Median: %d" % channel["median"])
+        info("3rd Quartile: %d" % channel["thirdQrt"])
+        info("Mean: %.2f\n" % channel["mean"])
+
+    return
+
+
+def create_image_name(img_type, img_n):
+    """
+    Creates image name based off of input parameters (should match an already \
+    created .tif image)
+
+    :param str img_type: dysplasia or healthy image
+    :param int img_n: image number
+    :return str img_name: resulting image name
+    """
+    if (img_type != "dysplasia" and img_type != "healthy") or img_n < 0:
+        raise ValueError
+
+    if img_n < 10:
+        return img_type+'0'+str(img_n)+".tif"
+
+    return img_type+str(img_n)+".tif"
+
+
+def plot_histogram(histArray, n, titleStr, plotcolor):
+    """
+    Plots a histogram
+
+    :param ndarray histArray: array of values
+    :param int n: figure number to be used
+    :param str titleStr: histogram title to be used
+    :param str plotcolor: color of histogram
+    """
+    from matplotlib.pyplot import figure, title, hist  # , show
+
+    figure(n)
+    title(titleStr)
+    hist(histArray, len(histArray), color=plotcolor)
+    # show()
+
+    return
+
+
+colorDict = {"red": (0, 0, 255),
+             "orange": (0, 165, 255),
+             "yellow": (0, 255, 255),
+             "green": (0, 255, 0),
+             "blue": (255, 0, 0),
+             "violet": (255, 0, 255),
+             "white": (255, 255, 255),
+             "black": (0, 0, 0)}
 
 logDict = {"DEBUG": 10,
            "INFO": 20,

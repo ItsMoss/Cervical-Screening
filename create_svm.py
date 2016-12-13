@@ -38,11 +38,6 @@ def main():
         channels = cer.extract_RGB(rgbimage)
         channels["gray"] = cer.create_grayscale_channel(gsimage)
 
-        helps.plot_histogram(channels["red"], dys_n * 1, "Red (Bad)")
-        helps.plot_histogram(channels["green"], dys_n * 2, "Green (Bad)")
-        helps.plot_histogram(channels["blue"], dys_n * 3, "Blue (Bad)")
-        helps.plot_histogram(channels["gray"], dys_n * 4, "Gray (Bad)")
-
         # 2b. Blue channel analysis
         bluestats = cer.channel_stats(channels["blue"])
         info("BLUE")
@@ -91,11 +86,6 @@ def main():
         channels = cer.extract_RGB(rgbimage)
         channels["gray"] = cer.create_grayscale_channel(gsimage)
 
-        helps.plot_histogram(channels["red"], dys_n * 4 + hea_n * 1, "Red (Good)")
-        helps.plot_histogram(channels["green"], dys_n * 4 + hea_n * 2, "Green (Good)")
-        helps.plot_histogram(channels["blue"], dys_n * 4 + hea_n * 3, "Blue (Good)")
-        helps.plot_histogram(channels["gray"], dys_n * 4 + hea_n * 4, "Gray (Good)")
-
         # 3b. Blue channel analysis
         bluestats = cer.channel_stats(channels["blue"])
         info("BLUE")
@@ -122,7 +112,7 @@ def main():
                     "blue": bluestats,
                     "gray": graystats}
 
-        imagestats = {dys_n: allstats}
+        imagestats = {hea_n: allstats}
 
         # 3g. Update/append list for healthy images
         allHealthy.append(imagestats)

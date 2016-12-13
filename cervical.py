@@ -102,9 +102,14 @@ def channel_stats(channel):
 
     total = sum(channel[1:])
     halfTot = total / 2
+    qtrTot = halfTot / 2
     cumSum = 0
+    firstQrt = 0
     median = 0
+    thirdQrt = 0
+    found1stQtr = False
     foundMedian = False
+    found3rdQtr = False
 
     cumProdSum = 0
 
@@ -114,15 +119,23 @@ def channel_stats(channel):
         if channel[-i] == maximum and COLORMAX - i > mode:
             mode = COLORMAX - i
         cumSum += v
+        if cumSum >= qtrTot and found1stQtr is False:
+            firstQrt = i
+            found1stQtr = True
         if cumSum >= halfTot and foundMedian is False:
             median = i
             foundMedian = True
+        if cumSum >= 3*qtrTot and found3rdQtr is False:
+            thirdQrt = i
+            found3rdQtr = True
         cumProdSum += i * v
 
     mean = cumProdSum / total
 
     stats = {"mode": mode,
+             "firstQrt": firstQrt,
              "median": median,
+             "thirdQrt": thirdQrt,
              "mean": mean}
 
     return stats

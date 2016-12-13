@@ -165,7 +165,9 @@ def test_channel_stats():
     test1[0] = COLORMAX  # this should not affect results
     output1 = cer.channel_stats(test1)
     assert output1["mode"] == 255
+    assert output1["firstQrt"] == 64
     assert output1["median"] == 128
+    assert output1["thirdQrt"] == 192
     assert output1["mean"] == 128
 
     # Test channel 2 - Pseudo random
@@ -181,6 +183,9 @@ def test_channel_stats():
     output2 = cer.channel_stats(test2)
     assert output2["mode"] == randMode
     assert output2["median"] == randMode
+    assert output2["firstQrt"] == randMode or output2["thirdQrt"] == randMode
+    assert output2["firstQrt"] <= randMode
+    assert output2["thirdQrt"] >= randMode
     assert output2["mean"] == (randval1 + randval2 + randval3 + 5*randMode) / 8
 
     # Test channel 3 - Random
@@ -195,3 +200,5 @@ def test_channel_stats():
     assert test3[output3["mode"]] == maxval
     assert output3["median"] > 0 and output3["median"] < 256
     assert output3["mean"] > 0 and output3["mean"] < 256
+    assert output3["firstQrt"] <= output3["median"]
+    assert output3["median"] <= output3["thirdQrt"]

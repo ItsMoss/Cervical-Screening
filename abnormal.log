@@ -1,0 +1,31 @@
+INFO:root:This file is a SVM Training Data log for Abnormal cervix images
+
+INFO:root:./dysplasia_roi2.jpg
+INFO:root:RED
+INFO:root:Mode: 239
+INFO:root:1st Quartile: 25
+INFO:root:Median: 207
+INFO:root:3rd Quartile: 233
+INFO:root:Mean: 147.33
+
+INFO:root:GREEN
+INFO:root:Mode: 151
+INFO:root:1st Quartile: 117
+INFO:root:Median: 167
+INFO:root:3rd Quartile: 201
+INFO:root:Mean: 157.30
+
+INFO:root:BLUE
+INFO:root:Mode: 145
+INFO:root:1st Quartile: 91
+INFO:root:Median: 132
+INFO:root:3rd Quartile: 175
+INFO:root:Mean: 133.34
+
+INFO:root:GRAY
+INFO:root:Mode: 230
+INFO:root:1st Quartile: 140
+INFO:root:Median: 169
+INFO:root:3rd Quartile: 231
+INFO:root:Mean: 169.72
+

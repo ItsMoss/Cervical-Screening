@@ -202,3 +202,29 @@ def test_channel_stats():
     assert output3["mean"] > 0 and output3["mean"] < 256
     assert output3["firstQrt"] <= output3["median"]
     assert output3["median"] <= output3["thirdQrt"]
+
+
+def test_blackout_glare():
+    """
+    Tests functionality of blackout_glare from cervical.py
+    """
+    # Test case 1 - All white image
+    test1 = COLORMAX * ones((2, 2), uint8)
+    expected = 0 * ones((2, 2), uint8)
+    output1 = cer.blackout_glare(test1)
+    assert output1.all() == expected.all()
+
+    # Test case 2 - Color image with one white
+    # [RED] [WHITE]
+    # [GREEN] [BLUE]
+    test2 = ones((2, 2, 3), uint8)
+    test2[0][0] = helps.colorDict["red"]
+    test2[0][1] = helps.colorDict["white"]
+    test2[1][0] = helps.colorDict["green"]
+    test2[1][1] = helps.colorDict["blue"]
+
+    expected = test2
+    expected[0][1] = helps.colorDict["black"]
+
+    output2 = cer.blackout_glare(test2)
+    assert output2.all() == expected.all()

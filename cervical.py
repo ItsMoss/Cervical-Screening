@@ -25,6 +25,32 @@ def parse_SVM_CLA():
 
     args = par.parse_args()
 
+    if args.directory[-1] != '/':
+        args.directory += '/'
+
+    return args
+
+
+def parse_critical_CLA():
+    """
+    This function is for parsing command line args to find_critical_vals.py
+
+    :return dict args: all parsed command line arguments
+    """
+    import argparse as ap
+
+    par = ap.ArgumentParser(description="Accept user input argument",
+                            formatter_class=ap.ArgumentDefaultsHelpFormatter)
+
+    par.add_argument("--img_name",
+                     dest="img_name",
+                     help="full pathname of the image containing critical regi\
+                     ons",
+                     type=str,
+                     default="./dysplasia_roi2.jpg")
+
+    args = par.parse_args()
+
     return args
 
 
@@ -139,3 +165,36 @@ def channel_stats(channel):
              "mean": mean}
 
     return stats
+
+
+def blackout_glare(image, thr=240):
+    """
+    Blacks out all pixels in a color image that are (near) white
+
+    :param ndarray image: the 2d image matrix
+    :param int thr: threshold which all three components must be greater than \
+    in order to be considered glare
+    :return ndarray image: image matrix without glare
+    """
+    rows = len(image)
+    cols = len(image[0])
+
+    try:
+        len(image[0][0])
+        color = True
+    except TypeError:
+        color = False
+
+    if color is True:
+        for row in range(rows):
+            for col in range(cols):
+                if image[row][col][0] >= thr and image[row][col][1] >= thr and\
+                        image[row][col][2] >= thr:
+                    image[row][col] = (0, 0, 0)
+    else:
+        for row in range(rows):
+            for col in range(cols):
+                if image[row][col] >= thr:
+                    image[row][col] = 0
+
+    return image

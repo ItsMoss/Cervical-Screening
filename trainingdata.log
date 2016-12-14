@@ -584,3 +584,50 @@ INFO:root:EXIT_SUCCESS
 INFO:root:This file is a SVM Training Data log for Moss
 
 INFO:root:./TrainingData/dysplasia00.tif
+INFO:root:This file is a SVM Training Data log for Moss
+
+INFO:root:./TrainingData/dysplasia00.tif
+INFO:root:Critical p: 0.04701
+
+INFO:root:./TrainingData/dysplasia01.tif
+INFO:root:Critical p: 0.03091
+
+INFO:root:./TrainingData/healthy00.tif
+INFO:root:Critical p: 0.00072
+
+INFO:root:./TrainingData/healthy01.tif
+INFO:root:Critical p: 0.00031
+
+INFO:root:./TrainingData/healthy02.tif
+INFO:root:Critical p: 0.00175
+
+INFO:root:EXIT_SUCCESS
+INFO:root:This file is a SVM Training Data log for Moss
+
+INFO:root:./TrainingData/dysplasia00.tif
+INFO:root:Critical p: 0.04701
+
+INFO:root:./TrainingData/dysplasia01.tif
+INFO:root:Critical p: 0.03091
+
+INFO:root:./TrainingData/healthy00.tif
+INFO:root:Critical p: 0.00072
+
+INFO:root:./TrainingData/healthy01.tif
+INFO:root:Critical p: 0.00031
+
+INFO:root:./TrainingData/healthy02.tif
+INFO:root:Critical p: 0.00175
+
+INFO:root:EXIT_SUCCESS
+INFO:root:This file is a SVM Training Data log for Moss
+
+INFO:root:./TrainingData/dysplasia00.tif
+INFO:root:Critical p: 0.04701
+
+INFO:root:./TrainingData/dysplasia01.tif
+INFO:root:Critical p: 0.03091
+
+INFO:root:./TrainingData/healthy00.tif
+INFO:root:Critical p: 0.00072
+

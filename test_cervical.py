@@ -3,6 +3,8 @@ import cervical as cer
 import helpers as helps
 import cv2 as cv2
 from numpy import ones, uint8
+from numpy.testing import assert_array_equal as assert_equal
+from numpy.testing import assert_raises
 from random import randrange
 
 COLORMAX = 256
@@ -21,16 +23,16 @@ def test_read_image():
     test_image[1][0] = helps.colorDict["green"]
     test_image[1][1] = helps.colorDict["blue"]
 
-    cv2.imwrite("test.jpg", test_image)
+    cv2.imwrite("test.png", test_image)
 
     # Read color image and verify values
-    clone_image = cer.read_image("./test.jpg")
-    assert clone_image.all() == test_image.all()
+    clone_image = cer.read_image("./test.png")
+    assert_equal(clone_image, test_image)
 
     # Read grayscale image
-    gray_image = cer.read_image("./test.jpg", False)
-    assert gray_image.all() != test_image.all()
-    assert gray_image.all() != clone_image.all()
+    gray_image = cer.read_image("./test.png", False)
+    assert_raises(AssertionError, assert_equal, gray_image, test_image)
+    assert_raises(AssertionError, assert_equal, gray_image, clone_image)
     for i in range(2):
         for j in range(2):
             try:
@@ -202,3 +204,89 @@ def test_channel_stats():
     assert output3["mean"] > 0 and output3["mean"] < 256
     assert output3["firstQrt"] <= output3["median"]
     assert output3["median"] <= output3["thirdQrt"]
+
+
+def test_blackout_glare():
+    """
+    Tests functionality of blackout_glare from cervical.py
+    """
+    # Test case 1 - All white image
+    test1 = COLORMAX * ones((2, 2), uint8)
+    expected = 0 * ones((2, 2), uint8)
+    output1 = cer.blackout_glare(test1)
+    assert_equal(output1, expected)
+
+    # Test case 2 - Color image with one white
+    # [RED] [WHITE]
+    # [GREEN] [BLUE]
+    test2 = ones((2, 2, 3), uint8)
+    test2[0][0] = helps.colorDict["red"]
+    test2[0][1] = helps.colorDict["white"]
+    test2[1][0] = helps.colorDict["green"]
+    test2[1][1] = helps.colorDict["blue"]
+
+    expected = test2
+    expected[0][1] = helps.colorDict["black"]
+
+    output2 = cer.blackout_glare(test2)
+    assert_equal(output2, expected)
+
+
+def test_parse_critical():
+    """
+    Tests functionality of parse_critical from cervical.py
+    """
+    mins = [randrange(128) for x in range(3)]
+    maxs = [randrange(128, 256, 1) for x in range(3)]
+
+    # Test case 1 - Valid file
+    with open("testcrit1.txt", 'w') as f:
+        f.write("green %d %d\n" % (mins[1], maxs[1]))
+        f.write("red %d %d\n" % (mins[0], maxs[0]))
+        f.write("blue %d %d\n" % (mins[2], maxs[2]))
+
+    output1 = cer.parse_critical("testcrit1.txt")
+    assert output1["red"] == (mins[0], maxs[0])
+    assert output1["green"] == (mins[1], maxs[1])
+    assert output1["blue"] == (mins[2], maxs[2])
+
+    # Test case 2 - Invalid (improper pattern)
+    with open("testcrit2.txt", 'w') as f:
+        f.write("%d %d green\n" % (mins[1], maxs[1]))
+        f.write("red %d %d %d\n" % (mins[0], maxs[0], maxs[0]))
+        f.write("%d blue %d\n" % (mins[2], maxs[2]))
+
+    output2 = cer.parse_critical("testcrit2.txt")
+    assert output2 == {}
+
+    # Test case 3 - Invalid (critical vals too large/small)
+    with open("testcrit3.txt", 'w') as f:
+        f.write("green %d %d\n" % (mins[1], 300))
+        f.write("red %d %d\n" % (-10, maxs[0]))
+        f.write("blue %d %d\n" % (mins[2], maxs[2]))
+
+    output3 = cer.parse_critical("testcrit3.txt")
+    assert output3 == {}
+
+
+def test_critical_pixel_density():
+    """
+    Tests functionality of critical_pixel_density from cervical.py
+    """
+    testCritVals = {"red": (240, 255),  # these values are looking for yellow
+                    "green": (240, 255),
+                    "blue": (0, 25)}
+    # Test case 1 - 1/4 pixels match
+    img1 = cer.read_image("./test.png")
+    output1 = cer.critical_pixel_density(img1, testCritVals)
+    assert output1 == 0.25
+
+    # Test case 2 - 0/4 pixels match
+    img2 = ones((2, 2, 3), uint8)
+    img2[0][0] = helps.colorDict["blue"]
+    img2[0][1] = helps.colorDict["blue"]
+    img2[1][0] = helps.colorDict["blue"]
+    img2[1][1] = helps.colorDict["blue"]
+
+    output2 = cer.critical_pixel_density(img2, testCritVals)
+    assert output2 == 0

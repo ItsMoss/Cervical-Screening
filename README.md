@@ -1,5 +1,5 @@
 # BME590 Final Project
-## [Insert Project Title Here]
+## Cervical Cancer Screening
 ## Authors: Moseph Jackson-Atogi, Tamma Ketsiri
 
 [Include description of project here]
@@ -30,4 +30,4 @@ In order to properly run the main program do the following:
 ### Running Tests
 In order to properly run the unit tests do the following:
 
-`py.test -v --cov`
+`py.test -v`

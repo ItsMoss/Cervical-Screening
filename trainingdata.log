@@ -581,3 +581,6 @@ INFO:root:3rd Quartile: 196
 INFO:root:Mean: 135.21
 
 INFO:root:EXIT_SUCCESS
+INFO:root:This file is a SVM Training Data log for Moss
+
+INFO:root:./TrainingData/dysplasia00.tif

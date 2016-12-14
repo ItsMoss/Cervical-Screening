@@ -43,40 +43,6 @@ def main():
         # 3c. Log count for image and append list
         allDysplasia.append(density)
         info(filename)
-        channels = cer.extract_RGB(rgbimage)
-        channels["gray"] = cer.create_grayscale_channel(gsimage)
-
-        # 2b. Blue channel analysis
-        blue_channels = cer.remove_glare(channels["blue"],240)
-        bluestats = cer.channel_stats(channels["blue"])
-        info("BLUE")
-        helps.print_channel_stats(bluestats, True)
-
-        # 2c. Green channel analysis
-        greenstats = cer.channel_stats(channels["green"])
-        info("GREEN")
-        helps.print_channel_stats(greenstats, True)
-
-        # 2d. Red channel analysis
-        redstats = cer.channel_stats(channels["red"])
-        info("RED")
-        helps.print_channel_stats(redstats, True)
-
-        # 2e. Grayscale channel analysis
-        graystats = cer.channel_stats(channels["gray"])
-        info("GRAYSCALE")
-        helps.print_channel_stats(graystats, True)
-
-        # 2f. Create dictionary of dictionary of dictionary
-        allstats = {"red": redstats,
-                    "green": greenstats,
-                    "blue": bluestats,
-                    "gray": graystats}
-
-        imagestats = {dys_n: allstats}
-
-        # 2g. Update/append list for dysplasia images
-        allDysplasia.append(imagestats)
         info("Critical p: %.5f\n" % density)
 
         dys_n += 1

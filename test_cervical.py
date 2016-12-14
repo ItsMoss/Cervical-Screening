@@ -202,3 +202,38 @@ def test_channel_stats():
     assert output3["mean"] > 0 and output3["mean"] < 256
     assert output3["firstQrt"] <= output3["median"]
     assert output3["median"] <= output3["thirdQrt"]
+
+
+def test_remove_glare():
+    """
+    Tests remove glare functionality from tamma_copy.py
+    """
+    input1 = [1] * 256
+    expected_output1 = [1] * 241 + [0] * 15
+    output1 = cer.remove_glare(input1, 240)
+    assert output1 == expected_output1
+
+    input2 = [1] * 256
+    expected_output2 = [1] * 256
+    output2 = cer.remove_glare(input2, 256)
+    assert output2 == expected_output2
+
+    input3 = [1] * 256
+    expected_output3 = [1] + [0] * 255
+    output3 = cer.remove_glare(input3, 0)
+    assert output3 == expected_output3
+
+
+def test_remove_glare_wronginput():
+    """
+    Tests remove glare functionality from tamma_copy.py
+    """
+    input1 = [1]*250
+    expected_output1 = [1]*241 + [0]*15
+    output1 = cer.remove_glare(input1, 240)
+    assert output1 == expected_output1
+
+    input2 = [1]*270
+    expected_output2 = [1]*241 + [0]*15
+    output2 = cer.remove_glare(input2, 240)
+    assert output2 == expected_output2

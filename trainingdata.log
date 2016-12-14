@@ -3,10 +3,10 @@ INFO:root:This file is a SVM Training Data log for Moss
 INFO:root:./TrainingData/dysplasia00.tif
 INFO:root:BLUE
 INFO:root:Mode: 76
-INFO:root:1st Quartile: 64
-INFO:root:Median: 126
-INFO:root:3rd Quartile: 191
-INFO:root:Mean: 126.19
+INFO:root:1st Quartile: 60
+INFO:root:Median: 117
+INFO:root:3rd Quartile: 176
+INFO:root:Mean: 118.00
 
 INFO:root:GREEN
 INFO:root:Mode: 46
@@ -32,10 +32,10 @@ INFO:root:Mean: 126.35
 INFO:root:./TrainingData/dysplasia01.tif
 INFO:root:BLUE
 INFO:root:Mode: 132
-INFO:root:1st Quartile: 54
-INFO:root:Median: 122
-INFO:root:3rd Quartile: 182
-INFO:root:Mean: 121.29
+INFO:root:1st Quartile: 52
+INFO:root:Median: 117
+INFO:root:3rd Quartile: 174
+INFO:root:Mean: 115.25
 
 INFO:root:GREEN
 INFO:root:Mode: 214
@@ -61,10 +61,10 @@ INFO:root:Mean: 139.46
 INFO:root:./TrainingData/dysplasia02.tif
 INFO:root:BLUE
 INFO:root:Mode: 165
-INFO:root:1st Quartile: 94
-INFO:root:Median: 156
-INFO:root:3rd Quartile: 202
-INFO:root:Mean: 150.18
+INFO:root:1st Quartile: 89
+INFO:root:Median: 146
+INFO:root:3rd Quartile: 188
+INFO:root:Mean: 140.54
 
 INFO:root:GREEN
 INFO:root:Mode: 219
@@ -90,10 +90,10 @@ INFO:root:Mean: 152.84
 INFO:root:./TrainingData/dysplasia03.tif
 INFO:root:BLUE
 INFO:root:Mode: 87
-INFO:root:1st Quartile: 80
-INFO:root:Median: 136
-INFO:root:3rd Quartile: 203
-INFO:root:Mean: 138.90
+INFO:root:1st Quartile: 75
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 130.40
 
 INFO:root:GREEN
 INFO:root:Mode: 225
@@ -119,10 +119,10 @@ INFO:root:Mean: 145.34
 INFO:root:./TrainingData/dysplasia04.tif
 INFO:root:BLUE
 INFO:root:Mode: 173
-INFO:root:1st Quartile: 65
-INFO:root:Median: 132
-INFO:root:3rd Quartile: 190
-INFO:root:Mean: 129.98
+INFO:root:1st Quartile: 61
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 181
+INFO:root:Mean: 122.03
 
 INFO:root:GREEN
 INFO:root:Mode: 80
@@ -148,10 +148,10 @@ INFO:root:Mean: 135.86
 INFO:root:./TrainingData/dysplasia05.tif
 INFO:root:BLUE
 INFO:root:Mode: 90
-INFO:root:1st Quartile: 82
-INFO:root:Median: 137
-INFO:root:3rd Quartile: 194
-INFO:root:Mean: 137.84
+INFO:root:1st Quartile: 76
+INFO:root:Median: 129
+INFO:root:3rd Quartile: 184
+INFO:root:Mean: 129.92
 
 INFO:root:GREEN
 INFO:root:Mode: 248
@@ -176,11 +176,11 @@ INFO:root:Mean: 143.99
 
 INFO:root:./TrainingData/dysplasia06.tif
 INFO:root:BLUE
-INFO:root:Mode: 254
-INFO:root:1st Quartile: 75
-INFO:root:Median: 138
-INFO:root:3rd Quartile: 195
-INFO:root:Mean: 134.67
+INFO:root:Mode: 83
+INFO:root:1st Quartile: 72
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 184
+INFO:root:Mean: 127.75
 
 INFO:root:GREEN
 INFO:root:Mode: 253
@@ -206,10 +206,10 @@ INFO:root:Mean: 136.87
 INFO:root:./TrainingData/dysplasia07.tif
 INFO:root:BLUE
 INFO:root:Mode: 179
-INFO:root:1st Quartile: 71
-INFO:root:Median: 137
-INFO:root:3rd Quartile: 196
-INFO:root:Mean: 133.29
+INFO:root:1st Quartile: 66
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 184
+INFO:root:Mean: 125.86
 
 INFO:root:GREEN
 INFO:root:Mode: 159

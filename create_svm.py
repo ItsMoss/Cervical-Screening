@@ -39,6 +39,7 @@ def main():
         channels["gray"] = cer.create_grayscale_channel(gsimage)
 
         # 2b. Blue channel analysis
+        blue_channels = cer.remove_glare(channels["blue"],240)
         bluestats = cer.channel_stats(channels["blue"])
         info("BLUE")
         helps.print_channel_stats(bluestats, True)

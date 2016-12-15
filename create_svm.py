@@ -2,6 +2,9 @@
 import cervical as cer
 import helpers as helps
 from logging import info
+import json
+import matplotlib.pyplot as plt
+from matplotlib import style
 
 dysplasia = "dysplasia"
 healthy = "healthy"
@@ -9,8 +12,6 @@ training = "trainingdata"
 
 
 def svm_param1():
-
-    import json
 
     # Parse CLA & init log file always comes first!
     main_args = cer.parse_SVM_CLA()
@@ -106,8 +107,6 @@ def svm_param1():
 
 
 def svm_param2():
-
-    import json
 
     # parse CLA & init log file always comes first!
     main_args = cer.parse_SVM_CLA()
@@ -228,6 +227,22 @@ def svm_param2():
 
 
 def main():
+
+    #1. Read in params data
+    param1 = cer.read_jsonfile('svm_param1.txt')
+    param2 = cer.read_jsonfile('svm_param2.txt')
+
+    x = param1['heathy']+param1['dysplasia']
+    y1 = [0]* len(param1['heathy'])
+    y2 = [0]* len(param1['dysplasia'])
+    for i in range (0,len(param1['heathy'])):
+        y1[i] = param2['heathy'][i][str(i)]['blue']['mode']
+
+    for i in range (0, len(param1['dysplasia'])):
+        y2[i] = param2['dysplasia'][i][str(i)]['blue']['mode']
+    y = y1+y2
+
+
 
 if __name__ == "__main__":
     main()

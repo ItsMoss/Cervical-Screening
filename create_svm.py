@@ -113,7 +113,8 @@ def svm_param2():
         channels["gray"] = cer.create_grayscale_channel(gsimage)
 
         # 2b. Blue channel analysis
-        bluestats = cer.channel_stats(channels["blue"], 240)
+        blue_channels = cer.remove_glare(channels["blue"], 240)
+        bluestats = cer.channel_stats(blue_channels)
         info("BLUE")
         helps.print_channel_stats(bluestats, True)
 

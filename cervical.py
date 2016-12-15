@@ -135,6 +135,9 @@ def channel_stats(channel):
     maximum = max(channel[1:])
     mode = 1
 
+    modes = [[channel[x], x] for x in range(1, 6)]
+    modes.sort()
+
     total = sum(channel[1:])
     halfTot = total / 2
     qtrTot = halfTot / 2
@@ -153,6 +156,9 @@ def channel_stats(channel):
             continue
         if channel[-i] == maximum and COLORMAX - i > mode:
             mode = COLORMAX - i
+        if i > 5 and v > modes[0][0]:
+            modes[0] = [v, i]
+            modes.sort()
         cumSum += v
         if cumSum >= qtrTot and found1stQtr is False:
             firstQrt = i
@@ -165,9 +171,14 @@ def channel_stats(channel):
             found3rdQtr = True
         cumProdSum += i * v
 
+    modeSum = 0
+    for m in range(len(modes)):
+        modeSum += modes[m][1]
+    modeAvg = modeSum / len(modes)
     mean = cumProdSum / total
 
     stats = {"mode": mode,
+             "5modeAvg": modeAvg,
              "firstQrt": firstQrt,
              "median": median,
              "thirdQrt": thirdQrt,
@@ -277,3 +288,23 @@ def critical_pixel_density(image, critical_values):
     # NOTE. add ZeroDivision error handling
 
     return density
+
+
+def gaussian_threshold(image, neighborhood, fname, c=0):
+    """
+    Performs gaussian binary thresholding on a grayscale image
+
+    :param ndarray image: grayscale image
+    :param int neigborhood: length of square neighborhood size to calculate \
+    threshold off of
+    :param str fname: file name to write image to
+    :param int c: constant subtracted from calculated Gaussian threshold value
+    :return ndarray image: thresholded image
+    """
+    image = cv2.adaptiveThreshold(image, COLORMAX-1,
+                                  cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
+                                  cv2.THRESH_BINARY, neighborhood, c)
+
+    cv2.imwrite(fname+".png", image)
+
+    return image

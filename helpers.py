@@ -347,6 +347,7 @@ def print_channel_stats(channel, log=False):
     """
     if log is False:
         print("Mode: %d" % channel["mode"])
+        print("5-Mode Avg: %d" % channel["5modeAvg"])
         print("1st Quartile: %d" % channel["firstQrt"])
         print("Median: %d" % channel["median"])
         print("3rd Quartile: %d" % channel["thirdQrt"])
@@ -354,6 +355,7 @@ def print_channel_stats(channel, log=False):
     else:
         from logging import info
         info("Mode: %d" % channel["mode"])
+        info("5-Mode Avg: %.2f" % channel["5modeAvg"])
         info("1st Quartile: %d" % channel["firstQrt"])
         info("Median: %d" % channel["median"])
         info("3rd Quartile: %d" % channel["thirdQrt"])

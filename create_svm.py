@@ -228,7 +228,6 @@ def svm_param2():
 
 
 def main():
-    param2 = svm_param2()
 
 if __name__ == "__main__":
     main()

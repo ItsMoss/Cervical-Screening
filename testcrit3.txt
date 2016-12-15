@@ -1,3 +1,3 @@
-green 23 300
-red -10 139
-blue 2 195
+green 94 300
+red -10 151
+blue 112 252

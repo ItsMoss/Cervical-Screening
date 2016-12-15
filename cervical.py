@@ -329,3 +329,18 @@ def gaussian_threshold(image, neighborhood, fname, c=0):
     cv2.imwrite(fname+".png", image)
 
     return image
+
+
+def read_jsonfile(infile):
+    """
+    Read data parameters from json file
+
+    :param str infile: input json filename
+    :return dict params: contains all parsed key-value pairs from JSON object
+    """
+    from json import load
+
+    with open(infile) as file:
+        params = load(file)
+
+    return params

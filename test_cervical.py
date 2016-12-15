@@ -6,6 +6,7 @@ from numpy import ones, uint8
 from numpy.testing import assert_array_equal as assert_equal
 from numpy.testing import assert_raises
 from random import randrange
+from json import dump
 
 COLORMAX = 256
 
@@ -335,9 +336,9 @@ def test_read_jsonfile():
     Tests read_jsonfile functionality from cervical.py
     """
 
-    infile = 'bmode.json'
+    infile = 'jsontest.json'
     with open(infile, 'w') as f:
-        json.dump({"a": [1,2,3,4,5], "b": [6,7,8,9,0]}, f)
+        dump({"a": [1,2,3,4,5], "b": [6,7,8,9,0]}, f)
 
     output = cer.read_jsonfile(infile)
     a = output['a']

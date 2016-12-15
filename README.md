@@ -19,6 +19,8 @@ The following is a detailed list of files implemented in this project:
 
 + `helpers.py` - includes various helper functions used for both testing and functionality in the main program
 
++ `requirements.txt` - all packages (dependencies) needed to run our program and test building for continuous integration
+
 + `test_cervical.py` - contains all unit tests for cervical.py
 
 + `TrainingData/` - folder containing all test images used for SVM creation

@@ -239,15 +239,19 @@ def main():
     y1 = [0]* len(param1['heathy'])
     y2 = [0]* len(param1['dysplasia'])
     for i in range (0,len(param1['heathy'])):
-        y1[i] = param2['heathy'][i][str(i)]['green']['mean']
+        y1[i] = param2['heathy'][i][str(i)]['gray']['mean']
 
     for i in range (0, len(param1['dysplasia'])):
-        y2[i] = param2['dysplasia'][i][str(i)]['green']['mean']
+        y2[i] = param2['dysplasia'][i][str(i)]['gray']['mean']
     y = y1+y2
 
-    fig = plt.scatter(x[0:12],y1, color = 'red')
-    fig = plt.scatter(x[12:],y2, color = 'blue')
-    plt.show(fig)
+    fig1 = plt.scatter(x[0:12],y1, color = 'red')
+    fig1 = plt.scatter(x[12:],y2, color = 'blue')
+    plt.xlabel('critical-values')
+    filename = 'gray-mean'
+    plt.savefig(filename, bbox_inches='tight')
+    plt.show(fig1)
+
 
     # #3. Find SVM
     # X = [0]*len(x)
@@ -256,7 +260,7 @@ def main():
     # X = np.array(X)
     #
     # Y = [0]*len(y1) + [1]*len(y2)
-    # 
+    #
     # clf = svm.SVC(kernel='linear', C=1.0)
     # clf.fit(X, Y)
     #

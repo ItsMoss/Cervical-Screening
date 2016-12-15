@@ -1587,3 +1587,27 @@ INFO:root:3rd Quartile: 196
 INFO:root:Mean: 135.21
 
 INFO:root:EXIT_SUCCESS
+INFO:root:This file is a SVM Training Data log for Moss
+
+INFO:root:./TrainingData/dysplasia00.tif
+INFO:root:./TrainingData/dysplasia01.tif
+INFO:root:./TrainingData/dysplasia02.tif
+INFO:root:./TrainingData/dysplasia03.tif
+INFO:root:./TrainingData/dysplasia04.tif
+INFO:root:./TrainingData/dysplasia05.tif
+INFO:root:./TrainingData/dysplasia06.tif
+INFO:root:./TrainingData/dysplasia07.tif
+INFO:root:./TrainingData/dysplasia08.tif
+INFO:root:./TrainingData/healthy00.tif
+INFO:root:./TrainingData/healthy01.tif
+INFO:root:./TrainingData/healthy02.tif
+INFO:root:./TrainingData/healthy03.tif
+INFO:root:./TrainingData/healthy04.tif
+INFO:root:./TrainingData/healthy05.tif
+INFO:root:./TrainingData/healthy06.tif
+INFO:root:./TrainingData/healthy07.tif
+INFO:root:./TrainingData/healthy08.tif
+INFO:root:./TrainingData/healthy09.tif
+INFO:root:./TrainingData/healthy10.tif
+INFO:root:./TrainingData/healthy11.tif
+INFO:root:EXIT_SUCCESS

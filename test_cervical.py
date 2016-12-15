@@ -328,3 +328,20 @@ def test_critical_pixel_density():
 
     output2 = cer.critical_pixel_density(img2, testCritVals)
     assert output2 == 0
+
+
+def test_read_jsonfile():
+    """
+    Tests read_jsonfile functionality from cervical.py
+    """
+
+    infile = 'bmode.json'
+    with open(infile, 'w') as f:
+        json.dump({"a": [1,2,3,4,5], "b": [6,7,8,9,0]}, f)
+
+    output = cer.read_jsonfile(infile)
+    a = output['a']
+    b = output['b']
+
+    assert a == [1,2,3,4,5]
+    assert b == [6,7,8,9,0]

@@ -5,6 +5,8 @@ from logging import info
 import json
 import matplotlib.pyplot as plt
 from matplotlib import style
+import numpy as np
+from sklearn import svm
 
 dysplasia = "dysplasia"
 healthy = "healthy"
@@ -101,7 +103,7 @@ def svm_param1():
 
         #5. Save parameter
         with open('svm_param1.txt', 'w') as f:
-            json.dump({"dysplasia":allDysplasia, "heathy":allHealthy}, f)
+            json.dump({"dysplasia":allDysplasia, "healthy":allHealthy}, f)
 
     info("EXIT_SUCCESS")
 
@@ -221,7 +223,7 @@ def svm_param2():
 
         #4. Save parameter
         with open('svm_param2.txt', 'w') as f:
-            json.dump({"dysplasia":allDysplasia, "heathy":allHealthy}, f)
+            json.dump({"dysplasia":allDysplasia, "healthy":allHealthy}, f)
 
     info("EXIT_SUCCESS")
 
@@ -232,17 +234,46 @@ def main():
     param1 = cer.read_jsonfile('svm_param1.txt')
     param2 = cer.read_jsonfile('svm_param2.txt')
 
+    #2. Reorganize data
     x = param1['heathy']+param1['dysplasia']
     y1 = [0]* len(param1['heathy'])
     y2 = [0]* len(param1['dysplasia'])
     for i in range (0,len(param1['heathy'])):
-        y1[i] = param2['heathy'][i][str(i)]['blue']['mode']
+        y1[i] = param2['heathy'][i][str(i)]['green']['mean']
 
     for i in range (0, len(param1['dysplasia'])):
-        y2[i] = param2['dysplasia'][i][str(i)]['blue']['mode']
+        y2[i] = param2['dysplasia'][i][str(i)]['green']['mean']
     y = y1+y2
 
+    fig = plt.scatter(x[0:12],y1, color = 'red')
+    fig = plt.scatter(x[12:],y2, color = 'blue')
+    plt.show(fig)
 
+    # #3. Find SVM
+    # X = [0]*len(x)
+    # for i in range (0, len(x)):
+    #     X[i] = [x[i], y[i]]
+    # X = np.array(X)
+    #
+    # Y = [0]*len(y1) + [1]*len(y2)
+    # 
+    # clf = svm.SVC(kernel='linear', C=1.0)
+    # clf.fit(X, Y)
+    #
+    # #4. Plot SVM
+    # w = clf.coef_[0]
+    # print(w)
+    #
+    # a = -w[0] / w[1]
+    #
+    # xx = np.linspace(0, 12)
+    # yy = a * xx - clf.intercept_[0] / w[1]
+    #
+    # h0 = plt.plot(xx, yy, 'k-', label="non weighted div")
+    #
+    # plt.scatter(X[:, 0], X[:, 1], c=y)
+    # plt.legend()
+    # plt.show()
 
 if __name__ == "__main__":
     main()

@@ -631,3 +631,333 @@ INFO:root:Critical p: 0.03091
 INFO:root:./TrainingData/healthy00.tif
 INFO:root:Critical p: 0.00072
 
+INFO:root:This file is a SVM Training Data log for Moss
+
+INFO:root:./TrainingData/dysplasia00.tif
+INFO:root:Critical p: 0.04701
+
+INFO:root:./TrainingData/dysplasia01.tif
+INFO:root:Critical p: 0.03091
+
+INFO:root:./TrainingData/dysplasia02.tif
+INFO:root:Critical p: 0.02004
+
+INFO:root:./TrainingData/dysplasia03.tif
+INFO:root:Critical p: 0.01423
+
+INFO:root:./TrainingData/dysplasia04.tif
+INFO:root:Critical p: 0.04588
+
+INFO:root:./TrainingData/dysplasia05.tif
+INFO:root:Critical p: 0.01504
+
+INFO:root:./TrainingData/dysplasia06.tif
+INFO:root:Critical p: 0.01331
+
+INFO:root:./TrainingData/dysplasia07.tif
+INFO:root:Critical p: 0.03054
+
+INFO:root:./TrainingData/dysplasia08.tif
+INFO:root:Critical p: 0.04710
+
+INFO:root:./TrainingData/healthy00.tif
+INFO:root:Critical p: 0.00072
+
+INFO:root:./TrainingData/healthy01.tif
+INFO:root:Critical p: 0.00031
+
+INFO:root:./TrainingData/healthy02.tif
+INFO:root:Critical p: 0.00175
+
+INFO:root:./TrainingData/healthy03.tif
+INFO:root:Critical p: 0.02997
+
+INFO:root:./TrainingData/healthy04.tif
+INFO:root:Critical p: 0.03134
+
+INFO:root:./TrainingData/healthy05.tif
+INFO:root:Critical p: 0.00303
+
+INFO:root:./TrainingData/healthy06.tif
+INFO:root:Critical p: 0.00000
+
+INFO:root:./TrainingData/healthy07.tif
+INFO:root:Critical p: 0.00465
+
+INFO:root:./TrainingData/healthy08.tif
+INFO:root:Critical p: 0.00281
+
+INFO:root:./TrainingData/healthy09.tif
+INFO:root:Critical p: 0.00103
+
+INFO:root:./TrainingData/healthy10.tif
+INFO:root:Critical p: 0.00000
+
+INFO:root:./TrainingData/healthy11.tif
+INFO:root:Critical p: 0.00675
+
+INFO:root:EXIT_SUCCESS
+INFO:root:This file is a SVM Training Data log for Moss
+
+INFO:root:./TrainingData/dysplasia00.tif
+INFO:root:BLUE
+INFO:root:Mode: 76
+INFO:root:1st Quartile: 64
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 126.19
+
+INFO:root:GREEN
+INFO:root:Mode: 46
+INFO:root:1st Quartile: 66
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 126.93
+
+INFO:root:RED
+INFO:root:Mode: 198
+INFO:root:1st Quartile: 69
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 131.47
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 111
+INFO:root:1st Quartile: 61
+INFO:root:Median: 125
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 126.35
+
+INFO:root:./TrainingData/dysplasia01.tif
+INFO:root:BLUE
+INFO:root:Mode: 132
+INFO:root:1st Quartile: 54
+INFO:root:Median: 122
+INFO:root:3rd Quartile: 182
+INFO:root:Mean: 121.29
+
+INFO:root:GREEN
+INFO:root:Mode: 214
+INFO:root:1st Quartile: 68
+INFO:root:Median: 132
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 131.70
+
+INFO:root:RED
+INFO:root:Mode: 147
+INFO:root:1st Quartile: 90
+INFO:root:Median: 144
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 141.83
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 187
+INFO:root:1st Quartile: 82
+INFO:root:Median: 139
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 139.46
+
+INFO:root:./TrainingData/dysplasia02.tif
+INFO:root:BLUE
+INFO:root:Mode: 165
+INFO:root:1st Quartile: 94
+INFO:root:Median: 156
+INFO:root:3rd Quartile: 202
+INFO:root:Mean: 150.18
+
+INFO:root:GREEN
+INFO:root:Mode: 219
+INFO:root:1st Quartile: 92
+INFO:root:Median: 151
+INFO:root:3rd Quartile: 203
+INFO:root:Mean: 146.47
+
+INFO:root:RED
+INFO:root:Mode: 217
+INFO:root:1st Quartile: 87
+INFO:root:Median: 147
+INFO:root:3rd Quartile: 202
+INFO:root:Mean: 145.14
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 212
+INFO:root:1st Quartile: 97
+INFO:root:Median: 155
+INFO:root:3rd Quartile: 204
+INFO:root:Mean: 152.84
+
+INFO:root:./TrainingData/dysplasia03.tif
+INFO:root:BLUE
+INFO:root:Mode: 87
+INFO:root:1st Quartile: 80
+INFO:root:Median: 136
+INFO:root:3rd Quartile: 203
+INFO:root:Mean: 138.90
+
+INFO:root:GREEN
+INFO:root:Mode: 225
+INFO:root:1st Quartile: 93
+INFO:root:Median: 151
+INFO:root:3rd Quartile: 204
+INFO:root:Mean: 148.85
+
+INFO:root:RED
+INFO:root:Mode: 61
+INFO:root:1st Quartile: 83
+INFO:root:Median: 138
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 140.38
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 231
+INFO:root:1st Quartile: 89
+INFO:root:Median: 144
+INFO:root:3rd Quartile: 204
+INFO:root:Mean: 145.34
+
+INFO:root:./TrainingData/dysplasia04.tif
+INFO:root:BLUE
+INFO:root:Mode: 173
+INFO:root:1st Quartile: 65
+INFO:root:Median: 132
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 129.98
+
+INFO:root:GREEN
+INFO:root:Mode: 80
+INFO:root:1st Quartile: 73
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 131.82
+
+INFO:root:RED
+INFO:root:Mode: 141
+INFO:root:1st Quartile: 81
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 135.69
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 147
+INFO:root:1st Quartile: 79
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 135.86
+
+INFO:root:./TrainingData/dysplasia05.tif
+INFO:root:BLUE
+INFO:root:Mode: 90
+INFO:root:1st Quartile: 82
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 137.84
+
+INFO:root:GREEN
+INFO:root:Mode: 248
+INFO:root:1st Quartile: 88
+INFO:root:Median: 145
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 144.27
+
+INFO:root:RED
+INFO:root:Mode: 237
+INFO:root:1st Quartile: 80
+INFO:root:Median: 141
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 140.39
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 233
+INFO:root:1st Quartile: 84
+INFO:root:Median: 145
+INFO:root:3rd Quartile: 205
+INFO:root:Mean: 143.99
+
+INFO:root:./TrainingData/dysplasia06.tif
+INFO:root:BLUE
+INFO:root:Mode: 254
+INFO:root:1st Quartile: 75
+INFO:root:Median: 138
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 134.67
+
+INFO:root:GREEN
+INFO:root:Mode: 253
+INFO:root:1st Quartile: 74
+INFO:root:Median: 125
+INFO:root:3rd Quartile: 187
+INFO:root:Mean: 132.01
+
+INFO:root:RED
+INFO:root:Mode: 230
+INFO:root:1st Quartile: 73
+INFO:root:Median: 132
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 133.52
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 220
+INFO:root:1st Quartile: 76
+INFO:root:Median: 136
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 136.87
+
+INFO:root:./TrainingData/dysplasia07.tif
+INFO:root:BLUE
+INFO:root:Mode: 179
+INFO:root:1st Quartile: 71
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 133.29
+
+INFO:root:GREEN
+INFO:root:Mode: 159
+INFO:root:1st Quartile: 65
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 127.70
+
+INFO:root:RED
+INFO:root:Mode: 94
+INFO:root:1st Quartile: 68
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 131.04
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 246
+INFO:root:1st Quartile: 72
+INFO:root:Median: 140
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 135.07
+
+INFO:root:./TrainingData/dysplasia08.tif
+INFO:root:BLUE
+INFO:root:Mode: 151
+INFO:root:1st Quartile: 67
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 130.13
+
+INFO:root:GREEN
+INFO:root:Mode: 39
+INFO:root:1st Quartile: 62
+INFO:root:Median: 116
+INFO:root:3rd Quartile: 180
+INFO:root:Mean: 121.39
+
+INFO:root:RED
+INFO:root:Mode: 241
+INFO:root:1st Quartile: 67
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 128.60
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 80
+INFO:root:1st Quartile: 67
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 127.87
+
+INFO:root:./TrainingData/healthy00.tif

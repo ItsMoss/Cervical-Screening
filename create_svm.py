@@ -48,6 +48,19 @@ def svm_param1():
         info(filename)
         info("Critical p: %.5f\n" % density)
 
+        # 3d. Extract RGB channels
+        channels = cer.extract_RGB(rgbimage)
+
+        # 3e. Calculate stats on each channel
+        redstats = cer.channel_stats(channels["red"])
+        greenstats = cer.channel_stats(channels["green"])
+        bluestats = cer.channel_stats(channels["blue"])
+
+        # 3f. Print stats
+        helps.print_channel_stats(redstats, True)
+        helps.print_channel_stats(greenstats, True)
+        helps.print_channel_stats(bluestats, True)
+
         dys_n += 1
 
     # 4. Cycle through all healthy images in TrainingData and repeat 2a-g
@@ -69,6 +82,19 @@ def svm_param1():
         allHealthy.append(density)
         info(filename)
         info("Critical p: %.5f\n" % density)
+
+        # 4d. Extract RGB channels
+        channels = cer.extract_RGB(rgbimage)
+
+        # 4e. Calculate stats on each channel
+        redstats = cer.channel_stats(channels["red"])
+        greenstats = cer.channel_stats(channels["green"])
+        bluestats = cer.channel_stats(channels["blue"])
+
+        # 4f. Print stats
+        helps.print_channel_stats(redstats, True)
+        helps.print_channel_stats(greenstats, True)
+        helps.print_channel_stats(bluestats, True)
 
         hea_n += 1
 

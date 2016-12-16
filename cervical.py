@@ -400,3 +400,32 @@ def save_svm_model(clf, filename):
     """
     from sklearn.externals import joblib
     joblib.dump(clf, filename)
+
+
+def parse_main():
+    """
+    This function is for parsing command line arguments to cervical_main.py
+
+    :return dict args: all parsed command line arguments
+    """
+    import argparse as ap
+
+    par = ap.ArgumentParser(description="Accept user input argument",
+                            formatter_class=ap.ArgumentDefaultsHelpFormatter)
+
+    par.add_argument("--full_dir_path",
+                     dest="directory",
+                     help="full pathname of the directory containing test \
+                     images for diagnosis",
+                     type=str,
+                     default="./TestingData/")
+
+    par.add_argument("--tif_filename",
+                     dest="json_filename",
+                     help="Data acquisition metadata in json file",
+                     type=str,
+                     default="healthy25.json")
+
+    args = par.parse_args()
+
+    return args

@@ -370,3 +370,19 @@ def rearrange_svm(param1a, param1b, param2a, param2b):
     Y = [0] * len(param2a) + [1] * len(param2b)
 
     return {'X':X, 'Y':Y}
+
+def find_svm(X, Y):
+    """
+    Find support vector machine from two parameters of input
+    :param X: rearranged array of input
+    :param Y: list to specify groups of data
+    :return: output
+    """
+
+    from sklearn import svm
+
+    clf = svm.SVC(kernel='linear', C=1.0)
+    output = clf.fit(X, Y)
+
+    return output
+

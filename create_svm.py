@@ -41,8 +41,7 @@ def main():
     X = output['X']
     Y = output['Y']
 
-    clf = svm.SVC(kernel='linear', C=1.0)
-    clf.fit(X, Y)
+    clf = cer.find_svm(X, Y)
 
     #4. Plot SVM
     w = clf.coef_[0]

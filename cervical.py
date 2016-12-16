@@ -362,6 +362,18 @@ def rearrange_svm(param1a, param1b, param2a, param2b):
 
     import numpy as np
 
+    # Check that the list size is consistent
+    if len(param1a) != len(param2a):
+        if len(param1a) > len(param2a):
+            param1a = param1a[0:len(param2a)]
+        if len(param2a) > len(param1a):
+            param2a = param2a[0:len(param1a)]
+    if len(param1b) != len(param2b):
+        if len(param1b) > len(param2b):
+            param1b = param1b[0:len(param2b)]
+        if len(param2b) > len(param1b):
+            param2b = param2b[0:len(param1b)]
+
     # Rearrange data and convert to np.array
     x = param1a + param1b
     y = param2a + param2b

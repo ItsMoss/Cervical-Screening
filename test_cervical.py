@@ -363,6 +363,7 @@ def test_rearrange_svm():
     Test rearrange_svm functionality from cervical.py
     """
 
+    # Case 1
     inlist1a = [1,2]
     inlist1b = [8,9]
     inlist2a = [8,9]
@@ -375,6 +376,44 @@ def test_rearrange_svm():
     assert array_equal(outputX, [[1,8],[2,9],[8,1],[9,2]])
     assert outputY == [0,0,1,1]
 
+    # Case 2
+    inlist1a = [1, 2, 3]
+    inlist1b = [8, 9, 10]
+    inlist2a = [8, 9]
+    inlist2b = [1, 2]
+
+    output = cer.rearrange_svm(inlist1a, inlist1b, inlist2a, inlist2b)
+    outputX = output['X']
+    outputY = output['Y']
+
+    assert array_equal(outputX, [[1, 8], [2, 9], [8, 1], [9, 2]])
+    assert outputY == [0, 0, 1, 1]
+
+    # Case 3
+    inlist1a = [1, 2, 3]
+    inlist1b = [8, 9]
+    inlist2a = [8, 9]
+    inlist2b = [1, 2]
+
+    output = cer.rearrange_svm(inlist1a, inlist1b, inlist2a, inlist2b)
+    outputX = output['X']
+    outputY = output['Y']
+
+    assert array_equal(outputX, [[1, 8], [2, 9], [8, 1], [9, 2]])
+    assert outputY == [0, 0, 1, 1]
+
+    # Case 4
+    inlist1a = [1, 2, 3]
+    inlist1b = [8, 9]
+    inlist2a = [8, 9, 10]
+    inlist2b = [1, 2]
+
+    output = cer.rearrange_svm(inlist1a, inlist1b, inlist2a, inlist2b)
+    outputX = output['X']
+    outputY = output['Y']
+
+    assert array_equal(outputX, [[1, 8], [2, 9], [3,10], [8, 1], [9, 2]])
+    assert outputY == [0, 0, 0, 1, 1]
 
 def test_find_svm():
     """
@@ -391,6 +430,7 @@ def test_find_svm():
     assert output.predict([3, 3]) == 1
     assert output.predict([4, 4]) == 1
     assert output.predict([5, 5]) == 1
+    assert output.predict([0.5, 0.5]) == 0
 
 
 def test_save_svm_model():
@@ -408,9 +448,25 @@ def test_save_svm_model():
 
     output = joblib.load('test_svm_model.pkl')
 
+    # Case 1
     assert output.predict([0, 0]) == 0
     assert output.predict([1, 1]) == 0
     assert output.predict([2, 2]) == 0
     assert output.predict([3, 3]) == 1
     assert output.predict([4, 4]) == 1
     assert output.predict([5, 5]) == 1
+
+    # Case 2
+    X = [[1, 0], [2, 1], [3, 2], [4, 3], [5, 4], [6, 5],
+         [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7]]
+    Y = [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+    clf = cer.find_svm(X, Y)
+    cer.save_svm_model(clf, 'test_svm_model.pkl')
+    output = joblib.load('test_svm_model.pkl')
+
+    assert output.predict([2, 0]) == 0
+    assert output.predict([3, 0]) == 0
+    assert output.predict([4, 1]) == 0
+    assert output.predict([3, 3]) == 1
+    assert output.predict([0, 4]) == 1
+    assert output.predict([1, 5]) == 1

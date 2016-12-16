@@ -1,7 +1,6 @@
 # This file is for creating the SVM that will be used in cervical_main.py
 import cervical as cer
 import helpers as helps
-from logging import info
 import json
 import matplotlib.pyplot as plt
 from matplotlib import style
@@ -16,16 +15,18 @@ def main():
     param2 = cer.read_jsonfile('svm_param2.txt')
 
     #2. Reorganize data
+    color = 'blue'
+    stat = 'mode'
     x1 = param1['heathy']
     x2 = param1['dysplasia']
     x = x1+x2
     y1 = [0]* len(param1['heathy'])
     y2 = [0]* len(param1['dysplasia'])
     for i in range (0,len(param1['heathy'])):
-        y1[i] = param2['heathy'][i][str(i)]['gray']['mean']
+        y1[i] = param2['heathy'][i][str(i)][color][stat]
 
     for i in range (0, len(param1['dysplasia'])):
-        y2[i] = param2['dysplasia'][i][str(i)]['gray']['mean']
+        y2[i] = param2['dysplasia'][i][str(i)][color][stat]
     y = y1+y2
 
     #3. Find SVM
@@ -45,8 +46,9 @@ def main():
     fig1 = plt.scatter(x[len(x1):],y2, color = 'blue')
     fig1 = plt.plot(xx, yy, 'k-')
     plt.xlabel('param1')
-    plt.xlabel('param2')
-    filename = 'gray-mean'
+    plt.ylabel('param2')
+    plt.title('SVM Classification of healthy and dysplasia cervix')
+    filename = color+'-'+stat
     plt.savefig(filename, bbox_inches='tight')
     plt.show(fig1)
 

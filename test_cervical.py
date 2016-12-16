@@ -391,3 +391,26 @@ def test_find_svm():
     assert output.predict([3, 3]) == 1
     assert output.predict([4, 4]) == 1
     assert output.predict([5, 5]) == 1
+
+
+def test_save_svm_model():
+    """
+    Test save_svm_model functionality from cervical.py
+    """
+
+    from sklearn.externals import joblib
+
+    X = [[5, 0], [4, 1], [3, 2], [2, 3], [1, 4], [0, 5],
+         [5, 2], [4, 3], [3, 4], [2, 5], [1, 6], [0, 7]]
+    Y = [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+    clf = cer.find_svm(X, Y)
+    cer.save_svm_model(clf)
+
+    output = joblib.load('svm_model.pkl')
+
+    assert output.predict([0, 0]) == 0
+    assert output.predict([1, 1]) == 0
+    assert output.predict([2, 2]) == 0
+    assert output.predict([3, 3]) == 1
+    assert output.predict([4, 4]) == 1
+    assert output.predict([5, 5]) == 1

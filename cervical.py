@@ -344,3 +344,29 @@ def read_jsonfile(infile):
         params = load(file)
 
     return params
+
+
+def rearrange_svm(param1a, param1b, param2a, param2b):
+    """
+    rearrange data for svm
+    :param param1a: first statstical analysis of data that is in category a (list)
+    :param param1b: first statstical analysis of data that is in category b (list)
+    :param param2a: second statstical analysis of data that is in category a (list)
+    :param param2b: second statstical analysis of data that is in category b (list)
+    :return: output(dict)
+    """
+
+    import numpy as np
+
+    # Rearrange data and convert to np.array
+    x = param1a + param1b
+    y = param2a + param2b
+    X = [0] * len(x)
+    for i in range(0, len(x)):
+        X[i] = [x[i], y[i]]
+    X = np.array(X)
+
+    # Differentiate two data set
+    Y = [0] * len(param2a) + [1] * len(param2b)
+
+    return {'X':X, 'Y':Y}

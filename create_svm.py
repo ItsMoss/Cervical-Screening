@@ -16,7 +16,9 @@ def main():
     param2 = cer.read_jsonfile('svm_param2.txt')
 
     #2. Reorganize data
-    x = param1['heathy']+param1['dysplasia']
+    x1 = param1['heathy']
+    x2 = param1['dysplasia']
+    x = x1+x2
     y1 = [0]* len(param1['heathy'])
     y2 = [0]* len(param1['dysplasia'])
     for i in range (0,len(param1['heathy'])):
@@ -34,31 +36,28 @@ def main():
     plt.show(fig1)
 
 
-    # #3. Find SVM
-    # X = [0]*len(x)
-    # for i in range (0, len(x)):
-    #     X[i] = [x[i], y[i]]
-    # X = np.array(X)
-    #
-    # Y = [0]*len(y1) + [1]*len(y2)
-    #
-    # clf = svm.SVC(kernel='linear', C=1.0)
-    # clf.fit(X, Y)
-    #
-    # #4. Plot SVM
-    # w = clf.coef_[0]
-    # print(w)
-    #
-    # a = -w[0] / w[1]
-    #
-    # xx = np.linspace(0, 12)
-    # yy = a * xx - clf.intercept_[0] / w[1]
-    #
-    # h0 = plt.plot(xx, yy, 'k-', label="non weighted div")
-    #
-    # plt.scatter(X[:, 0], X[:, 1], c=y)
-    # plt.legend()
-    # plt.show()
+    #3. Find SVM
+    output = cer.rearrange_svm(x1, x2, y1, y2)
+    X = output['X']
+    Y = output['Y']
+
+    clf = svm.SVC(kernel='linear', C=1.0)
+    clf.fit(X, Y)
+
+    #4. Plot SVM
+    w = clf.coef_[0]
+    print(w)
+
+    a = -w[0] / w[1]
+
+    xx = np.linspace(0, 12)
+    yy = a * xx - clf.intercept_[0] / w[1]
+
+    h0 = plt.plot(xx, yy, 'k-', label="non weighted div")
+
+    plt.scatter(X[:, 0], X[:, 1], c=y)
+    plt.legend()
+    plt.show()
 
 if __name__ == "__main__":
     main()

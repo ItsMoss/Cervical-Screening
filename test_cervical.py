@@ -346,3 +346,23 @@ def test_read_jsonfile():
 
     assert a == [1,2,3,4,5]
     assert b == [6,7,8,9,0]
+
+
+def test_rearrange_svm():
+    """
+    Test rearrange_svm functionality from cervical.py
+    """
+
+    import numpy as np
+
+    inlist1a = [1,2]
+    inlist1b = [8,9]
+    inlist2a = [8,9]
+    inlist2b = [1,2]
+
+    output = cer.rearrange_svm(inlist1a, inlist1b, inlist2a, inlist2b)
+    outputX = output['X']
+    outputY = output['Y']
+
+    assert np.array_equal(outputX, [[1,8],[2,9],[8,1],[9,2]])
+    assert outputY == [0,0,1,1]

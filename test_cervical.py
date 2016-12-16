@@ -250,8 +250,8 @@ def test_blackout_glare():
     Tests functionality of blackout_glare from cervical.py
     """
     # Test case 1 - All white image
-    test1 = COLORMAX * ones((2, 2), uint8)
-    expected = 0 * ones((2, 2), uint8)
+    test1 = COLORMAX * ones((2, 2, 3), uint8)
+    expected = 0 * ones((2, 2, 3), uint8)
     output1 = cer.blackout_glare(test1)
     assert_equal(output1, expected)
 

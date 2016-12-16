@@ -368,7 +368,6 @@ def test_rearrange_svm():
     assert outputY == [0,0,1,1]
 
 
-
 def test_find_svm():
     """
     Test find_svm functionality from cervical.py

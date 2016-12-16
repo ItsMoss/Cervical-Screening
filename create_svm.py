@@ -1,105 +1,56 @@
 # This file is for creating the SVM that will be used in cervical_main.py
 import cervical as cer
 import helpers as helps
-from logging import info
-
-dysplasia = "dysplasia"
-healthy = "healthy"
-training = "trainingdata"
+import json
+import matplotlib.pyplot as plt
+from matplotlib import style
+import numpy as np
+from sklearn import svm
 
 
 def main():
-    # Parse CLA & init log file always comes first!
-    main_args = cer.parse_SVM_CLA()
-    dirname = main_args.directory
-    critfile = main_args.crit_file
 
-    helps.init_log_file(training, "Moss", "INFO")
+    #1. Read in params data
+    param1 = cer.read_jsonfile('svm_param1.txt')
+    param2 = cer.read_jsonfile('svm_param2.txt')
 
-    # 1. Initialize empty lists for both dysplasia and healthy images
-    # These lists will contain counts for each image of how many critical
-    # pixels each contains
-    allDysplasia = []
-    allHealthy = []
+    #2. Reorganize data
+    color = 'blue'
+    stat = 'mode'
+    x1 = param1['heathy']
+    x2 = param1['dysplasia']
+    x = x1+x2
+    y1 = [0]* len(param1['heathy'])
+    y2 = [0]* len(param1['dysplasia'])
+    for i in range (0,len(param1['heathy'])):
+        y1[i] = param2['heathy'][i][str(i)][color][stat]
 
-    # 2. Parse critical values file
-    critVals = cer.parse_critical(critfile)
+    for i in range (0, len(param1['dysplasia'])):
+        y2[i] = param2['dysplasia'][i][str(i)][color][stat]
+    y = y1+y2
 
-    # 3. Cylce through all dysplasia images in TrainingData directory
-    dys_n = 0
-    while True:
+    #3. Find SVM
+    output = cer.rearrange_svm(x1, x2, y1, y2)
+    X = output['X']
+    Y = output['Y']
 
-        imgname = helps.create_image_name(dysplasia, dys_n)
-        filename = dirname+imgname
+    clf = cer.find_svm(X, Y)
 
-        # 3a. Read in image
-        rgbimage = cer.read_image(filename)
-        if rgbimage is None:
-            break
+    #4. Plot SVM
+    w = clf.coef_[0]
+    m = -w[0] / w[1]
+    xx = np.linspace(0, 1, 10)
+    yy = m * xx - clf.intercept_[0] / w[1]
 
-        # 3b. Count how many pixels are in critical range
-        density = cer.critical_pixel_density(rgbimage, critVals)
-
-        # 3c. Log count for image and append list
-        allDysplasia.append(density)
-        info(filename)
-        info("Critical p: %.5f\n" % density)
-
-        # 3d. Extract RGB channels
-        channels = cer.extract_RGB(rgbimage)
-
-        # 3e. Calculate stats on each channel
-        redstats = cer.channel_stats(channels["red"])
-        greenstats = cer.channel_stats(channels["green"])
-        bluestats = cer.channel_stats(channels["blue"])
-
-        # 3f. Print stats
-        helps.print_channel_stats(redstats, True)
-        helps.print_channel_stats(greenstats, True)
-        helps.print_channel_stats(bluestats, True)
-
-        dys_n += 1
-
-    # 4. Cycle through all healthy images in TrainingData and repeat 2a-g
-    hea_n = 0
-    while True:
-
-        imgname = helps.create_image_name(healthy, hea_n)
-        filename = dirname+imgname
-
-        # 4a. Read in image
-        rgbimage = cer.read_image(filename)
-        if rgbimage is None:
-            break
-
-        # 4b. Count how many pixels are in critical range
-        density = cer.critical_pixel_density(rgbimage, critVals)
-
-        # 4c. Log count for image and append list
-        allHealthy.append(density)
-        info(filename)
-        info("Critical p: %.5f\n" % density)
-
-        # 4d. Extract RGB channels
-        channels = cer.extract_RGB(rgbimage)
-
-        # 4e. Calculate stats on each channel
-        redstats = cer.channel_stats(channels["red"])
-        greenstats = cer.channel_stats(channels["green"])
-        bluestats = cer.channel_stats(channels["blue"])
-
-        # 4f. Print stats
-        helps.print_channel_stats(redstats, True)
-        helps.print_channel_stats(greenstats, True)
-        helps.print_channel_stats(bluestats, True)
-
-        hea_n += 1
-
-    # 5. Any further analysis here
-
-    # 6. Plot and create SVM
-
-    info("EXIT_SUCCESS")
+    fig1 = plt.scatter(x[0:len(x1)],y1, color = 'red')
+    fig1 = plt.scatter(x[len(x1):],y2, color = 'blue')
+    fig1 = plt.plot(xx, yy, 'k-')
+    plt.xlabel('param1')
+    plt.ylabel('param2')
+    plt.title('SVM Classification of healthy and dysplasia cervix')
+    filename = color+'-'+stat
+    plt.savefig(filename, bbox_inches='tight')
+    plt.show(fig1)
 
 if __name__ == "__main__":
     main()

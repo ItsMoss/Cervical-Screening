@@ -2,10 +2,11 @@
 import cervical as cer
 import helpers as helps
 import cv2 as cv2
-from numpy import ones, uint8
+from numpy import ones, uint8, array_equal
 from numpy.testing import assert_array_equal as assert_equal
 from numpy.testing import assert_raises
 from random import randrange
+from json import dump
 
 COLORMAX = 256
 
@@ -209,6 +210,41 @@ def test_channel_stats():
     assert output3["median"] <= output3["thirdQrt"]
 
 
+def test_remove_glare():
+    """
+    Tests remove glare functionality from tamma_copy.py
+    """
+    input1 = [1] * 256
+    expected_output1 = [1] * 241 + [0] * 15
+    output1 = cer.remove_glare(input1, 240)
+    assert output1 == expected_output1
+
+    input2 = [1] * 256
+    expected_output2 = [1] * 256
+    output2 = cer.remove_glare(input2, 256)
+    assert output2 == expected_output2
+
+    input3 = [1] * 256
+    expected_output3 = [1] + [0] * 255
+    output3 = cer.remove_glare(input3, 0)
+    assert output3 == expected_output3
+
+
+def test_remove_glare_wronginput():
+    """
+    Tests remove glare functionality from tamma_copy.py
+    """
+    input1 = [1]*250
+    expected_output1 = [1]*241 + [0]*15
+    output1 = cer.remove_glare(input1, 240)
+    assert output1 == expected_output1
+
+    input2 = [1]*270
+    expected_output2 = [1]*241 + [0]*15
+    output2 = cer.remove_glare(input2, 240)
+    assert output2 == expected_output2
+
+
 def test_blackout_glare():
     """
     Tests functionality of blackout_glare from cervical.py
@@ -293,3 +329,65 @@ def test_critical_pixel_density():
 
     output2 = cer.critical_pixel_density(img2, testCritVals)
     assert output2 == 0
+
+
+def test_read_jsonfile():
+    """
+    Tests read_jsonfile functionality from cervical.py
+    """
+
+    # Case 1
+    infile1 = 'jsontest.json'
+    with open(infile1, 'w') as f:
+        dump({"a": [1,2,3,4,5], "b": [6,7,8,9,0]}, f)
+
+    output1 = cer.read_jsonfile(infile1)
+    a1 = output1['a']
+    b1 = output1['b']
+
+    assert a1 == [1,2,3,4,5]
+    assert b1 == [6,7,8,9,0]
+
+    # Case2
+    infile2 = 'jsontest2.json'
+    output2 = cer.read_jsonfile(infile2)
+    a2 = output2['a']
+    b2 = output2['b']
+
+    assert a2 == []
+    assert b2 == []
+
+
+def test_rearrange_svm():
+    """
+    Test rearrange_svm functionality from cervical.py
+    """
+
+    inlist1a = [1,2]
+    inlist1b = [8,9]
+    inlist2a = [8,9]
+    inlist2b = [1,2]
+
+    output = cer.rearrange_svm(inlist1a, inlist1b, inlist2a, inlist2b)
+    outputX = output['X']
+    outputY = output['Y']
+
+    assert array_equal(outputX, [[1,8],[2,9],[8,1],[9,2]])
+    assert outputY == [0,0,1,1]
+
+
+def test_find_svm():
+    """
+    Test find_svm functionality from cervical.py
+    """
+    X = [[5,0], [4,1], [3,2], [2,3], [1,4], [0,5],
+         [5,2], [4,3], [3,4], [2,5], [1,6], [0,7]]
+    Y = [0,0,0,0,0,0,1,1,1,1,1,1]
+    output = cer.find_svm(X, Y)
+
+    assert output.predict([0, 0]) == 0
+    assert output.predict([1, 1]) == 0
+    assert output.predict([2, 2]) == 0
+    assert output.predict([3, 3]) == 1
+    assert output.predict([4, 4]) == 1
+    assert output.predict([5, 5]) == 1

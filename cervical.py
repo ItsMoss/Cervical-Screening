@@ -187,6 +187,27 @@ def channel_stats(channel):
     return stats
 
 
+def remove_glare(input, threshold):
+    """
+    Remove reflective glare from blue channels data
+
+    :param input: List of RGB values from 0-255 (list)
+    :param threshold: threshold for removing glare (int)
+    :return: output: List of RGB values from 0-255 after removing glare
+    """
+
+    # Check the size of input list
+    if len(input) != 256:
+        addlist = [0]*(256-len(input))
+        input = input+addlist
+
+    # Remove reflective glare by removing values greater than threshold
+    output = input
+    output[threshold+1:] = [0] * (255-threshold)
+
+    return output
+
+
 def blackout_glare(image, thr=240):
     """
     Blacks out all pixels in a color image that are (near) white
@@ -308,3 +329,63 @@ def gaussian_threshold(image, neighborhood, fname, c=0):
     cv2.imwrite(fname+".png", image)
 
     return image
+
+
+def read_jsonfile(infile):
+    """
+    Read data parameters from json file
+
+    :param str infile: input json filename
+    :return dict params: contains all parsed key-value pairs from JSON object
+    """
+    from json import load
+
+    try:
+        file = open(infile,'r')
+        params = load(file)
+    except FileNotFoundError:
+        print('Error: file not found')
+        params = {'a':[], 'b':[]}
+
+    return params
+
+
+def rearrange_svm(param1a, param1b, param2a, param2b):
+    """
+    rearrange data for svm
+    :param param1a: first statstical analysis of data that is in category a (list)
+    :param param1b: first statstical analysis of data that is in category b (list)
+    :param param2a: second statstical analysis of data that is in category a (list)
+    :param param2b: second statstical analysis of data that is in category b (list)
+    :return: output(dict)
+    """
+
+    import numpy as np
+
+    # Rearrange data and convert to np.array
+    x = param1a + param1b
+    y = param2a + param2b
+    X = [0] * len(x)
+    for i in range(0, len(x)):
+        X[i] = [x[i], y[i]]
+    X = np.array(X)
+
+    # Differentiate two data set
+    Y = [0] * len(param2a) + [1] * len(param2b)
+
+    return {'X':X, 'Y':Y}
+
+def find_svm(X, Y):
+    """
+    Find support vector machine from two parameters of input
+    :param X: rearranged array of input
+    :param Y: list to specify groups of data
+    :return: output
+    """
+
+    from sklearn import svm
+
+    clf = svm.SVC(kernel='linear', C=1.0)
+    output = clf.fit(X, Y)
+
+    return output

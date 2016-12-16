@@ -226,12 +226,9 @@ def svm_param2():
             json.dump({"dysplasia":allDysplasia, "healthy":allHealthy}, f)
 
     info("EXIT_SUCCESS")
-    
-    
-def main():
-	svm_param1()
-	svm_param2()
-	
-	
+
+
 if __name__ == "__main__":
-    main()
+
+    svm_param1()
+    svm_param2()

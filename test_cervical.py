@@ -339,14 +339,14 @@ def test_read_jsonfile():
     # Case 1
     infile1 = 'jsontest.json'
     with open(infile1, 'w') as f:
-        dump({"a": [1,2,3,4,5], "b": [6,7,8,9,0]}, f)
+        dump({"a": [1, 2, 3, 4, 5], "b": [6, 7, 8, 9, 0]}, f)
 
     output1 = cer.read_jsonfile(infile1)
     a1 = output1['a']
     b1 = output1['b']
 
-    assert a1 == [1,2,3,4,5]
-    assert b1 == [6,7,8,9,0]
+    assert a1 == [1, 2, 3, 4, 5]
+    assert b1 == [6, 7, 8, 9, 0]
 
     # Case2
     infile2 = 'jsontest2.json'
@@ -364,17 +364,17 @@ def test_rearrange_svm():
     """
 
     # Case 1
-    inlist1a = [1,2]
-    inlist1b = [8,9]
-    inlist2a = [8,9]
-    inlist2b = [1,2]
+    inlist1a = [1, 2]
+    inlist1b = [8, 9]
+    inlist2a = [8, 9]
+    inlist2b = [1, 2]
 
     output = cer.rearrange_svm(inlist1a, inlist1b, inlist2a, inlist2b)
     outputX = output['X']
     outputY = output['Y']
 
-    assert array_equal(outputX, [[1,8],[2,9],[8,1],[9,2]])
-    assert outputY == [0,0,1,1]
+    assert array_equal(outputX, [[1, 8], [2, 9], [8, 1], [9, 2]])
+    assert outputY == [0, 0, 1, 1]
 
     # Case 2
     inlist1a = [1, 2, 3]
@@ -412,16 +412,17 @@ def test_rearrange_svm():
     outputX = output['X']
     outputY = output['Y']
 
-    assert array_equal(outputX, [[1, 8], [2, 9], [3,10], [8, 1], [9, 2]])
+    assert array_equal(outputX, [[1, 8], [2, 9], [3, 10], [8, 1], [9, 2]])
     assert outputY == [0, 0, 0, 1, 1]
+
 
 def test_find_svm():
     """
     Test find_svm functionality from cervical.py
     """
-    X = [[5,0], [4,1], [3,2], [2,3], [1,4], [0,5],
-         [5,2], [4,3], [3,4], [2,5], [1,6], [0,7]]
-    Y = [0,0,0,0,0,0,1,1,1,1,1,1]
+    X = [[5, 0], [4, 1], [3, 2], [2, 3], [1, 4], [0, 5],
+         [5, 2], [4, 3], [3, 4], [2, 5], [1, 6], [0, 7]]
+    Y = [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
     output = cer.find_svm(X, Y)
 
     assert output.predict([0, 0]) == 0
@@ -444,7 +445,7 @@ def test_save_svm_model():
          [5, 2], [4, 3], [3, 4], [2, 5], [1, 6], [0, 7]]
     Y = [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
     clf = cer.find_svm(X, Y)
-    cer.save_svm_model(clf,'test_svm_model.pkl')
+    cer.save_svm_model(clf, 'test_svm_model.pkl')
 
     output = joblib.load('test_svm_model.pkl')
 
@@ -470,4 +471,3 @@ def test_save_svm_model():
     assert output.predict([3, 3]) == 1
     assert output.predict([0, 4]) == 1
     assert output.predict([1, 5]) == 1
-

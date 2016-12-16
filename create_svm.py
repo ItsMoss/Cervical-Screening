@@ -20,11 +20,10 @@ def main():
     x1 = param1['healthy']
     x2 = param1['dysplasia']
     x = x1+x2
-    y1 = [0]* len(param1['healthy'])
-    y2 = [0]* len(param1['dysplasia'])
-    for i in range (0,len(param1['healthy'])):
+    y1 = [0] * len(param1['healthy'])
+    y2 = [0] * len(param1['dysplasia'])
+    for i in range(0, len(param1['healthy'])):
         y1[i] = param2['healthy'][i][str(i)][color][stat]
-
 
     for i in range(0, len(param1['dysplasia'])):
         y2[i] = param2['dysplasia'][i][str(i)][color][stat]
@@ -54,8 +53,8 @@ def main():
     plt.savefig(filename, bbox_inches='tight')
     plt.show(fig1)
 
-    #5. Save SVM Model
-    cer.save_svm_model(clf,'svm_model.pkl')
+    # 5. Save SVM Model
+    cer.save_svm_model(clf, 'svm_model.pkl')
 
 
 if __name__ == "__main__":

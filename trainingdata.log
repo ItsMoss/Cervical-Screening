@@ -1,0 +1,4261 @@
+INFO:root:This file is a SVM Training Data log for Moss
+
+INFO:root:./TrainingData/dysplasia00.tif
+INFO:root:Critical p: 0.01925
+
+INFO:root:This file is a SVM Training Data log for Moss
+
+INFO:root:./TrainingData/dysplasia00.tif
+INFO:root:Critical p: 0.01925
+
+INFO:root:Mode: 97
+INFO:root:5-Mode Avg: 87.40
+INFO:root:1st Quartile: 77
+INFO:root:Median: 134
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 135.03
+
+INFO:root:Mode: 189
+INFO:root:5-Mode Avg: 136.40
+INFO:root:1st Quartile: 65
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 129.15
+
+INFO:root:Mode: 228
+INFO:root:5-Mode Avg: 126.40
+INFO:root:1st Quartile: 65
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 128.99
+
+INFO:root:./TrainingData/dysplasia01.tif
+INFO:root:Critical p: 0.05296
+
+INFO:root:Mode: 27
+INFO:root:5-Mode Avg: 58.20
+INFO:root:1st Quartile: 90
+INFO:root:Median: 146
+INFO:root:3rd Quartile: 203
+INFO:root:Mean: 145.76
+
+INFO:root:Mode: 223
+INFO:root:5-Mode Avg: 179.40
+INFO:root:1st Quartile: 59
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 125.46
+
+INFO:root:Mode: 142
+INFO:root:5-Mode Avg: 146.00
+INFO:root:1st Quartile: 69
+INFO:root:Median: 132
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 130.35
+
+INFO:root:./TrainingData/dysplasia02.tif
+INFO:root:Critical p: 0.13269
+
+INFO:root:Mode: 15
+INFO:root:5-Mode Avg: 94.00
+INFO:root:1st Quartile: 63
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 130.09
+
+INFO:root:Mode: 202
+INFO:root:5-Mode Avg: 95.20
+INFO:root:1st Quartile: 60
+INFO:root:Median: 128
+INFO:root:3rd Quartile: 192
+INFO:root:Mean: 126.77
+
+INFO:root:Mode: 20
+INFO:root:5-Mode Avg: 104.00
+INFO:root:1st Quartile: 59
+INFO:root:Median: 123
+INFO:root:3rd Quartile: 187
+INFO:root:Mean: 124.93
+
+INFO:root:./TrainingData/dysplasia03.tif
+INFO:root:Critical p: 0.00008
+
+INFO:root:Mode: 146
+INFO:root:5-Mode Avg: 96.60
+INFO:root:1st Quartile: 77
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 192
+INFO:root:Mean: 133.58
+
+INFO:root:Mode: 77
+INFO:root:5-Mode Avg: 78.40
+INFO:root:1st Quartile: 58
+INFO:root:Median: 114
+INFO:root:3rd Quartile: 165
+INFO:root:Mean: 116.66
+
+INFO:root:Mode: 140
+INFO:root:5-Mode Avg: 69.60
+INFO:root:1st Quartile: 57
+INFO:root:Median: 121
+INFO:root:3rd Quartile: 173
+INFO:root:Mean: 120.38
+
+INFO:root:./TrainingData/dysplasia04.tif
+INFO:root:Critical p: 0.08931
+
+INFO:root:Mode: 154
+INFO:root:5-Mode Avg: 176.80
+INFO:root:1st Quartile: 75
+INFO:root:Median: 140
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 136.29
+
+INFO:root:Mode: 151
+INFO:root:5-Mode Avg: 86.20
+INFO:root:1st Quartile: 65
+INFO:root:Median: 124
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 127.36
+
+INFO:root:Mode: 241
+INFO:root:5-Mode Avg: 182.00
+INFO:root:1st Quartile: 63
+INFO:root:Median: 129
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 128.90
+
+INFO:root:./TrainingData/dysplasia05.tif
+INFO:root:Critical p: 0.02938
+
+INFO:root:Mode: 135
+INFO:root:5-Mode Avg: 133.80
+INFO:root:1st Quartile: 105
+INFO:root:Median: 149
+INFO:root:3rd Quartile: 204
+INFO:root:Mean: 151.90
+
+INFO:root:Mode: 187
+INFO:root:5-Mode Avg: 104.60
+INFO:root:1st Quartile: 61
+INFO:root:Median: 129
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 128.83
+
+INFO:root:Mode: 181
+INFO:root:5-Mode Avg: 141.80
+INFO:root:1st Quartile: 65
+INFO:root:Median: 129
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 129.52
+
+INFO:root:./TrainingData/dysplasia06.tif
+INFO:root:Critical p: 0.04476
+
+INFO:root:Mode: 65
+INFO:root:5-Mode Avg: 100.40
+INFO:root:1st Quartile: 70
+INFO:root:Median: 129
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 131.07
+
+INFO:root:Mode: 36
+INFO:root:5-Mode Avg: 140.80
+INFO:root:1st Quartile: 72
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 130.85
+
+INFO:root:Mode: 36
+INFO:root:5-Mode Avg: 129.80
+INFO:root:1st Quartile: 71
+INFO:root:Median: 139
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 134.16
+
+INFO:root:./TrainingData/dysplasia07.tif
+INFO:root:Critical p: 0.02964
+
+INFO:root:Mode: 214
+INFO:root:5-Mode Avg: 136.40
+INFO:root:1st Quartile: 78
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 136.25
+
+INFO:root:Mode: 252
+INFO:root:5-Mode Avg: 174.60
+INFO:root:1st Quartile: 68
+INFO:root:Median: 138
+INFO:root:3rd Quartile: 204
+INFO:root:Mean: 134.14
+
+INFO:root:Mode: 221
+INFO:root:5-Mode Avg: 199.20
+INFO:root:1st Quartile: 59
+INFO:root:Median: 122
+INFO:root:3rd Quartile: 183
+INFO:root:Mean: 124.54
+
+INFO:root:./TrainingData/dysplasia08.tif
+INFO:root:Critical p: 0.07607
+
+INFO:root:Mode: 143
+INFO:root:5-Mode Avg: 98.00
+INFO:root:1st Quartile: 69
+INFO:root:Median: 138
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 134.62
+
+INFO:root:Mode: 144
+INFO:root:5-Mode Avg: 127.00
+INFO:root:1st Quartile: 84
+INFO:root:Median: 147
+INFO:root:3rd Quartile: 204
+INFO:root:Mean: 144.03
+
+INFO:root:Mode: 98
+INFO:root:5-Mode Avg: 110.00
+INFO:root:1st Quartile: 79
+INFO:root:Median: 134
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 135.63
+
+INFO:root:./TrainingData/dysplasia09.tif
+INFO:root:Critical p: 0.00432
+
+INFO:root:Mode: 175
+INFO:root:5-Mode Avg: 152.00
+INFO:root:1st Quartile: 82
+INFO:root:Median: 146
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 142.17
+
+INFO:root:Mode: 179
+INFO:root:5-Mode Avg: 142.40
+INFO:root:1st Quartile: 63
+INFO:root:Median: 118
+INFO:root:3rd Quartile: 189
+INFO:root:Mean: 126.40
+
+INFO:root:Mode: 93
+INFO:root:5-Mode Avg: 93.00
+INFO:root:1st Quartile: 65
+INFO:root:Median: 125
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 127.93
+
+INFO:root:./TrainingData/dysplasia10.tif
+INFO:root:Critical p: 0.08633
+
+INFO:root:Mode: 242
+INFO:root:5-Mode Avg: 132.00
+INFO:root:1st Quartile: 68
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 199
+INFO:root:Mean: 132.72
+
+INFO:root:Mode: 17
+INFO:root:5-Mode Avg: 91.60
+INFO:root:1st Quartile: 61
+INFO:root:Median: 122
+INFO:root:3rd Quartile: 184
+INFO:root:Mean: 123.42
+
+INFO:root:Mode: 179
+INFO:root:5-Mode Avg: 98.40
+INFO:root:1st Quartile: 63
+INFO:root:Median: 129
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 128.51
+
+INFO:root:./TrainingData/dysplasia11.tif
+INFO:root:Critical p: 0.00995
+
+INFO:root:Mode: 254
+INFO:root:5-Mode Avg: 177.00
+INFO:root:1st Quartile: 99
+INFO:root:Median: 159
+INFO:root:3rd Quartile: 209
+INFO:root:Mean: 154.27
+
+INFO:root:Mode: 107
+INFO:root:5-Mode Avg: 117.00
+INFO:root:1st Quartile: 73
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 133.56
+
+INFO:root:Mode: 69
+INFO:root:5-Mode Avg: 72.40
+INFO:root:1st Quartile: 63
+INFO:root:Median: 122
+INFO:root:3rd Quartile: 177
+INFO:root:Mean: 122.55
+
+INFO:root:./TrainingData/dysplasia12.tif
+INFO:root:Critical p: 0.00607
+
+INFO:root:Mode: 250
+INFO:root:5-Mode Avg: 157.80
+INFO:root:1st Quartile: 76
+INFO:root:Median: 138
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 138.05
+
+INFO:root:Mode: 113
+INFO:root:5-Mode Avg: 107.80
+INFO:root:1st Quartile: 69
+INFO:root:Median: 136
+INFO:root:3rd Quartile: 203
+INFO:root:Mean: 134.50
+
+INFO:root:Mode: 153
+INFO:root:5-Mode Avg: 136.00
+INFO:root:1st Quartile: 68
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 129.87
+
+INFO:root:./TrainingData/dysplasia13.tif
+INFO:root:Critical p: 0.06510
+
+INFO:root:Mode: 75
+INFO:root:5-Mode Avg: 130.60
+INFO:root:1st Quartile: 72
+INFO:root:Median: 129
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 131.41
+
+INFO:root:Mode: 57
+INFO:root:5-Mode Avg: 159.80
+INFO:root:1st Quartile: 76
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 186
+INFO:root:Mean: 131.82
+
+INFO:root:Mode: 18
+INFO:root:5-Mode Avg: 90.80
+INFO:root:1st Quartile: 57
+INFO:root:Median: 125
+INFO:root:3rd Quartile: 187
+INFO:root:Mean: 124.30
+
+INFO:root:./TrainingData/dysplasia14.tif
+INFO:root:Critical p: 0.00400
+
+INFO:root:Mode: 230
+INFO:root:5-Mode Avg: 194.60
+INFO:root:1st Quartile: 87
+INFO:root:Median: 141
+INFO:root:3rd Quartile: 201
+INFO:root:Mean: 143.78
+
+INFO:root:Mode: 51
+INFO:root:5-Mode Avg: 135.80
+INFO:root:1st Quartile: 67
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 129.45
+
+INFO:root:Mode: 203
+INFO:root:5-Mode Avg: 137.40
+INFO:root:1st Quartile: 69
+INFO:root:Median: 128
+INFO:root:3rd Quartile: 187
+INFO:root:Mean: 128.91
+
+INFO:root:./TrainingData/dysplasia15.tif
+INFO:root:Critical p: 0.04096
+
+INFO:root:Mode: 77
+INFO:root:5-Mode Avg: 102.60
+INFO:root:1st Quartile: 75
+INFO:root:Median: 134
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 134.72
+
+INFO:root:Mode: 99
+INFO:root:5-Mode Avg: 146.20
+INFO:root:1st Quartile: 96
+INFO:root:Median: 151
+INFO:root:3rd Quartile: 201
+INFO:root:Mean: 148.52
+
+INFO:root:Mode: 205
+INFO:root:5-Mode Avg: 146.60
+INFO:root:1st Quartile: 76
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 134.19
+
+INFO:root:./TrainingData/dysplasia16.tif
+INFO:root:Critical p: 0.06433
+
+INFO:root:Mode: 47
+INFO:root:5-Mode Avg: 84.20
+INFO:root:1st Quartile: 73
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 192
+INFO:root:Mean: 133.31
+
+INFO:root:Mode: 227
+INFO:root:5-Mode Avg: 200.00
+INFO:root:1st Quartile: 71
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 132.74
+
+INFO:root:Mode: 235
+INFO:root:5-Mode Avg: 121.60
+INFO:root:1st Quartile: 67
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 189
+INFO:root:Mean: 125.80
+
+INFO:root:./TrainingData/dysplasia17.tif
+INFO:root:Critical p: 0.11331
+
+INFO:root:Mode: 250
+INFO:root:5-Mode Avg: 196.40
+INFO:root:1st Quartile: 70
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 131.34
+
+INFO:root:Mode: 231
+INFO:root:5-Mode Avg: 161.80
+INFO:root:1st Quartile: 68
+INFO:root:Median: 129
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 129.83
+
+INFO:root:Mode: 58
+INFO:root:5-Mode Avg: 108.60
+INFO:root:1st Quartile: 60
+INFO:root:Median: 123
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 125.74
+
+INFO:root:./TrainingData/dysplasia18.tif
+INFO:root:Critical p: 0.00745
+
+INFO:root:Mode: 153
+INFO:root:5-Mode Avg: 186.80
+INFO:root:1st Quartile: 68
+INFO:root:Median: 134
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 130.48
+
+INFO:root:Mode: 205
+INFO:root:5-Mode Avg: 102.80
+INFO:root:1st Quartile: 87
+INFO:root:Median: 147
+INFO:root:3rd Quartile: 201
+INFO:root:Mean: 144.58
+
+INFO:root:Mode: 231
+INFO:root:5-Mode Avg: 152.80
+INFO:root:1st Quartile: 107
+INFO:root:Median: 157
+INFO:root:3rd Quartile: 208
+INFO:root:Mean: 157.19
+
+INFO:root:./TrainingData/dysplasia19.tif
+INFO:root:Critical p: 0.00928
+
+INFO:root:Mode: 240
+INFO:root:5-Mode Avg: 198.20
+INFO:root:1st Quartile: 82
+INFO:root:Median: 141
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 140.13
+
+INFO:root:Mode: 199
+INFO:root:5-Mode Avg: 131.80
+INFO:root:1st Quartile: 77
+INFO:root:Median: 136
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 135.05
+
+INFO:root:Mode: 224
+INFO:root:5-Mode Avg: 117.60
+INFO:root:1st Quartile: 74
+INFO:root:Median: 132
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 131.61
+
+INFO:root:./TrainingData/dysplasia20.tif
+INFO:root:Critical p: 0.03641
+
+INFO:root:Mode: 195
+INFO:root:5-Mode Avg: 115.00
+INFO:root:1st Quartile: 68
+INFO:root:Median: 125
+INFO:root:3rd Quartile: 189
+INFO:root:Mean: 129.40
+
+INFO:root:Mode: 173
+INFO:root:5-Mode Avg: 116.00
+INFO:root:1st Quartile: 64
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 192
+INFO:root:Mean: 127.95
+
+INFO:root:Mode: 169
+INFO:root:5-Mode Avg: 140.00
+INFO:root:1st Quartile: 73
+INFO:root:Median: 124
+INFO:root:3rd Quartile: 186
+INFO:root:Mean: 128.82
+
+INFO:root:./TrainingData/dysplasia21.tif
+INFO:root:Critical p: 0.03262
+
+INFO:root:Mode: 230
+INFO:root:5-Mode Avg: 157.20
+INFO:root:1st Quartile: 80
+INFO:root:Median: 140
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 137.47
+
+INFO:root:Mode: 203
+INFO:root:5-Mode Avg: 131.00
+INFO:root:1st Quartile: 76
+INFO:root:Median: 140
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 137.62
+
+INFO:root:Mode: 161
+INFO:root:5-Mode Avg: 189.60
+INFO:root:1st Quartile: 74
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 135.73
+
+INFO:root:./TrainingData/dysplasia22.tif
+INFO:root:Critical p: 0.05392
+
+INFO:root:Mode: 49
+INFO:root:5-Mode Avg: 72.80
+INFO:root:1st Quartile: 75
+INFO:root:Median: 141
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 136.29
+
+INFO:root:Mode: 182
+INFO:root:5-Mode Avg: 100.80
+INFO:root:1st Quartile: 62
+INFO:root:Median: 124
+INFO:root:3rd Quartile: 187
+INFO:root:Mean: 125.46
+
+INFO:root:Mode: 255
+INFO:root:5-Mode Avg: 140.00
+INFO:root:1st Quartile: 65
+INFO:root:Median: 124
+INFO:root:3rd Quartile: 184
+INFO:root:Mean: 125.32
+
+INFO:root:./TrainingData/dysplasia23.tif
+INFO:root:Critical p: 0.02474
+
+INFO:root:Mode: 161
+INFO:root:5-Mode Avg: 150.60
+INFO:root:1st Quartile: 94
+INFO:root:Median: 148
+INFO:root:3rd Quartile: 202
+INFO:root:Mean: 147.47
+
+INFO:root:Mode: 105
+INFO:root:5-Mode Avg: 133.20
+INFO:root:1st Quartile: 63
+INFO:root:Median: 122
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 127.87
+
+INFO:root:Mode: 186
+INFO:root:5-Mode Avg: 139.40
+INFO:root:1st Quartile: 68
+INFO:root:Median: 139
+INFO:root:3rd Quartile: 202
+INFO:root:Mean: 133.66
+
+INFO:root:./TrainingData/dysplasia24.tif
+INFO:root:Critical p: 0.00011
+
+INFO:root:Mode: 134
+INFO:root:5-Mode Avg: 146.60
+INFO:root:1st Quartile: 101
+INFO:root:Median: 148
+INFO:root:3rd Quartile: 202
+INFO:root:Mean: 150.85
+
+INFO:root:Mode: 38
+INFO:root:5-Mode Avg: 127.20
+INFO:root:1st Quartile: 76
+INFO:root:Median: 140
+INFO:root:3rd Quartile: 192
+INFO:root:Mean: 136.41
+
+INFO:root:Mode: 177
+INFO:root:5-Mode Avg: 105.40
+INFO:root:1st Quartile: 82
+INFO:root:Median: 145
+INFO:root:3rd Quartile: 199
+INFO:root:Mean: 141.54
+
+INFO:root:./TrainingData/healthy00.tif
+INFO:root:Critical p: 0.00303
+
+INFO:root:Mode: 206
+INFO:root:5-Mode Avg: 122.60
+INFO:root:1st Quartile: 84
+INFO:root:Median: 138
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 138.42
+
+INFO:root:Mode: 190
+INFO:root:5-Mode Avg: 149.80
+INFO:root:1st Quartile: 104
+INFO:root:Median: 153
+INFO:root:3rd Quartile: 201
+INFO:root:Mean: 153.61
+
+INFO:root:Mode: 234
+INFO:root:5-Mode Avg: 145.20
+INFO:root:1st Quartile: 98
+INFO:root:Median: 145
+INFO:root:3rd Quartile: 204
+INFO:root:Mean: 148.89
+
+INFO:root:./TrainingData/healthy01.tif
+INFO:root:Critical p: 0.01504
+
+INFO:root:Mode: 237
+INFO:root:5-Mode Avg: 156.60
+INFO:root:1st Quartile: 80
+INFO:root:Median: 141
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 140.39
+
+INFO:root:Mode: 248
+INFO:root:5-Mode Avg: 188.40
+INFO:root:1st Quartile: 88
+INFO:root:Median: 145
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 144.27
+
+INFO:root:Mode: 90
+INFO:root:5-Mode Avg: 175.40
+INFO:root:1st Quartile: 82
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 137.84
+
+INFO:root:./TrainingData/healthy02.tif
+INFO:root:Critical p: 0.02829
+
+INFO:root:Mode: 243
+INFO:root:5-Mode Avg: 161.60
+INFO:root:1st Quartile: 72
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 134.07
+
+INFO:root:Mode: 242
+INFO:root:5-Mode Avg: 124.40
+INFO:root:1st Quartile: 63
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 189
+INFO:root:Mean: 127.56
+
+INFO:root:Mode: 234
+INFO:root:5-Mode Avg: 113.60
+INFO:root:1st Quartile: 60
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 125.17
+
+INFO:root:./TrainingData/healthy03.tif
+INFO:root:Critical p: 0.00000
+
+INFO:root:Mode: 233
+INFO:root:5-Mode Avg: 155.00
+INFO:root:1st Quartile: 82
+INFO:root:Median: 138
+INFO:root:3rd Quartile: 199
+INFO:root:Mean: 138.74
+
+INFO:root:Mode: 95
+INFO:root:5-Mode Avg: 150.20
+INFO:root:1st Quartile: 59
+INFO:root:Median: 112
+INFO:root:3rd Quartile: 174
+INFO:root:Mean: 119.55
+
+INFO:root:Mode: 132
+INFO:root:5-Mode Avg: 164.20
+INFO:root:1st Quartile: 62
+INFO:root:Median: 121
+INFO:root:3rd Quartile: 180
+INFO:root:Mean: 122.29
+
+INFO:root:./TrainingData/healthy04.tif
+INFO:root:Critical p: 0.03091
+
+INFO:root:Mode: 147
+INFO:root:5-Mode Avg: 124.20
+INFO:root:1st Quartile: 90
+INFO:root:Median: 144
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 141.83
+
+INFO:root:Mode: 214
+INFO:root:5-Mode Avg: 136.20
+INFO:root:1st Quartile: 68
+INFO:root:Median: 132
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 131.70
+
+INFO:root:Mode: 132
+INFO:root:5-Mode Avg: 46.20
+INFO:root:1st Quartile: 54
+INFO:root:Median: 122
+INFO:root:3rd Quartile: 182
+INFO:root:Mean: 121.29
+
+INFO:root:./TrainingData/healthy05.tif
+INFO:root:Critical p: 0.03054
+
+INFO:root:Mode: 94
+INFO:root:5-Mode Avg: 109.00
+INFO:root:1st Quartile: 68
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 131.04
+
+INFO:root:Mode: 159
+INFO:root:5-Mode Avg: 172.60
+INFO:root:1st Quartile: 65
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 127.70
+
+INFO:root:Mode: 179
+INFO:root:5-Mode Avg: 143.00
+INFO:root:1st Quartile: 71
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 133.29
+
+INFO:root:./TrainingData/healthy06.tif
+INFO:root:Critical p: 0.02014
+
+INFO:root:Mode: 82
+INFO:root:5-Mode Avg: 147.00
+INFO:root:1st Quartile: 69
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 132.45
+
+INFO:root:Mode: 243
+INFO:root:5-Mode Avg: 155.80
+INFO:root:1st Quartile: 73
+INFO:root:Median: 138
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 134.50
+
+INFO:root:Mode: 212
+INFO:root:5-Mode Avg: 117.00
+INFO:root:1st Quartile: 64
+INFO:root:Median: 124
+INFO:root:3rd Quartile: 189
+INFO:root:Mean: 126.99
+
+INFO:root:./TrainingData/healthy07.tif
+INFO:root:Critical p: 0.04588
+
+INFO:root:Mode: 141
+INFO:root:5-Mode Avg: 162.80
+INFO:root:1st Quartile: 81
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 135.69
+
+INFO:root:Mode: 80
+INFO:root:5-Mode Avg: 97.60
+INFO:root:1st Quartile: 73
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 131.82
+
+INFO:root:Mode: 173
+INFO:root:5-Mode Avg: 117.80
+INFO:root:1st Quartile: 65
+INFO:root:Median: 132
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 129.98
+
+INFO:root:./TrainingData/healthy08.tif
+INFO:root:Critical p: 0.01839
+
+INFO:root:Mode: 84
+INFO:root:5-Mode Avg: 120.60
+INFO:root:1st Quartile: 67
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 128.89
+
+INFO:root:Mode: 30
+INFO:root:5-Mode Avg: 73.00
+INFO:root:1st Quartile: 59
+INFO:root:Median: 125
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 128.40
+
+INFO:root:Mode: 71
+INFO:root:5-Mode Avg: 88.40
+INFO:root:1st Quartile: 66
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 189
+INFO:root:Mean: 129.81
+
+INFO:root:./TrainingData/healthy09.tif
+INFO:root:Critical p: 0.12029
+
+INFO:root:Mode: 33
+INFO:root:5-Mode Avg: 161.00
+INFO:root:1st Quartile: 68
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 187
+INFO:root:Mean: 128.72
+
+INFO:root:Mode: 26
+INFO:root:5-Mode Avg: 117.20
+INFO:root:1st Quartile: 64
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 189
+INFO:root:Mean: 127.32
+
+INFO:root:Mode: 111
+INFO:root:5-Mode Avg: 189.00
+INFO:root:1st Quartile: 70
+INFO:root:Median: 132
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 131.31
+
+INFO:root:./TrainingData/healthy10.tif
+INFO:root:Critical p: 0.09568
+
+INFO:root:Mode: 240
+INFO:root:5-Mode Avg: 114.20
+INFO:root:1st Quartile: 63
+INFO:root:Median: 124
+INFO:root:3rd Quartile: 185
+INFO:root:Mean: 124.61
+
+INFO:root:Mode: 142
+INFO:root:5-Mode Avg: 99.80
+INFO:root:1st Quartile: 60
+INFO:root:Median: 123
+INFO:root:3rd Quartile: 192
+INFO:root:Mean: 126.24
+
+INFO:root:Mode: 78
+INFO:root:5-Mode Avg: 157.80
+INFO:root:1st Quartile: 62
+INFO:root:Median: 132
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 128.11
+
+INFO:root:./TrainingData/healthy11.tif
+INFO:root:Critical p: 0.06750
+
+INFO:root:Mode: 61
+INFO:root:5-Mode Avg: 49.20
+INFO:root:1st Quartile: 76
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 192
+INFO:root:Mean: 133.99
+
+INFO:root:Mode: 238
+INFO:root:5-Mode Avg: 138.20
+INFO:root:1st Quartile: 82
+INFO:root:Median: 140
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 138.87
+
+INFO:root:Mode: 75
+INFO:root:5-Mode Avg: 167.60
+INFO:root:1st Quartile: 66
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 131.74
+
+INFO:root:./TrainingData/healthy12.tif
+INFO:root:Critical p: 0.01792
+
+INFO:root:Mode: 165
+INFO:root:5-Mode Avg: 164.00
+INFO:root:1st Quartile: 115
+INFO:root:Median: 162
+INFO:root:3rd Quartile: 206
+INFO:root:Mean: 161.49
+
+INFO:root:Mode: 208
+INFO:root:5-Mode Avg: 155.80
+INFO:root:1st Quartile: 82
+INFO:root:Median: 148
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 141.43
+
+INFO:root:Mode: 140
+INFO:root:5-Mode Avg: 137.40
+INFO:root:1st Quartile: 102
+INFO:root:Median: 151
+INFO:root:3rd Quartile: 202
+INFO:root:Mean: 151.54
+
+INFO:root:./TrainingData/healthy13.tif
+INFO:root:Critical p: 0.00675
+
+INFO:root:Mode: 186
+INFO:root:5-Mode Avg: 185.60
+INFO:root:1st Quartile: 73
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 135.94
+
+INFO:root:Mode: 235
+INFO:root:5-Mode Avg: 147.20
+INFO:root:1st Quartile: 72
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 131.15
+
+INFO:root:Mode: 108
+INFO:root:5-Mode Avg: 109.20
+INFO:root:1st Quartile: 65
+INFO:root:Median: 128
+INFO:root:3rd Quartile: 188
+INFO:root:Mean: 128.12
+
+INFO:root:./TrainingData/healthy14.tif
+INFO:root:Critical p: 0.03134
+
+INFO:root:Mode: 112
+INFO:root:5-Mode Avg: 150.00
+INFO:root:1st Quartile: 75
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 131.66
+
+INFO:root:Mode: 221
+INFO:root:5-Mode Avg: 144.00
+INFO:root:1st Quartile: 75
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 188
+INFO:root:Mean: 131.82
+
+INFO:root:Mode: 26
+INFO:root:5-Mode Avg: 111.00
+INFO:root:1st Quartile: 60
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 188
+INFO:root:Mean: 126.42
+
+INFO:root:./TrainingData/healthy15.tif
+INFO:root:Critical p: 0.00465
+
+INFO:root:Mode: 39
+INFO:root:5-Mode Avg: 101.20
+INFO:root:1st Quartile: 65
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 129.18
+
+INFO:root:Mode: 34
+INFO:root:5-Mode Avg: 68.00
+INFO:root:1st Quartile: 65
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 192
+INFO:root:Mean: 127.51
+
+INFO:root:Mode: 220
+INFO:root:5-Mode Avg: 229.40
+INFO:root:1st Quartile: 63
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 126.03
+
+INFO:root:./TrainingData/healthy16.tif
+INFO:root:Critical p: 0.02997
+
+INFO:root:Mode: 95
+INFO:root:5-Mode Avg: 155.80
+INFO:root:1st Quartile: 79
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 189
+INFO:root:Mean: 136.00
+
+INFO:root:Mode: 163
+INFO:root:5-Mode Avg: 97.00
+INFO:root:1st Quartile: 73
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 132.99
+
+INFO:root:Mode: 168
+INFO:root:5-Mode Avg: 133.60
+INFO:root:1st Quartile: 64
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 127.93
+
+INFO:root:./TrainingData/healthy17.tif
+INFO:root:Critical p: 0.01825
+
+INFO:root:Mode: 8
+INFO:root:5-Mode Avg: 74.80
+INFO:root:1st Quartile: 65
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 129.05
+
+INFO:root:Mode: 56
+INFO:root:5-Mode Avg: 111.00
+INFO:root:1st Quartile: 58
+INFO:root:Median: 128
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 128.28
+
+INFO:root:Mode: 101
+INFO:root:5-Mode Avg: 179.20
+INFO:root:1st Quartile: 68
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 132.93
+
+INFO:root:./TrainingData/healthy18.tif
+INFO:root:Critical p: 0.00175
+
+INFO:root:Mode: 200
+INFO:root:5-Mode Avg: 167.20
+INFO:root:1st Quartile: 92
+INFO:root:Median: 145
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 145.05
+
+INFO:root:Mode: 213
+INFO:root:5-Mode Avg: 173.60
+INFO:root:1st Quartile: 83
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 138.55
+
+INFO:root:Mode: 52
+INFO:root:5-Mode Avg: 169.60
+INFO:root:1st Quartile: 87
+INFO:root:Median: 147
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 143.65
+
+INFO:root:./TrainingData/healthy19.tif
+INFO:root:Critical p: 0.05320
+
+INFO:root:Mode: 250
+INFO:root:5-Mode Avg: 148.40
+INFO:root:1st Quartile: 77
+INFO:root:Median: 139
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 136.87
+
+INFO:root:Mode: 181
+INFO:root:5-Mode Avg: 144.80
+INFO:root:1st Quartile: 90
+INFO:root:Median: 143
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 142.76
+
+INFO:root:Mode: 120
+INFO:root:5-Mode Avg: 121.60
+INFO:root:1st Quartile: 76
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 135.74
+
+INFO:root:./TrainingData/healthy20.tif
+INFO:root:Critical p: 0.00072
+
+INFO:root:Mode: 244
+INFO:root:5-Mode Avg: 126.40
+INFO:root:1st Quartile: 80
+INFO:root:Median: 139
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 138.51
+
+INFO:root:Mode: 230
+INFO:root:5-Mode Avg: 127.20
+INFO:root:1st Quartile: 73
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 133.37
+
+INFO:root:Mode: 219
+INFO:root:5-Mode Avg: 157.80
+INFO:root:1st Quartile: 66
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 188
+INFO:root:Mean: 128.05
+
+INFO:root:./TrainingData/healthy21.tif
+INFO:root:Critical p: 0.04701
+
+INFO:root:Mode: 198
+INFO:root:5-Mode Avg: 158.60
+INFO:root:1st Quartile: 69
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 131.47
+
+INFO:root:Mode: 46
+INFO:root:5-Mode Avg: 90.00
+INFO:root:1st Quartile: 66
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 126.93
+
+INFO:root:Mode: 76
+INFO:root:5-Mode Avg: 119.20
+INFO:root:1st Quartile: 64
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 126.19
+
+INFO:root:./TrainingData/healthy22.tif
+INFO:root:Critical p: 0.02653
+
+INFO:root:Mode: 187
+INFO:root:5-Mode Avg: 153.20
+INFO:root:1st Quartile: 70
+INFO:root:Median: 134
+INFO:root:3rd Quartile: 189
+INFO:root:Mean: 131.03
+
+INFO:root:Mode: 175
+INFO:root:5-Mode Avg: 141.60
+INFO:root:1st Quartile: 66
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 199
+INFO:root:Mean: 131.62
+
+INFO:root:Mode: 106
+INFO:root:5-Mode Avg: 97.60
+INFO:root:1st Quartile: 65
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 127.31
+
+INFO:root:./TrainingData/healthy23.tif
+INFO:root:Critical p: 0.02056
+
+INFO:root:Mode: 245
+INFO:root:5-Mode Avg: 158.60
+INFO:root:1st Quartile: 63
+INFO:root:Median: 128
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 128.16
+
+INFO:root:Mode: 47
+INFO:root:5-Mode Avg: 81.80
+INFO:root:1st Quartile: 77
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 133.71
+
+INFO:root:Mode: 234
+INFO:root:5-Mode Avg: 204.60
+INFO:root:1st Quartile: 73
+INFO:root:Median: 132
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 132.85
+
+INFO:root:./TrainingData/healthy24.tif
+INFO:root:Critical p: 0.03212
+
+INFO:root:Mode: 44
+INFO:root:5-Mode Avg: 117.20
+INFO:root:1st Quartile: 72
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 134.42
+
+INFO:root:Mode: 12
+INFO:root:5-Mode Avg: 101.40
+INFO:root:1st Quartile: 64
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 129.72
+
+INFO:root:Mode: 196
+INFO:root:5-Mode Avg: 117.60
+INFO:root:1st Quartile: 63
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 127.21
+
+INFO:root:EXIT_SUCCESS
+INFO:root:This file is a SVM Training Data log for Moss
+
+INFO:root:./TrainingData/dysplasia00.tif
+INFO:root:BLUE
+INFO:root:Mode: 228
+INFO:root:5-Mode Avg: 126.40
+INFO:root:1st Quartile: 63
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 185
+INFO:root:Mean: 123.40
+
+INFO:root:GREEN
+INFO:root:Mode: 189
+INFO:root:5-Mode Avg: 136.40
+INFO:root:1st Quartile: 65
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 129.15
+
+INFO:root:RED
+INFO:root:Mode: 97
+INFO:root:5-Mode Avg: 87.40
+INFO:root:1st Quartile: 77
+INFO:root:Median: 134
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 135.03
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 43
+INFO:root:5-Mode Avg: 101.40
+INFO:root:1st Quartile: 65
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 132.27
+
+INFO:root:./TrainingData/dysplasia01.tif
+INFO:root:BLUE
+INFO:root:Mode: 142
+INFO:root:5-Mode Avg: 146.00
+INFO:root:1st Quartile: 64
+INFO:root:Median: 123
+INFO:root:3rd Quartile: 187
+INFO:root:Mean: 123.29
+
+INFO:root:GREEN
+INFO:root:Mode: 223
+INFO:root:5-Mode Avg: 179.40
+INFO:root:1st Quartile: 59
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 125.46
+
+INFO:root:RED
+INFO:root:Mode: 27
+INFO:root:5-Mode Avg: 58.20
+INFO:root:1st Quartile: 90
+INFO:root:Median: 146
+INFO:root:3rd Quartile: 203
+INFO:root:Mean: 145.76
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 229
+INFO:root:5-Mode Avg: 160.20
+INFO:root:1st Quartile: 73
+INFO:root:Median: 132
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 131.62
+
+INFO:root:./TrainingData/dysplasia02.tif
+INFO:root:BLUE
+INFO:root:Mode: 20
+INFO:root:5-Mode Avg: 104.00
+INFO:root:1st Quartile: 55
+INFO:root:Median: 117
+INFO:root:3rd Quartile: 177
+INFO:root:Mean: 117.86
+
+INFO:root:GREEN
+INFO:root:Mode: 202
+INFO:root:5-Mode Avg: 95.20
+INFO:root:1st Quartile: 60
+INFO:root:Median: 128
+INFO:root:3rd Quartile: 192
+INFO:root:Mean: 126.77
+
+INFO:root:RED
+INFO:root:Mode: 15
+INFO:root:5-Mode Avg: 94.00
+INFO:root:1st Quartile: 63
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 130.09
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 223
+INFO:root:5-Mode Avg: 139.40
+INFO:root:1st Quartile: 64
+INFO:root:Median: 123
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 126.06
+
+INFO:root:./TrainingData/dysplasia03.tif
+INFO:root:BLUE
+INFO:root:Mode: 140
+INFO:root:5-Mode Avg: 69.60
+INFO:root:1st Quartile: 53
+INFO:root:Median: 118
+INFO:root:3rd Quartile: 165
+INFO:root:Mean: 113.78
+
+INFO:root:GREEN
+INFO:root:Mode: 77
+INFO:root:5-Mode Avg: 78.40
+INFO:root:1st Quartile: 58
+INFO:root:Median: 114
+INFO:root:3rd Quartile: 165
+INFO:root:Mean: 116.66
+
+INFO:root:RED
+INFO:root:Mode: 146
+INFO:root:5-Mode Avg: 96.60
+INFO:root:1st Quartile: 77
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 192
+INFO:root:Mean: 133.58
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 159
+INFO:root:5-Mode Avg: 137.60
+INFO:root:1st Quartile: 65
+INFO:root:Median: 128
+INFO:root:3rd Quartile: 183
+INFO:root:Mean: 128.32
+
+INFO:root:./TrainingData/dysplasia04.tif
+INFO:root:BLUE
+INFO:root:Mode: 176
+INFO:root:5-Mode Avg: 179.40
+INFO:root:1st Quartile: 60
+INFO:root:Median: 124
+INFO:root:3rd Quartile: 186
+INFO:root:Mean: 122.61
+
+INFO:root:GREEN
+INFO:root:Mode: 151
+INFO:root:5-Mode Avg: 86.20
+INFO:root:1st Quartile: 65
+INFO:root:Median: 124
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 127.36
+
+INFO:root:RED
+INFO:root:Mode: 154
+INFO:root:5-Mode Avg: 176.80
+INFO:root:1st Quartile: 75
+INFO:root:Median: 140
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 136.29
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 191
+INFO:root:5-Mode Avg: 203.00
+INFO:root:1st Quartile: 78
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 137.88
+
+INFO:root:./TrainingData/dysplasia05.tif
+INFO:root:BLUE
+INFO:root:Mode: 181
+INFO:root:5-Mode Avg: 141.80
+INFO:root:1st Quartile: 63
+INFO:root:Median: 120
+INFO:root:3rd Quartile: 188
+INFO:root:Mean: 123.60
+
+INFO:root:GREEN
+INFO:root:Mode: 187
+INFO:root:5-Mode Avg: 104.60
+INFO:root:1st Quartile: 61
+INFO:root:Median: 129
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 128.83
+
+INFO:root:RED
+INFO:root:Mode: 135
+INFO:root:5-Mode Avg: 133.80
+INFO:root:1st Quartile: 105
+INFO:root:Median: 149
+INFO:root:3rd Quartile: 204
+INFO:root:Mean: 151.90
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 166
+INFO:root:5-Mode Avg: 179.80
+INFO:root:1st Quartile: 88
+INFO:root:Median: 145
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 143.39
+
+INFO:root:./TrainingData/dysplasia06.tif
+INFO:root:BLUE
+INFO:root:Mode: 36
+INFO:root:5-Mode Avg: 129.80
+INFO:root:1st Quartile: 67
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 186
+INFO:root:Mean: 126.24
+
+INFO:root:GREEN
+INFO:root:Mode: 36
+INFO:root:5-Mode Avg: 140.80
+INFO:root:1st Quartile: 72
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 130.85
+
+INFO:root:RED
+INFO:root:Mode: 65
+INFO:root:5-Mode Avg: 100.40
+INFO:root:1st Quartile: 70
+INFO:root:Median: 129
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 131.07
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 24
+INFO:root:5-Mode Avg: 66.60
+INFO:root:1st Quartile: 79
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 136.04
+
+INFO:root:./TrainingData/dysplasia07.tif
+INFO:root:BLUE
+INFO:root:Mode: 221
+INFO:root:5-Mode Avg: 171.40
+INFO:root:1st Quartile: 55
+INFO:root:Median: 111
+INFO:root:3rd Quartile: 165
+INFO:root:Mean: 111.48
+
+INFO:root:GREEN
+INFO:root:Mode: 252
+INFO:root:5-Mode Avg: 174.60
+INFO:root:1st Quartile: 68
+INFO:root:Median: 138
+INFO:root:3rd Quartile: 204
+INFO:root:Mean: 134.14
+
+INFO:root:RED
+INFO:root:Mode: 214
+INFO:root:5-Mode Avg: 136.40
+INFO:root:1st Quartile: 78
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 136.25
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 129
+INFO:root:5-Mode Avg: 144.60
+INFO:root:1st Quartile: 69
+INFO:root:Median: 129
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 131.64
+
+INFO:root:./TrainingData/dysplasia08.tif
+INFO:root:BLUE
+INFO:root:Mode: 98
+INFO:root:5-Mode Avg: 110.00
+INFO:root:1st Quartile: 75
+INFO:root:Median: 128
+INFO:root:3rd Quartile: 184
+INFO:root:Mean: 128.75
+
+INFO:root:GREEN
+INFO:root:Mode: 144
+INFO:root:5-Mode Avg: 127.00
+INFO:root:1st Quartile: 84
+INFO:root:Median: 147
+INFO:root:3rd Quartile: 204
+INFO:root:Mean: 144.03
+
+INFO:root:RED
+INFO:root:Mode: 143
+INFO:root:5-Mode Avg: 98.00
+INFO:root:1st Quartile: 69
+INFO:root:Median: 138
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 134.62
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 220
+INFO:root:5-Mode Avg: 173.80
+INFO:root:1st Quartile: 83
+INFO:root:Median: 150
+INFO:root:3rd Quartile: 203
+INFO:root:Mean: 143.60
+
+INFO:root:./TrainingData/dysplasia09.tif
+INFO:root:BLUE
+INFO:root:Mode: 93
+INFO:root:5-Mode Avg: 93.00
+INFO:root:1st Quartile: 62
+INFO:root:Median: 119
+INFO:root:3rd Quartile: 180
+INFO:root:Mean: 120.35
+
+INFO:root:GREEN
+INFO:root:Mode: 179
+INFO:root:5-Mode Avg: 142.40
+INFO:root:1st Quartile: 63
+INFO:root:Median: 118
+INFO:root:3rd Quartile: 189
+INFO:root:Mean: 126.40
+
+INFO:root:RED
+INFO:root:Mode: 175
+INFO:root:5-Mode Avg: 152.00
+INFO:root:1st Quartile: 82
+INFO:root:Median: 146
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 142.17
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 215
+INFO:root:5-Mode Avg: 149.60
+INFO:root:1st Quartile: 78
+INFO:root:Median: 141
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 136.93
+
+INFO:root:./TrainingData/dysplasia10.tif
+INFO:root:BLUE
+INFO:root:Mode: 179
+INFO:root:5-Mode Avg: 98.40
+INFO:root:1st Quartile: 59
+INFO:root:Median: 119
+INFO:root:3rd Quartile: 182
+INFO:root:Mean: 120.71
+
+INFO:root:GREEN
+INFO:root:Mode: 17
+INFO:root:5-Mode Avg: 91.60
+INFO:root:1st Quartile: 61
+INFO:root:Median: 122
+INFO:root:3rd Quartile: 184
+INFO:root:Mean: 123.42
+
+INFO:root:RED
+INFO:root:Mode: 242
+INFO:root:5-Mode Avg: 132.00
+INFO:root:1st Quartile: 68
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 199
+INFO:root:Mean: 132.72
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 103
+INFO:root:5-Mode Avg: 133.80
+INFO:root:1st Quartile: 63
+INFO:root:Median: 128
+INFO:root:3rd Quartile: 188
+INFO:root:Mean: 126.31
+
+INFO:root:./TrainingData/dysplasia11.tif
+INFO:root:BLUE
+INFO:root:Mode: 69
+INFO:root:5-Mode Avg: 72.40
+INFO:root:1st Quartile: 57
+INFO:root:Median: 112
+INFO:root:3rd Quartile: 169
+INFO:root:Mean: 112.65
+
+INFO:root:GREEN
+INFO:root:Mode: 107
+INFO:root:5-Mode Avg: 117.00
+INFO:root:1st Quartile: 73
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 133.56
+
+INFO:root:RED
+INFO:root:Mode: 254
+INFO:root:5-Mode Avg: 177.00
+INFO:root:1st Quartile: 99
+INFO:root:Median: 159
+INFO:root:3rd Quartile: 209
+INFO:root:Mean: 154.27
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 244
+INFO:root:5-Mode Avg: 152.80
+INFO:root:1st Quartile: 80
+INFO:root:Median: 142
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 137.81
+
+INFO:root:./TrainingData/dysplasia12.tif
+INFO:root:BLUE
+INFO:root:Mode: 153
+INFO:root:5-Mode Avg: 92.20
+INFO:root:1st Quartile: 64
+INFO:root:Median: 121
+INFO:root:3rd Quartile: 182
+INFO:root:Mean: 121.93
+
+INFO:root:GREEN
+INFO:root:Mode: 113
+INFO:root:5-Mode Avg: 107.80
+INFO:root:1st Quartile: 69
+INFO:root:Median: 136
+INFO:root:3rd Quartile: 203
+INFO:root:Mean: 134.50
+
+INFO:root:RED
+INFO:root:Mode: 250
+INFO:root:5-Mode Avg: 157.80
+INFO:root:1st Quartile: 76
+INFO:root:Median: 138
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 138.05
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 151
+INFO:root:5-Mode Avg: 72.80
+INFO:root:1st Quartile: 73
+INFO:root:Median: 134
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 133.69
+
+INFO:root:./TrainingData/dysplasia13.tif
+INFO:root:BLUE
+INFO:root:Mode: 18
+INFO:root:5-Mode Avg: 90.80
+INFO:root:1st Quartile: 55
+INFO:root:Median: 121
+INFO:root:3rd Quartile: 183
+INFO:root:Mean: 119.12
+
+INFO:root:GREEN
+INFO:root:Mode: 57
+INFO:root:5-Mode Avg: 159.80
+INFO:root:1st Quartile: 76
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 186
+INFO:root:Mean: 131.82
+
+INFO:root:RED
+INFO:root:Mode: 75
+INFO:root:5-Mode Avg: 130.60
+INFO:root:1st Quartile: 72
+INFO:root:Median: 129
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 131.41
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 103
+INFO:root:5-Mode Avg: 100.80
+INFO:root:1st Quartile: 65
+INFO:root:Median: 122
+INFO:root:3rd Quartile: 185
+INFO:root:Mean: 124.72
+
+INFO:root:./TrainingData/dysplasia14.tif
+INFO:root:BLUE
+INFO:root:Mode: 203
+INFO:root:5-Mode Avg: 137.40
+INFO:root:1st Quartile: 66
+INFO:root:Median: 120
+INFO:root:3rd Quartile: 176
+INFO:root:Mean: 121.09
+
+INFO:root:GREEN
+INFO:root:Mode: 51
+INFO:root:5-Mode Avg: 135.80
+INFO:root:1st Quartile: 67
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 129.45
+
+INFO:root:RED
+INFO:root:Mode: 230
+INFO:root:5-Mode Avg: 194.60
+INFO:root:1st Quartile: 87
+INFO:root:Median: 141
+INFO:root:3rd Quartile: 201
+INFO:root:Mean: 143.78
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 108
+INFO:root:5-Mode Avg: 135.20
+INFO:root:1st Quartile: 78
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 134.50
+
+INFO:root:./TrainingData/dysplasia15.tif
+INFO:root:BLUE
+INFO:root:Mode: 205
+INFO:root:5-Mode Avg: 146.60
+INFO:root:1st Quartile: 73
+INFO:root:Median: 123
+INFO:root:3rd Quartile: 184
+INFO:root:Mean: 127.43
+
+INFO:root:GREEN
+INFO:root:Mode: 99
+INFO:root:5-Mode Avg: 146.20
+INFO:root:1st Quartile: 96
+INFO:root:Median: 151
+INFO:root:3rd Quartile: 201
+INFO:root:Mean: 148.52
+
+INFO:root:RED
+INFO:root:Mode: 77
+INFO:root:5-Mode Avg: 102.60
+INFO:root:1st Quartile: 75
+INFO:root:Median: 134
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 134.72
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 115
+INFO:root:5-Mode Avg: 119.20
+INFO:root:1st Quartile: 84
+INFO:root:Median: 143
+INFO:root:3rd Quartile: 203
+INFO:root:Mean: 144.06
+
+INFO:root:./TrainingData/dysplasia16.tif
+INFO:root:BLUE
+INFO:root:Mode: 235
+INFO:root:5-Mode Avg: 121.60
+INFO:root:1st Quartile: 65
+INFO:root:Median: 118
+INFO:root:3rd Quartile: 181
+INFO:root:Mean: 120.48
+
+INFO:root:GREEN
+INFO:root:Mode: 227
+INFO:root:5-Mode Avg: 200.00
+INFO:root:1st Quartile: 71
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 132.74
+
+INFO:root:RED
+INFO:root:Mode: 47
+INFO:root:5-Mode Avg: 84.20
+INFO:root:1st Quartile: 73
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 192
+INFO:root:Mean: 133.31
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 100
+INFO:root:5-Mode Avg: 108.80
+INFO:root:1st Quartile: 72
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 132.76
+
+INFO:root:./TrainingData/dysplasia17.tif
+INFO:root:BLUE
+INFO:root:Mode: 58
+INFO:root:5-Mode Avg: 108.60
+INFO:root:1st Quartile: 58
+INFO:root:Median: 115
+INFO:root:3rd Quartile: 176
+INFO:root:Mean: 116.26
+
+INFO:root:GREEN
+INFO:root:Mode: 231
+INFO:root:5-Mode Avg: 161.80
+INFO:root:1st Quartile: 68
+INFO:root:Median: 129
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 129.83
+
+INFO:root:RED
+INFO:root:Mode: 250
+INFO:root:5-Mode Avg: 196.40
+INFO:root:1st Quartile: 70
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 131.34
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 99
+INFO:root:5-Mode Avg: 136.20
+INFO:root:1st Quartile: 76
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 132.28
+
+INFO:root:./TrainingData/dysplasia18.tif
+INFO:root:BLUE
+INFO:root:Mode: 231
+INFO:root:5-Mode Avg: 152.80
+INFO:root:1st Quartile: 102
+INFO:root:Median: 152
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 150.68
+
+INFO:root:GREEN
+INFO:root:Mode: 205
+INFO:root:5-Mode Avg: 102.80
+INFO:root:1st Quartile: 87
+INFO:root:Median: 147
+INFO:root:3rd Quartile: 201
+INFO:root:Mean: 144.58
+
+INFO:root:RED
+INFO:root:Mode: 153
+INFO:root:5-Mode Avg: 186.80
+INFO:root:1st Quartile: 68
+INFO:root:Median: 134
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 130.48
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 202
+INFO:root:5-Mode Avg: 201.00
+INFO:root:1st Quartile: 90
+INFO:root:Median: 144
+INFO:root:3rd Quartile: 206
+INFO:root:Mean: 147.25
+
+INFO:root:./TrainingData/dysplasia19.tif
+INFO:root:BLUE
+INFO:root:Mode: 224
+INFO:root:5-Mode Avg: 117.60
+INFO:root:1st Quartile: 71
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 180
+INFO:root:Mean: 125.76
+
+INFO:root:GREEN
+INFO:root:Mode: 199
+INFO:root:5-Mode Avg: 131.80
+INFO:root:1st Quartile: 77
+INFO:root:Median: 136
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 135.05
+
+INFO:root:RED
+INFO:root:Mode: 240
+INFO:root:5-Mode Avg: 198.20
+INFO:root:1st Quartile: 82
+INFO:root:Median: 141
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 140.13
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 49
+INFO:root:5-Mode Avg: 160.80
+INFO:root:1st Quartile: 73
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 201
+INFO:root:Mean: 136.80
+
+INFO:root:./TrainingData/dysplasia20.tif
+INFO:root:BLUE
+INFO:root:Mode: 169
+INFO:root:5-Mode Avg: 140.00
+INFO:root:1st Quartile: 70
+INFO:root:Median: 118
+INFO:root:3rd Quartile: 173
+INFO:root:Mean: 120.61
+
+INFO:root:GREEN
+INFO:root:Mode: 173
+INFO:root:5-Mode Avg: 116.00
+INFO:root:1st Quartile: 64
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 192
+INFO:root:Mean: 127.95
+
+INFO:root:RED
+INFO:root:Mode: 195
+INFO:root:5-Mode Avg: 115.00
+INFO:root:1st Quartile: 68
+INFO:root:Median: 125
+INFO:root:3rd Quartile: 189
+INFO:root:Mean: 129.40
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 45
+INFO:root:5-Mode Avg: 134.60
+INFO:root:1st Quartile: 77
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 135.88
+
+INFO:root:./TrainingData/dysplasia21.tif
+INFO:root:BLUE
+INFO:root:Mode: 161
+INFO:root:5-Mode Avg: 169.40
+INFO:root:1st Quartile: 71
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 186
+INFO:root:Mean: 127.65
+
+INFO:root:GREEN
+INFO:root:Mode: 203
+INFO:root:5-Mode Avg: 131.00
+INFO:root:1st Quartile: 76
+INFO:root:Median: 140
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 137.62
+
+INFO:root:RED
+INFO:root:Mode: 230
+INFO:root:5-Mode Avg: 157.20
+INFO:root:1st Quartile: 80
+INFO:root:Median: 140
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 137.47
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 66
+INFO:root:5-Mode Avg: 162.40
+INFO:root:1st Quartile: 87
+INFO:root:Median: 150
+INFO:root:3rd Quartile: 202
+INFO:root:Mean: 144.33
+
+INFO:root:./TrainingData/dysplasia22.tif
+INFO:root:BLUE
+INFO:root:Mode: 95
+INFO:root:5-Mode Avg: 102.00
+INFO:root:1st Quartile: 60
+INFO:root:Median: 115
+INFO:root:3rd Quartile: 175
+INFO:root:Mean: 117.24
+
+INFO:root:GREEN
+INFO:root:Mode: 182
+INFO:root:5-Mode Avg: 100.80
+INFO:root:1st Quartile: 62
+INFO:root:Median: 124
+INFO:root:3rd Quartile: 187
+INFO:root:Mean: 125.46
+
+INFO:root:RED
+INFO:root:Mode: 49
+INFO:root:5-Mode Avg: 72.80
+INFO:root:1st Quartile: 75
+INFO:root:Median: 141
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 136.29
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 166
+INFO:root:5-Mode Avg: 122.20
+INFO:root:1st Quartile: 61
+INFO:root:Median: 120
+INFO:root:3rd Quartile: 185
+INFO:root:Mean: 124.03
+
+INFO:root:./TrainingData/dysplasia23.tif
+INFO:root:BLUE
+INFO:root:Mode: 186
+INFO:root:5-Mode Avg: 139.40
+INFO:root:1st Quartile: 64
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 186
+INFO:root:Mean: 125.68
+
+INFO:root:GREEN
+INFO:root:Mode: 105
+INFO:root:5-Mode Avg: 133.20
+INFO:root:1st Quartile: 63
+INFO:root:Median: 122
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 127.87
+
+INFO:root:RED
+INFO:root:Mode: 161
+INFO:root:5-Mode Avg: 150.60
+INFO:root:1st Quartile: 94
+INFO:root:Median: 148
+INFO:root:3rd Quartile: 202
+INFO:root:Mean: 147.47
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 76
+INFO:root:5-Mode Avg: 96.00
+INFO:root:1st Quartile: 79
+INFO:root:Median: 134
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 135.65
+
+INFO:root:./TrainingData/dysplasia24.tif
+INFO:root:BLUE
+INFO:root:Mode: 177
+INFO:root:5-Mode Avg: 105.40
+INFO:root:1st Quartile: 78
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 133.37
+
+INFO:root:GREEN
+INFO:root:Mode: 38
+INFO:root:5-Mode Avg: 127.20
+INFO:root:1st Quartile: 76
+INFO:root:Median: 140
+INFO:root:3rd Quartile: 192
+INFO:root:Mean: 136.41
+
+INFO:root:RED
+INFO:root:Mode: 134
+INFO:root:5-Mode Avg: 146.60
+INFO:root:1st Quartile: 101
+INFO:root:Median: 148
+INFO:root:3rd Quartile: 202
+INFO:root:Mean: 150.85
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 168
+INFO:root:5-Mode Avg: 106.40
+INFO:root:1st Quartile: 89
+INFO:root:Median: 154
+INFO:root:3rd Quartile: 206
+INFO:root:Mean: 149.31
+
+INFO:root:./TrainingData/healthy00.tif
+INFO:root:BLUE
+INFO:root:Mode: 234
+INFO:root:5-Mode Avg: 145.20
+INFO:root:1st Quartile: 95
+INFO:root:Median: 136
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 141.39
+
+INFO:root:GREEN
+INFO:root:Mode: 190
+INFO:root:5-Mode Avg: 149.80
+INFO:root:1st Quartile: 104
+INFO:root:Median: 153
+INFO:root:3rd Quartile: 201
+INFO:root:Mean: 153.61
+
+INFO:root:RED
+INFO:root:Mode: 206
+INFO:root:5-Mode Avg: 122.60
+INFO:root:1st Quartile: 84
+INFO:root:Median: 138
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 138.42
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 143
+INFO:root:5-Mode Avg: 184.40
+INFO:root:1st Quartile: 95
+INFO:root:Median: 147
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 147.93
+
+INFO:root:./TrainingData/healthy01.tif
+INFO:root:BLUE
+INFO:root:Mode: 90
+INFO:root:5-Mode Avg: 131.40
+INFO:root:1st Quartile: 76
+INFO:root:Median: 129
+INFO:root:3rd Quartile: 184
+INFO:root:Mean: 129.92
+
+INFO:root:GREEN
+INFO:root:Mode: 248
+INFO:root:5-Mode Avg: 188.40
+INFO:root:1st Quartile: 88
+INFO:root:Median: 145
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 144.27
+
+INFO:root:RED
+INFO:root:Mode: 237
+INFO:root:5-Mode Avg: 156.60
+INFO:root:1st Quartile: 80
+INFO:root:Median: 141
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 140.39
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 233
+INFO:root:5-Mode Avg: 173.80
+INFO:root:1st Quartile: 84
+INFO:root:Median: 145
+INFO:root:3rd Quartile: 205
+INFO:root:Mean: 143.99
+
+INFO:root:./TrainingData/healthy02.tif
+INFO:root:BLUE
+INFO:root:Mode: 234
+INFO:root:5-Mode Avg: 113.60
+INFO:root:1st Quartile: 58
+INFO:root:Median: 121
+INFO:root:3rd Quartile: 180
+INFO:root:Mean: 119.50
+
+INFO:root:GREEN
+INFO:root:Mode: 242
+INFO:root:5-Mode Avg: 124.40
+INFO:root:1st Quartile: 63
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 189
+INFO:root:Mean: 127.56
+
+INFO:root:RED
+INFO:root:Mode: 243
+INFO:root:5-Mode Avg: 161.60
+INFO:root:1st Quartile: 72
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 134.07
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 90
+INFO:root:5-Mode Avg: 147.00
+INFO:root:1st Quartile: 69
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 129.17
+
+INFO:root:./TrainingData/healthy03.tif
+INFO:root:BLUE
+INFO:root:Mode: 132
+INFO:root:5-Mode Avg: 125.40
+INFO:root:1st Quartile: 59
+INFO:root:Median: 115
+INFO:root:3rd Quartile: 168
+INFO:root:Mean: 115.88
+
+INFO:root:GREEN
+INFO:root:Mode: 95
+INFO:root:5-Mode Avg: 150.20
+INFO:root:1st Quartile: 59
+INFO:root:Median: 112
+INFO:root:3rd Quartile: 174
+INFO:root:Mean: 119.55
+
+INFO:root:RED
+INFO:root:Mode: 233
+INFO:root:5-Mode Avg: 155.00
+INFO:root:1st Quartile: 82
+INFO:root:Median: 138
+INFO:root:3rd Quartile: 199
+INFO:root:Mean: 138.74
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 47
+INFO:root:5-Mode Avg: 124.40
+INFO:root:1st Quartile: 73
+INFO:root:Median: 138
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 134.12
+
+INFO:root:./TrainingData/healthy04.tif
+INFO:root:BLUE
+INFO:root:Mode: 132
+INFO:root:5-Mode Avg: 46.20
+INFO:root:1st Quartile: 52
+INFO:root:Median: 117
+INFO:root:3rd Quartile: 174
+INFO:root:Mean: 115.25
+
+INFO:root:GREEN
+INFO:root:Mode: 214
+INFO:root:5-Mode Avg: 136.20
+INFO:root:1st Quartile: 68
+INFO:root:Median: 132
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 131.70
+
+INFO:root:RED
+INFO:root:Mode: 147
+INFO:root:5-Mode Avg: 124.20
+INFO:root:1st Quartile: 90
+INFO:root:Median: 144
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 141.83
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 187
+INFO:root:5-Mode Avg: 149.80
+INFO:root:1st Quartile: 82
+INFO:root:Median: 139
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 139.46
+
+INFO:root:./TrainingData/healthy05.tif
+INFO:root:BLUE
+INFO:root:Mode: 179
+INFO:root:5-Mode Avg: 143.00
+INFO:root:1st Quartile: 66
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 184
+INFO:root:Mean: 125.86
+
+INFO:root:GREEN
+INFO:root:Mode: 159
+INFO:root:5-Mode Avg: 172.60
+INFO:root:1st Quartile: 65
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 127.70
+
+INFO:root:RED
+INFO:root:Mode: 94
+INFO:root:5-Mode Avg: 109.00
+INFO:root:1st Quartile: 68
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 131.04
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 246
+INFO:root:5-Mode Avg: 188.80
+INFO:root:1st Quartile: 72
+INFO:root:Median: 140
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 135.07
+
+INFO:root:./TrainingData/healthy06.tif
+INFO:root:BLUE
+INFO:root:Mode: 212
+INFO:root:5-Mode Avg: 117.00
+INFO:root:1st Quartile: 59
+INFO:root:Median: 118
+INFO:root:3rd Quartile: 175
+INFO:root:Mean: 118.61
+
+INFO:root:GREEN
+INFO:root:Mode: 243
+INFO:root:5-Mode Avg: 155.80
+INFO:root:1st Quartile: 73
+INFO:root:Median: 138
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 134.50
+
+INFO:root:RED
+INFO:root:Mode: 82
+INFO:root:5-Mode Avg: 147.00
+INFO:root:1st Quartile: 69
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 132.45
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 228
+INFO:root:5-Mode Avg: 122.00
+INFO:root:1st Quartile: 59
+INFO:root:Median: 134
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 129.87
+
+INFO:root:./TrainingData/healthy07.tif
+INFO:root:BLUE
+INFO:root:Mode: 173
+INFO:root:5-Mode Avg: 117.80
+INFO:root:1st Quartile: 61
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 181
+INFO:root:Mean: 122.03
+
+INFO:root:GREEN
+INFO:root:Mode: 80
+INFO:root:5-Mode Avg: 97.60
+INFO:root:1st Quartile: 73
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 131.82
+
+INFO:root:RED
+INFO:root:Mode: 141
+INFO:root:5-Mode Avg: 162.80
+INFO:root:1st Quartile: 81
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 135.69
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 147
+INFO:root:5-Mode Avg: 138.80
+INFO:root:1st Quartile: 79
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 135.86
+
+INFO:root:./TrainingData/healthy08.tif
+INFO:root:BLUE
+INFO:root:Mode: 71
+INFO:root:5-Mode Avg: 88.40
+INFO:root:1st Quartile: 62
+INFO:root:Median: 124
+INFO:root:3rd Quartile: 181
+INFO:root:Mean: 121.88
+
+INFO:root:GREEN
+INFO:root:Mode: 30
+INFO:root:5-Mode Avg: 73.00
+INFO:root:1st Quartile: 59
+INFO:root:Median: 125
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 128.40
+
+INFO:root:RED
+INFO:root:Mode: 84
+INFO:root:5-Mode Avg: 120.60
+INFO:root:1st Quartile: 67
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 128.89
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 114
+INFO:root:5-Mode Avg: 78.20
+INFO:root:1st Quartile: 61
+INFO:root:Median: 124
+INFO:root:3rd Quartile: 187
+INFO:root:Mean: 123.94
+
+INFO:root:./TrainingData/healthy09.tif
+INFO:root:BLUE
+INFO:root:Mode: 111
+INFO:root:5-Mode Avg: 160.60
+INFO:root:1st Quartile: 66
+INFO:root:Median: 125
+INFO:root:3rd Quartile: 187
+INFO:root:Mean: 125.40
+
+INFO:root:GREEN
+INFO:root:Mode: 26
+INFO:root:5-Mode Avg: 117.20
+INFO:root:1st Quartile: 64
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 189
+INFO:root:Mean: 127.32
+
+INFO:root:RED
+INFO:root:Mode: 33
+INFO:root:5-Mode Avg: 161.00
+INFO:root:1st Quartile: 68
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 187
+INFO:root:Mean: 128.72
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 155
+INFO:root:5-Mode Avg: 129.20
+INFO:root:1st Quartile: 70
+INFO:root:Median: 136
+INFO:root:3rd Quartile: 189
+INFO:root:Mean: 132.35
+
+INFO:root:./TrainingData/healthy10.tif
+INFO:root:BLUE
+INFO:root:Mode: 78
+INFO:root:5-Mode Avg: 157.80
+INFO:root:1st Quartile: 60
+INFO:root:Median: 124
+INFO:root:3rd Quartile: 185
+INFO:root:Mean: 122.05
+
+INFO:root:GREEN
+INFO:root:Mode: 142
+INFO:root:5-Mode Avg: 99.80
+INFO:root:1st Quartile: 60
+INFO:root:Median: 123
+INFO:root:3rd Quartile: 192
+INFO:root:Mean: 126.24
+
+INFO:root:RED
+INFO:root:Mode: 240
+INFO:root:5-Mode Avg: 114.20
+INFO:root:1st Quartile: 63
+INFO:root:Median: 124
+INFO:root:3rd Quartile: 185
+INFO:root:Mean: 124.61
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 97
+INFO:root:5-Mode Avg: 122.80
+INFO:root:1st Quartile: 66
+INFO:root:Median: 136
+INFO:root:3rd Quartile: 192
+INFO:root:Mean: 129.67
+
+INFO:root:./TrainingData/healthy11.tif
+INFO:root:BLUE
+INFO:root:Mode: 75
+INFO:root:5-Mode Avg: 121.60
+INFO:root:1st Quartile: 62
+INFO:root:Median: 123
+INFO:root:3rd Quartile: 181
+INFO:root:Mean: 123.03
+
+INFO:root:GREEN
+INFO:root:Mode: 238
+INFO:root:5-Mode Avg: 138.20
+INFO:root:1st Quartile: 82
+INFO:root:Median: 140
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 138.87
+
+INFO:root:RED
+INFO:root:Mode: 61
+INFO:root:5-Mode Avg: 49.20
+INFO:root:1st Quartile: 76
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 192
+INFO:root:Mean: 133.99
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 167
+INFO:root:5-Mode Avg: 128.80
+INFO:root:1st Quartile: 87
+INFO:root:Median: 143
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 142.06
+
+INFO:root:./TrainingData/healthy12.tif
+INFO:root:BLUE
+INFO:root:Mode: 140
+INFO:root:5-Mode Avg: 137.40
+INFO:root:1st Quartile: 99
+INFO:root:Median: 145
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 144.40
+
+INFO:root:GREEN
+INFO:root:Mode: 208
+INFO:root:5-Mode Avg: 155.80
+INFO:root:1st Quartile: 82
+INFO:root:Median: 148
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 141.43
+
+INFO:root:RED
+INFO:root:Mode: 165
+INFO:root:5-Mode Avg: 164.00
+INFO:root:1st Quartile: 115
+INFO:root:Median: 162
+INFO:root:3rd Quartile: 206
+INFO:root:Mean: 161.49
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 104
+INFO:root:5-Mode Avg: 153.60
+INFO:root:1st Quartile: 105
+INFO:root:Median: 151
+INFO:root:3rd Quartile: 202
+INFO:root:Mean: 154.12
+
+INFO:root:./TrainingData/healthy13.tif
+INFO:root:BLUE
+INFO:root:Mode: 108
+INFO:root:5-Mode Avg: 109.20
+INFO:root:1st Quartile: 61
+INFO:root:Median: 124
+INFO:root:3rd Quartile: 180
+INFO:root:Mean: 122.18
+
+INFO:root:GREEN
+INFO:root:Mode: 235
+INFO:root:5-Mode Avg: 147.20
+INFO:root:1st Quartile: 72
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 131.15
+
+INFO:root:RED
+INFO:root:Mode: 186
+INFO:root:5-Mode Avg: 185.60
+INFO:root:1st Quartile: 73
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 135.94
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 110
+INFO:root:5-Mode Avg: 111.40
+INFO:root:1st Quartile: 75
+INFO:root:Median: 136
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 135.21
+
+INFO:root:./TrainingData/healthy14.tif
+INFO:root:BLUE
+INFO:root:Mode: 26
+INFO:root:5-Mode Avg: 111.00
+INFO:root:1st Quartile: 57
+INFO:root:Median: 120
+INFO:root:3rd Quartile: 175
+INFO:root:Mean: 118.97
+
+INFO:root:GREEN
+INFO:root:Mode: 221
+INFO:root:5-Mode Avg: 144.00
+INFO:root:1st Quartile: 75
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 188
+INFO:root:Mean: 131.82
+
+INFO:root:RED
+INFO:root:Mode: 112
+INFO:root:5-Mode Avg: 150.00
+INFO:root:1st Quartile: 75
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 131.66
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 158
+INFO:root:5-Mode Avg: 139.60
+INFO:root:1st Quartile: 82
+INFO:root:Median: 142
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 138.42
+
+INFO:root:./TrainingData/healthy15.tif
+INFO:root:BLUE
+INFO:root:Mode: 220
+INFO:root:5-Mode Avg: 212.40
+INFO:root:1st Quartile: 57
+INFO:root:Median: 117
+INFO:root:3rd Quartile: 177
+INFO:root:Mean: 117.55
+
+INFO:root:GREEN
+INFO:root:Mode: 34
+INFO:root:5-Mode Avg: 68.00
+INFO:root:1st Quartile: 65
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 192
+INFO:root:Mean: 127.51
+
+INFO:root:RED
+INFO:root:Mode: 39
+INFO:root:5-Mode Avg: 101.20
+INFO:root:1st Quartile: 65
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 129.18
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 25
+INFO:root:5-Mode Avg: 55.80
+INFO:root:1st Quartile: 62
+INFO:root:Median: 129
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 126.89
+
+INFO:root:./TrainingData/healthy16.tif
+INFO:root:BLUE
+INFO:root:Mode: 168
+INFO:root:5-Mode Avg: 133.60
+INFO:root:1st Quartile: 56
+INFO:root:Median: 121
+INFO:root:3rd Quartile: 179
+INFO:root:Mean: 119.31
+
+INFO:root:GREEN
+INFO:root:Mode: 163
+INFO:root:5-Mode Avg: 97.00
+INFO:root:1st Quartile: 73
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 132.99
+
+INFO:root:RED
+INFO:root:Mode: 95
+INFO:root:5-Mode Avg: 155.80
+INFO:root:1st Quartile: 79
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 189
+INFO:root:Mean: 136.00
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 249
+INFO:root:5-Mode Avg: 191.60
+INFO:root:1st Quartile: 70
+INFO:root:Median: 136
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 133.82
+
+INFO:root:./TrainingData/healthy17.tif
+INFO:root:BLUE
+INFO:root:Mode: 101
+INFO:root:5-Mode Avg: 150.20
+INFO:root:1st Quartile: 66
+INFO:root:Median: 128
+INFO:root:3rd Quartile: 189
+INFO:root:Mean: 126.41
+
+INFO:root:GREEN
+INFO:root:Mode: 56
+INFO:root:5-Mode Avg: 111.00
+INFO:root:1st Quartile: 58
+INFO:root:Median: 128
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 128.28
+
+INFO:root:RED
+INFO:root:Mode: 8
+INFO:root:5-Mode Avg: 74.80
+INFO:root:1st Quartile: 65
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 129.05
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 231
+INFO:root:5-Mode Avg: 133.20
+INFO:root:1st Quartile: 65
+INFO:root:Median: 124
+INFO:root:3rd Quartile: 184
+INFO:root:Mean: 126.62
+
+INFO:root:./TrainingData/healthy18.tif
+INFO:root:BLUE
+INFO:root:Mode: 52
+INFO:root:5-Mode Avg: 169.60
+INFO:root:1st Quartile: 84
+INFO:root:Median: 141
+INFO:root:3rd Quartile: 189
+INFO:root:Mean: 136.18
+
+INFO:root:GREEN
+INFO:root:Mode: 213
+INFO:root:5-Mode Avg: 173.60
+INFO:root:1st Quartile: 83
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 138.55
+
+INFO:root:RED
+INFO:root:Mode: 200
+INFO:root:5-Mode Avg: 167.20
+INFO:root:1st Quartile: 92
+INFO:root:Median: 145
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 145.05
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 75
+INFO:root:5-Mode Avg: 150.00
+INFO:root:1st Quartile: 89
+INFO:root:Median: 145
+INFO:root:3rd Quartile: 201
+INFO:root:Mean: 144.03
+
+INFO:root:./TrainingData/healthy19.tif
+INFO:root:BLUE
+INFO:root:Mode: 120
+INFO:root:5-Mode Avg: 121.60
+INFO:root:1st Quartile: 73
+INFO:root:Median: 129
+INFO:root:3rd Quartile: 183
+INFO:root:Mean: 127.87
+
+INFO:root:GREEN
+INFO:root:Mode: 181
+INFO:root:5-Mode Avg: 144.80
+INFO:root:1st Quartile: 90
+INFO:root:Median: 143
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 142.76
+
+INFO:root:RED
+INFO:root:Mode: 250
+INFO:root:5-Mode Avg: 148.40
+INFO:root:1st Quartile: 77
+INFO:root:Median: 139
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 136.87
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 79
+INFO:root:5-Mode Avg: 182.00
+INFO:root:1st Quartile: 87
+INFO:root:Median: 141
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 141.07
+
+INFO:root:./TrainingData/healthy20.tif
+INFO:root:BLUE
+INFO:root:Mode: 219
+INFO:root:5-Mode Avg: 157.80
+INFO:root:1st Quartile: 60
+INFO:root:Median: 122
+INFO:root:3rd Quartile: 180
+INFO:root:Mean: 122.10
+
+INFO:root:GREEN
+INFO:root:Mode: 230
+INFO:root:5-Mode Avg: 127.20
+INFO:root:1st Quartile: 73
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 133.37
+
+INFO:root:RED
+INFO:root:Mode: 244
+INFO:root:5-Mode Avg: 126.40
+INFO:root:1st Quartile: 80
+INFO:root:Median: 139
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 138.51
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 215
+INFO:root:5-Mode Avg: 173.20
+INFO:root:1st Quartile: 75
+INFO:root:Median: 139
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 135.71
+
+INFO:root:./TrainingData/healthy21.tif
+INFO:root:BLUE
+INFO:root:Mode: 76
+INFO:root:5-Mode Avg: 119.20
+INFO:root:1st Quartile: 60
+INFO:root:Median: 117
+INFO:root:3rd Quartile: 176
+INFO:root:Mean: 118.00
+
+INFO:root:GREEN
+INFO:root:Mode: 46
+INFO:root:5-Mode Avg: 90.00
+INFO:root:1st Quartile: 66
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 126.93
+
+INFO:root:RED
+INFO:root:Mode: 198
+INFO:root:5-Mode Avg: 158.60
+INFO:root:1st Quartile: 69
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 131.47
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 111
+INFO:root:5-Mode Avg: 128.20
+INFO:root:1st Quartile: 61
+INFO:root:Median: 125
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 126.35
+
+INFO:root:./TrainingData/healthy22.tif
+INFO:root:BLUE
+INFO:root:Mode: 106
+INFO:root:5-Mode Avg: 97.60
+INFO:root:1st Quartile: 59
+INFO:root:Median: 120
+INFO:root:3rd Quartile: 178
+INFO:root:Mean: 118.70
+
+INFO:root:GREEN
+INFO:root:Mode: 175
+INFO:root:5-Mode Avg: 141.60
+INFO:root:1st Quartile: 66
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 199
+INFO:root:Mean: 131.62
+
+INFO:root:RED
+INFO:root:Mode: 187
+INFO:root:5-Mode Avg: 153.20
+INFO:root:1st Quartile: 70
+INFO:root:Median: 134
+INFO:root:3rd Quartile: 189
+INFO:root:Mean: 131.03
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 36
+INFO:root:5-Mode Avg: 153.00
+INFO:root:1st Quartile: 62
+INFO:root:Median: 128
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 129.00
+
+INFO:root:./TrainingData/healthy23.tif
+INFO:root:BLUE
+INFO:root:Mode: 234
+INFO:root:5-Mode Avg: 166.60
+INFO:root:1st Quartile: 69
+INFO:root:Median: 125
+INFO:root:3rd Quartile: 180
+INFO:root:Mean: 124.72
+
+INFO:root:GREEN
+INFO:root:Mode: 47
+INFO:root:5-Mode Avg: 81.80
+INFO:root:1st Quartile: 77
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 133.71
+
+INFO:root:RED
+INFO:root:Mode: 245
+INFO:root:5-Mode Avg: 158.60
+INFO:root:1st Quartile: 63
+INFO:root:Median: 128
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 128.16
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 123
+INFO:root:5-Mode Avg: 172.00
+INFO:root:1st Quartile: 80
+INFO:root:Median: 136
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 137.41
+
+INFO:root:./TrainingData/healthy24.tif
+INFO:root:BLUE
+INFO:root:Mode: 196
+INFO:root:5-Mode Avg: 117.60
+INFO:root:1st Quartile: 60
+INFO:root:Median: 121
+INFO:root:3rd Quartile: 181
+INFO:root:Mean: 120.71
+
+INFO:root:GREEN
+INFO:root:Mode: 12
+INFO:root:5-Mode Avg: 101.40
+INFO:root:1st Quartile: 64
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 129.72
+
+INFO:root:RED
+INFO:root:Mode: 44
+INFO:root:5-Mode Avg: 117.20
+INFO:root:1st Quartile: 72
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 134.42
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 54
+INFO:root:5-Mode Avg: 132.80
+INFO:root:1st Quartile: 66
+INFO:root:Median: 134
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 129.87
+
+INFO:root:EXIT_SUCCESS
+INFO:root:This file is a SVM Training Data log for Moss
+
+INFO:root:./TrainingData/dysplasia00.tif
+INFO:root:Critical p: 0.04701
+
+INFO:root:Mode: 198
+INFO:root:5-Mode Avg: 158.60
+INFO:root:1st Quartile: 69
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 131.47
+
+INFO:root:Mode: 46
+INFO:root:5-Mode Avg: 90.00
+INFO:root:1st Quartile: 66
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 126.93
+
+INFO:root:Mode: 76
+INFO:root:5-Mode Avg: 119.20
+INFO:root:1st Quartile: 64
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 126.19
+
+INFO:root:This file is a SVM Training Data log for Moss
+
+INFO:root:./TrainingData/dysplasia00.tif
+INFO:root:Critical p: 0.04701
+
+INFO:root:Mode: 198
+INFO:root:5-Mode Avg: 158.60
+INFO:root:1st Quartile: 69
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 131.47
+
+INFO:root:Mode: 46
+INFO:root:5-Mode Avg: 90.00
+INFO:root:1st Quartile: 66
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 126.93
+
+INFO:root:Mode: 76
+INFO:root:5-Mode Avg: 119.20
+INFO:root:1st Quartile: 64
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 126.19
+
+INFO:root:./TrainingData/dysplasia01.tif
+INFO:root:Critical p: 0.03091
+
+INFO:root:Mode: 147
+INFO:root:5-Mode Avg: 124.20
+INFO:root:1st Quartile: 90
+INFO:root:Median: 144
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 141.83
+
+INFO:root:Mode: 214
+INFO:root:5-Mode Avg: 136.20
+INFO:root:1st Quartile: 68
+INFO:root:Median: 132
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 131.70
+
+INFO:root:Mode: 132
+INFO:root:5-Mode Avg: 46.20
+INFO:root:1st Quartile: 54
+INFO:root:Median: 122
+INFO:root:3rd Quartile: 182
+INFO:root:Mean: 121.29
+
+INFO:root:./TrainingData/dysplasia02.tif
+INFO:root:Critical p: 0.08633
+
+INFO:root:Mode: 242
+INFO:root:5-Mode Avg: 132.00
+INFO:root:1st Quartile: 68
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 199
+INFO:root:Mean: 132.72
+
+INFO:root:Mode: 17
+INFO:root:5-Mode Avg: 91.60
+INFO:root:1st Quartile: 61
+INFO:root:Median: 122
+INFO:root:3rd Quartile: 184
+INFO:root:Mean: 123.42
+
+INFO:root:Mode: 179
+INFO:root:5-Mode Avg: 98.40
+INFO:root:1st Quartile: 63
+INFO:root:Median: 129
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 128.51
+
+INFO:root:./TrainingData/dysplasia03.tif
+INFO:root:Critical p: 0.06510
+
+INFO:root:Mode: 75
+INFO:root:5-Mode Avg: 130.60
+INFO:root:1st Quartile: 72
+INFO:root:Median: 129
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 131.41
+
+INFO:root:Mode: 57
+INFO:root:5-Mode Avg: 159.80
+INFO:root:1st Quartile: 76
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 186
+INFO:root:Mean: 131.82
+
+INFO:root:Mode: 18
+INFO:root:5-Mode Avg: 90.80
+INFO:root:1st Quartile: 57
+INFO:root:Median: 125
+INFO:root:3rd Quartile: 187
+INFO:root:Mean: 124.30
+
+INFO:root:./TrainingData/dysplasia04.tif
+INFO:root:Critical p: 0.04588
+
+INFO:root:Mode: 141
+INFO:root:5-Mode Avg: 162.80
+INFO:root:1st Quartile: 81
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 135.69
+
+INFO:root:Mode: 80
+INFO:root:5-Mode Avg: 97.60
+INFO:root:1st Quartile: 73
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 131.82
+
+INFO:root:Mode: 173
+INFO:root:5-Mode Avg: 117.80
+INFO:root:1st Quartile: 65
+INFO:root:Median: 132
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 129.98
+
+INFO:root:./TrainingData/dysplasia05.tif
+INFO:root:Critical p: 0.01504
+
+INFO:root:Mode: 237
+INFO:root:5-Mode Avg: 156.60
+INFO:root:1st Quartile: 80
+INFO:root:Median: 141
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 140.39
+
+INFO:root:Mode: 248
+INFO:root:5-Mode Avg: 188.40
+INFO:root:1st Quartile: 88
+INFO:root:Median: 145
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 144.27
+
+INFO:root:Mode: 90
+INFO:root:5-Mode Avg: 175.40
+INFO:root:1st Quartile: 82
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 137.84
+
+INFO:root:./TrainingData/dysplasia06.tif
+INFO:root:Critical p: 0.06258
+
+INFO:root:Mode: 118
+INFO:root:5-Mode Avg: 86.00
+INFO:root:1st Quartile: 70
+INFO:root:Median: 125
+INFO:root:3rd Quartile: 201
+INFO:root:Mean: 130.95
+
+INFO:root:Mode: 183
+INFO:root:5-Mode Avg: 118.80
+INFO:root:1st Quartile: 70
+INFO:root:Median: 139
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 131.72
+
+INFO:root:Mode: 95
+INFO:root:5-Mode Avg: 112.00
+INFO:root:1st Quartile: 60
+INFO:root:Median: 123
+INFO:root:3rd Quartile: 185
+INFO:root:Mean: 124.57
+
+INFO:root:./TrainingData/dysplasia07.tif
+INFO:root:Critical p: 0.03054
+
+INFO:root:Mode: 94
+INFO:root:5-Mode Avg: 109.00
+INFO:root:1st Quartile: 68
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 131.04
+
+INFO:root:Mode: 159
+INFO:root:5-Mode Avg: 172.60
+INFO:root:1st Quartile: 65
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 127.70
+
+INFO:root:Mode: 179
+INFO:root:5-Mode Avg: 143.00
+INFO:root:1st Quartile: 71
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 133.29
+
+INFO:root:./TrainingData/dysplasia08.tif
+INFO:root:Critical p: 0.06977
+
+INFO:root:Mode: 69
+INFO:root:5-Mode Avg: 96.80
+INFO:root:1st Quartile: 68
+INFO:root:Median: 134
+INFO:root:3rd Quartile: 199
+INFO:root:Mean: 132.03
+
+INFO:root:Mode: 63
+INFO:root:5-Mode Avg: 88.60
+INFO:root:1st Quartile: 63
+INFO:root:Median: 122
+INFO:root:3rd Quartile: 186
+INFO:root:Mean: 125.64
+
+INFO:root:Mode: 31
+INFO:root:5-Mode Avg: 181.80
+INFO:root:1st Quartile: 64
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 129.60
+
+INFO:root:./TrainingData/dysplasia09.tif
+INFO:root:Critical p: 0.05096
+
+INFO:root:Mode: 248
+INFO:root:5-Mode Avg: 183.40
+INFO:root:1st Quartile: 76
+INFO:root:Median: 138
+INFO:root:3rd Quartile: 203
+INFO:root:Mean: 137.31
+
+INFO:root:Mode: 135
+INFO:root:5-Mode Avg: 110.40
+INFO:root:1st Quartile: 67
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 133.07
+
+INFO:root:Mode: 144
+INFO:root:5-Mode Avg: 120.20
+INFO:root:1st Quartile: 64
+INFO:root:Median: 121
+INFO:root:3rd Quartile: 179
+INFO:root:Mean: 121.57
+
+INFO:root:./TrainingData/dysplasia10.tif
+INFO:root:Critical p: 0.03626
+
+INFO:root:Mode: 138
+INFO:root:5-Mode Avg: 108.40
+INFO:root:1st Quartile: 63
+INFO:root:Median: 124
+INFO:root:3rd Quartile: 180
+INFO:root:Mean: 124.99
+
+INFO:root:Mode: 57
+INFO:root:5-Mode Avg: 76.40
+INFO:root:1st Quartile: 59
+INFO:root:Median: 123
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 126.52
+
+INFO:root:Mode: 20
+INFO:root:5-Mode Avg: 117.80
+INFO:root:1st Quartile: 74
+INFO:root:Median: 136
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 133.63
+
+INFO:root:./TrainingData/dysplasia11.tif
+INFO:root:Critical p: 0.05480
+
+INFO:root:Mode: 78
+INFO:root:5-Mode Avg: 124.80
+INFO:root:1st Quartile: 85
+INFO:root:Median: 144
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 141.92
+
+INFO:root:Mode: 232
+INFO:root:5-Mode Avg: 130.20
+INFO:root:1st Quartile: 74
+INFO:root:Median: 132
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 132.39
+
+INFO:root:Mode: 143
+INFO:root:5-Mode Avg: 111.60
+INFO:root:1st Quartile: 68
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 133.02
+
+INFO:root:./TrainingData/healthy00.tif
+INFO:root:Critical p: 0.00072
+
+INFO:root:Mode: 244
+INFO:root:5-Mode Avg: 126.40
+INFO:root:1st Quartile: 80
+INFO:root:Median: 139
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 138.51
+
+INFO:root:Mode: 230
+INFO:root:5-Mode Avg: 127.20
+INFO:root:1st Quartile: 73
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 133.37
+
+INFO:root:Mode: 219
+INFO:root:5-Mode Avg: 157.80
+INFO:root:1st Quartile: 66
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 188
+INFO:root:Mean: 128.05
+
+INFO:root:./TrainingData/healthy01.tif
+INFO:root:Critical p: 0.00031
+
+INFO:root:Mode: 156
+INFO:root:5-Mode Avg: 146.00
+INFO:root:1st Quartile: 84
+INFO:root:Median: 145
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 141.14
+
+INFO:root:Mode: 241
+INFO:root:5-Mode Avg: 151.40
+INFO:root:1st Quartile: 80
+INFO:root:Median: 136
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 138.53
+
+INFO:root:Mode: 142
+INFO:root:5-Mode Avg: 162.20
+INFO:root:1st Quartile: 74
+INFO:root:Median: 139
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 136.02
+
+INFO:root:./TrainingData/healthy02.tif
+INFO:root:Critical p: 0.00175
+
+INFO:root:Mode: 200
+INFO:root:5-Mode Avg: 167.20
+INFO:root:1st Quartile: 92
+INFO:root:Median: 145
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 145.05
+
+INFO:root:Mode: 213
+INFO:root:5-Mode Avg: 173.60
+INFO:root:1st Quartile: 83
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 138.55
+
+INFO:root:Mode: 52
+INFO:root:5-Mode Avg: 169.60
+INFO:root:1st Quartile: 87
+INFO:root:Median: 147
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 143.65
+
+INFO:root:./TrainingData/healthy03.tif
+INFO:root:Critical p: 0.02997
+
+INFO:root:Mode: 95
+INFO:root:5-Mode Avg: 155.80
+INFO:root:1st Quartile: 79
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 189
+INFO:root:Mean: 136.00
+
+INFO:root:Mode: 163
+INFO:root:5-Mode Avg: 97.00
+INFO:root:1st Quartile: 73
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 132.99
+
+INFO:root:Mode: 168
+INFO:root:5-Mode Avg: 133.60
+INFO:root:1st Quartile: 64
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 127.93
+
+INFO:root:./TrainingData/healthy04.tif
+INFO:root:Critical p: 0.03134
+
+INFO:root:Mode: 112
+INFO:root:5-Mode Avg: 150.00
+INFO:root:1st Quartile: 75
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 131.66
+
+INFO:root:Mode: 221
+INFO:root:5-Mode Avg: 144.00
+INFO:root:1st Quartile: 75
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 188
+INFO:root:Mean: 131.82
+
+INFO:root:Mode: 26
+INFO:root:5-Mode Avg: 111.00
+INFO:root:1st Quartile: 60
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 188
+INFO:root:Mean: 126.42
+
+INFO:root:./TrainingData/healthy05.tif
+INFO:root:Critical p: 0.00303
+
+INFO:root:Mode: 206
+INFO:root:5-Mode Avg: 122.60
+INFO:root:1st Quartile: 84
+INFO:root:Median: 138
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 138.42
+
+INFO:root:Mode: 190
+INFO:root:5-Mode Avg: 149.80
+INFO:root:1st Quartile: 104
+INFO:root:Median: 153
+INFO:root:3rd Quartile: 201
+INFO:root:Mean: 153.61
+
+INFO:root:Mode: 234
+INFO:root:5-Mode Avg: 145.20
+INFO:root:1st Quartile: 98
+INFO:root:Median: 145
+INFO:root:3rd Quartile: 204
+INFO:root:Mean: 148.89
+
+INFO:root:./TrainingData/healthy06.tif
+INFO:root:Critical p: 0.00000
+
+INFO:root:Mode: 233
+INFO:root:5-Mode Avg: 155.00
+INFO:root:1st Quartile: 82
+INFO:root:Median: 138
+INFO:root:3rd Quartile: 199
+INFO:root:Mean: 138.74
+
+INFO:root:Mode: 95
+INFO:root:5-Mode Avg: 150.20
+INFO:root:1st Quartile: 59
+INFO:root:Median: 112
+INFO:root:3rd Quartile: 174
+INFO:root:Mean: 119.55
+
+INFO:root:Mode: 132
+INFO:root:5-Mode Avg: 164.20
+INFO:root:1st Quartile: 62
+INFO:root:Median: 121
+INFO:root:3rd Quartile: 180
+INFO:root:Mean: 122.29
+
+INFO:root:./TrainingData/healthy07.tif
+INFO:root:Critical p: 0.00465
+
+INFO:root:Mode: 39
+INFO:root:5-Mode Avg: 101.20
+INFO:root:1st Quartile: 65
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 129.18
+
+INFO:root:Mode: 34
+INFO:root:5-Mode Avg: 68.00
+INFO:root:1st Quartile: 65
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 192
+INFO:root:Mean: 127.51
+
+INFO:root:Mode: 220
+INFO:root:5-Mode Avg: 229.40
+INFO:root:1st Quartile: 63
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 126.03
+
+INFO:root:./TrainingData/healthy08.tif
+INFO:root:Critical p: 0.00281
+
+INFO:root:Mode: 93
+INFO:root:5-Mode Avg: 148.40
+INFO:root:1st Quartile: 82
+INFO:root:Median: 144
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 139.19
+
+INFO:root:Mode: 227
+INFO:root:5-Mode Avg: 193.80
+INFO:root:1st Quartile: 77
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 135.85
+
+INFO:root:Mode: 38
+INFO:root:5-Mode Avg: 99.00
+INFO:root:1st Quartile: 70
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 131.76
+
+INFO:root:./TrainingData/healthy09.tif
+INFO:root:Critical p: 0.00103
+
+INFO:root:Mode: 55
+INFO:root:5-Mode Avg: 109.60
+INFO:root:1st Quartile: 87
+INFO:root:Median: 141
+INFO:root:3rd Quartile: 201
+INFO:root:Mean: 142.48
+
+INFO:root:Mode: 106
+INFO:root:5-Mode Avg: 161.80
+INFO:root:1st Quartile: 95
+INFO:root:Median: 148
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 146.37
+
+INFO:root:Mode: 251
+INFO:root:5-Mode Avg: 189.80
+INFO:root:1st Quartile: 96
+INFO:root:Median: 149
+INFO:root:3rd Quartile: 202
+INFO:root:Mean: 148.40
+
+INFO:root:./TrainingData/healthy10.tif
+INFO:root:Critical p: 0.00000
+
+INFO:root:Mode: 244
+INFO:root:5-Mode Avg: 140.20
+INFO:root:1st Quartile: 82
+INFO:root:Median: 142
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 141.45
+
+INFO:root:Mode: 124
+INFO:root:5-Mode Avg: 153.40
+INFO:root:1st Quartile: 108
+INFO:root:Median: 154
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 154.37
+
+INFO:root:Mode: 205
+INFO:root:5-Mode Avg: 190.40
+INFO:root:1st Quartile: 85
+INFO:root:Median: 141
+INFO:root:3rd Quartile: 204
+INFO:root:Mean: 142.69
+
+INFO:root:./TrainingData/healthy11.tif
+INFO:root:Critical p: 0.00675
+
+INFO:root:Mode: 186
+INFO:root:5-Mode Avg: 185.60
+INFO:root:1st Quartile: 73
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 135.94
+
+INFO:root:Mode: 235
+INFO:root:5-Mode Avg: 147.20
+INFO:root:1st Quartile: 72
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 131.15
+
+INFO:root:Mode: 108
+INFO:root:5-Mode Avg: 109.20
+INFO:root:1st Quartile: 65
+INFO:root:Median: 128
+INFO:root:3rd Quartile: 188
+INFO:root:Mean: 128.12
+
+INFO:root:EXIT_SUCCESS
+INFO:root:This file is a SVM Training Data log for Moss
+
+INFO:root:./TrainingData/dysplasia00.tif
+INFO:root:BLUE
+INFO:root:Mode: 76
+INFO:root:5-Mode Avg: 119.20
+INFO:root:1st Quartile: 60
+INFO:root:Median: 117
+INFO:root:3rd Quartile: 176
+INFO:root:Mean: 118.00
+
+INFO:root:GREEN
+INFO:root:Mode: 46
+INFO:root:5-Mode Avg: 90.00
+INFO:root:1st Quartile: 66
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 126.93
+
+INFO:root:RED
+INFO:root:Mode: 198
+INFO:root:5-Mode Avg: 158.60
+INFO:root:1st Quartile: 69
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 131.47
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 111
+INFO:root:5-Mode Avg: 128.20
+INFO:root:1st Quartile: 61
+INFO:root:Median: 125
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 126.35
+
+INFO:root:./TrainingData/dysplasia01.tif
+INFO:root:BLUE
+INFO:root:Mode: 132
+INFO:root:5-Mode Avg: 46.20
+INFO:root:1st Quartile: 52
+INFO:root:Median: 117
+INFO:root:3rd Quartile: 174
+INFO:root:Mean: 115.25
+
+INFO:root:GREEN
+INFO:root:Mode: 214
+INFO:root:5-Mode Avg: 136.20
+INFO:root:1st Quartile: 68
+INFO:root:Median: 132
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 131.70
+
+INFO:root:RED
+INFO:root:Mode: 147
+INFO:root:5-Mode Avg: 124.20
+INFO:root:1st Quartile: 90
+INFO:root:Median: 144
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 141.83
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 187
+INFO:root:5-Mode Avg: 149.80
+INFO:root:1st Quartile: 82
+INFO:root:Median: 139
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 139.46
+
+INFO:root:./TrainingData/dysplasia02.tif
+INFO:root:BLUE
+INFO:root:Mode: 179
+INFO:root:5-Mode Avg: 98.40
+INFO:root:1st Quartile: 59
+INFO:root:Median: 119
+INFO:root:3rd Quartile: 182
+INFO:root:Mean: 120.71
+
+INFO:root:GREEN
+INFO:root:Mode: 17
+INFO:root:5-Mode Avg: 91.60
+INFO:root:1st Quartile: 61
+INFO:root:Median: 122
+INFO:root:3rd Quartile: 184
+INFO:root:Mean: 123.42
+
+INFO:root:RED
+INFO:root:Mode: 242
+INFO:root:5-Mode Avg: 132.00
+INFO:root:1st Quartile: 68
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 199
+INFO:root:Mean: 132.72
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 103
+INFO:root:5-Mode Avg: 133.80
+INFO:root:1st Quartile: 63
+INFO:root:Median: 128
+INFO:root:3rd Quartile: 188
+INFO:root:Mean: 126.31
+
+INFO:root:./TrainingData/dysplasia03.tif
+INFO:root:BLUE
+INFO:root:Mode: 18
+INFO:root:5-Mode Avg: 90.80
+INFO:root:1st Quartile: 55
+INFO:root:Median: 121
+INFO:root:3rd Quartile: 183
+INFO:root:Mean: 119.12
+
+INFO:root:GREEN
+INFO:root:Mode: 57
+INFO:root:5-Mode Avg: 159.80
+INFO:root:1st Quartile: 76
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 186
+INFO:root:Mean: 131.82
+
+INFO:root:RED
+INFO:root:Mode: 75
+INFO:root:5-Mode Avg: 130.60
+INFO:root:1st Quartile: 72
+INFO:root:Median: 129
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 131.41
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 103
+INFO:root:5-Mode Avg: 100.80
+INFO:root:1st Quartile: 65
+INFO:root:Median: 122
+INFO:root:3rd Quartile: 185
+INFO:root:Mean: 124.72
+
+INFO:root:./TrainingData/dysplasia04.tif
+INFO:root:BLUE
+INFO:root:Mode: 173
+INFO:root:5-Mode Avg: 117.80
+INFO:root:1st Quartile: 61
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 181
+INFO:root:Mean: 122.03
+
+INFO:root:GREEN
+INFO:root:Mode: 80
+INFO:root:5-Mode Avg: 97.60
+INFO:root:1st Quartile: 73
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 131.82
+
+INFO:root:RED
+INFO:root:Mode: 141
+INFO:root:5-Mode Avg: 162.80
+INFO:root:1st Quartile: 81
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 135.69
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 147
+INFO:root:5-Mode Avg: 138.80
+INFO:root:1st Quartile: 79
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 135.86
+
+INFO:root:./TrainingData/dysplasia05.tif
+INFO:root:BLUE
+INFO:root:Mode: 90
+INFO:root:5-Mode Avg: 131.40
+INFO:root:1st Quartile: 76
+INFO:root:Median: 129
+INFO:root:3rd Quartile: 184
+INFO:root:Mean: 129.92
+
+INFO:root:GREEN
+INFO:root:Mode: 248
+INFO:root:5-Mode Avg: 188.40
+INFO:root:1st Quartile: 88
+INFO:root:Median: 145
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 144.27
+
+INFO:root:RED
+INFO:root:Mode: 237
+INFO:root:5-Mode Avg: 156.60
+INFO:root:1st Quartile: 80
+INFO:root:Median: 141
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 140.39
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 233
+INFO:root:5-Mode Avg: 173.80
+INFO:root:1st Quartile: 84
+INFO:root:Median: 145
+INFO:root:3rd Quartile: 205
+INFO:root:Mean: 143.99
+
+INFO:root:./TrainingData/dysplasia06.tif
+INFO:root:BLUE
+INFO:root:Mode: 95
+INFO:root:5-Mode Avg: 112.00
+INFO:root:1st Quartile: 56
+INFO:root:Median: 118
+INFO:root:3rd Quartile: 173
+INFO:root:Mean: 117.72
+
+INFO:root:GREEN
+INFO:root:Mode: 183
+INFO:root:5-Mode Avg: 118.80
+INFO:root:1st Quartile: 70
+INFO:root:Median: 139
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 131.72
+
+INFO:root:RED
+INFO:root:Mode: 118
+INFO:root:5-Mode Avg: 86.00
+INFO:root:1st Quartile: 70
+INFO:root:Median: 125
+INFO:root:3rd Quartile: 201
+INFO:root:Mean: 130.95
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 235
+INFO:root:5-Mode Avg: 145.80
+INFO:root:1st Quartile: 62
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 129.91
+
+INFO:root:./TrainingData/dysplasia07.tif
+INFO:root:BLUE
+INFO:root:Mode: 179
+INFO:root:5-Mode Avg: 143.00
+INFO:root:1st Quartile: 66
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 184
+INFO:root:Mean: 125.86
+
+INFO:root:GREEN
+INFO:root:Mode: 159
+INFO:root:5-Mode Avg: 172.60
+INFO:root:1st Quartile: 65
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 127.70
+
+INFO:root:RED
+INFO:root:Mode: 94
+INFO:root:5-Mode Avg: 109.00
+INFO:root:1st Quartile: 68
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 131.04
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 246
+INFO:root:5-Mode Avg: 188.80
+INFO:root:1st Quartile: 72
+INFO:root:Median: 140
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 135.07
+
+INFO:root:./TrainingData/dysplasia08.tif
+INFO:root:BLUE
+INFO:root:Mode: 31
+INFO:root:5-Mode Avg: 168.20
+INFO:root:1st Quartile: 59
+INFO:root:Median: 122
+INFO:root:3rd Quartile: 184
+INFO:root:Mean: 120.98
+
+INFO:root:GREEN
+INFO:root:Mode: 63
+INFO:root:5-Mode Avg: 88.60
+INFO:root:1st Quartile: 63
+INFO:root:Median: 122
+INFO:root:3rd Quartile: 186
+INFO:root:Mean: 125.64
+
+INFO:root:RED
+INFO:root:Mode: 69
+INFO:root:5-Mode Avg: 96.80
+INFO:root:1st Quartile: 68
+INFO:root:Median: 134
+INFO:root:3rd Quartile: 199
+INFO:root:Mean: 132.03
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 148
+INFO:root:5-Mode Avg: 200.40
+INFO:root:1st Quartile: 68
+INFO:root:Median: 128
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 128.47
+
+INFO:root:./TrainingData/dysplasia09.tif
+INFO:root:BLUE
+INFO:root:Mode: 144
+INFO:root:5-Mode Avg: 120.20
+INFO:root:1st Quartile: 63
+INFO:root:Median: 117
+INFO:root:3rd Quartile: 174
+INFO:root:Mean: 118.53
+
+INFO:root:GREEN
+INFO:root:Mode: 135
+INFO:root:5-Mode Avg: 110.40
+INFO:root:1st Quartile: 67
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 133.07
+
+INFO:root:RED
+INFO:root:Mode: 248
+INFO:root:5-Mode Avg: 183.40
+INFO:root:1st Quartile: 76
+INFO:root:Median: 138
+INFO:root:3rd Quartile: 203
+INFO:root:Mean: 137.31
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 85
+INFO:root:5-Mode Avg: 136.00
+INFO:root:1st Quartile: 75
+INFO:root:Median: 139
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 134.88
+
+INFO:root:./TrainingData/dysplasia10.tif
+INFO:root:BLUE
+INFO:root:Mode: 20
+INFO:root:5-Mode Avg: 117.80
+INFO:root:1st Quartile: 70
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 188
+INFO:root:Mean: 126.09
+
+INFO:root:GREEN
+INFO:root:Mode: 57
+INFO:root:5-Mode Avg: 76.40
+INFO:root:1st Quartile: 59
+INFO:root:Median: 123
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 126.52
+
+INFO:root:RED
+INFO:root:Mode: 138
+INFO:root:5-Mode Avg: 108.40
+INFO:root:1st Quartile: 63
+INFO:root:Median: 124
+INFO:root:3rd Quartile: 180
+INFO:root:Mean: 124.99
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 229
+INFO:root:5-Mode Avg: 191.00
+INFO:root:1st Quartile: 71
+INFO:root:Median: 129
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 131.58
+
+INFO:root:./TrainingData/dysplasia11.tif
+INFO:root:BLUE
+INFO:root:Mode: 143
+INFO:root:5-Mode Avg: 111.60
+INFO:root:1st Quartile: 60
+INFO:root:Median: 123
+INFO:root:3rd Quartile: 184
+INFO:root:Mean: 123.30
+
+INFO:root:GREEN
+INFO:root:Mode: 232
+INFO:root:5-Mode Avg: 130.20
+INFO:root:1st Quartile: 74
+INFO:root:Median: 132
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 132.39
+
+INFO:root:RED
+INFO:root:Mode: 78
+INFO:root:5-Mode Avg: 124.80
+INFO:root:1st Quartile: 85
+INFO:root:Median: 144
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 141.92
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 225
+INFO:root:5-Mode Avg: 191.60
+INFO:root:1st Quartile: 82
+INFO:root:Median: 142
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 138.58
+
+INFO:root:./TrainingData/healthy00.tif
+INFO:root:BLUE
+INFO:root:Mode: 219
+INFO:root:5-Mode Avg: 157.80
+INFO:root:1st Quartile: 60
+INFO:root:Median: 122
+INFO:root:3rd Quartile: 180
+INFO:root:Mean: 122.10
+
+INFO:root:GREEN
+INFO:root:Mode: 230
+INFO:root:5-Mode Avg: 127.20
+INFO:root:1st Quartile: 73
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 133.37
+
+INFO:root:RED
+INFO:root:Mode: 244
+INFO:root:5-Mode Avg: 126.40
+INFO:root:1st Quartile: 80
+INFO:root:Median: 139
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 138.51
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 215
+INFO:root:5-Mode Avg: 173.20
+INFO:root:1st Quartile: 75
+INFO:root:Median: 139
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 135.71
+
+INFO:root:./TrainingData/healthy01.tif
+INFO:root:BLUE
+INFO:root:Mode: 142
+INFO:root:5-Mode Avg: 162.20
+INFO:root:1st Quartile: 71
+INFO:root:Median: 129
+INFO:root:3rd Quartile: 187
+INFO:root:Mean: 127.16
+
+INFO:root:GREEN
+INFO:root:Mode: 241
+INFO:root:5-Mode Avg: 151.40
+INFO:root:1st Quartile: 80
+INFO:root:Median: 136
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 138.53
+
+INFO:root:RED
+INFO:root:Mode: 156
+INFO:root:5-Mode Avg: 146.00
+INFO:root:1st Quartile: 84
+INFO:root:Median: 145
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 141.14
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 208
+INFO:root:5-Mode Avg: 136.40
+INFO:root:1st Quartile: 75
+INFO:root:Median: 126
+INFO:root:3rd Quartile: 192
+INFO:root:Mean: 133.75
+
+INFO:root:./TrainingData/healthy02.tif
+INFO:root:BLUE
+INFO:root:Mode: 52
+INFO:root:5-Mode Avg: 169.60
+INFO:root:1st Quartile: 84
+INFO:root:Median: 141
+INFO:root:3rd Quartile: 189
+INFO:root:Mean: 136.18
+
+INFO:root:GREEN
+INFO:root:Mode: 213
+INFO:root:5-Mode Avg: 173.60
+INFO:root:1st Quartile: 83
+INFO:root:Median: 137
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 138.55
+
+INFO:root:RED
+INFO:root:Mode: 200
+INFO:root:5-Mode Avg: 167.20
+INFO:root:1st Quartile: 92
+INFO:root:Median: 145
+INFO:root:3rd Quartile: 197
+INFO:root:Mean: 145.05
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 75
+INFO:root:5-Mode Avg: 150.00
+INFO:root:1st Quartile: 89
+INFO:root:Median: 145
+INFO:root:3rd Quartile: 201
+INFO:root:Mean: 144.03
+
+INFO:root:./TrainingData/healthy03.tif
+INFO:root:BLUE
+INFO:root:Mode: 168
+INFO:root:5-Mode Avg: 133.60
+INFO:root:1st Quartile: 56
+INFO:root:Median: 121
+INFO:root:3rd Quartile: 179
+INFO:root:Mean: 119.31
+
+INFO:root:GREEN
+INFO:root:Mode: 163
+INFO:root:5-Mode Avg: 97.00
+INFO:root:1st Quartile: 73
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 132.99
+
+INFO:root:RED
+INFO:root:Mode: 95
+INFO:root:5-Mode Avg: 155.80
+INFO:root:1st Quartile: 79
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 189
+INFO:root:Mean: 136.00
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 249
+INFO:root:5-Mode Avg: 191.60
+INFO:root:1st Quartile: 70
+INFO:root:Median: 136
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 133.82
+
+INFO:root:./TrainingData/healthy04.tif
+INFO:root:BLUE
+INFO:root:Mode: 26
+INFO:root:5-Mode Avg: 111.00
+INFO:root:1st Quartile: 57
+INFO:root:Median: 120
+INFO:root:3rd Quartile: 175
+INFO:root:Mean: 118.97
+
+INFO:root:GREEN
+INFO:root:Mode: 221
+INFO:root:5-Mode Avg: 144.00
+INFO:root:1st Quartile: 75
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 188
+INFO:root:Mean: 131.82
+
+INFO:root:RED
+INFO:root:Mode: 112
+INFO:root:5-Mode Avg: 150.00
+INFO:root:1st Quartile: 75
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 131.66
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 158
+INFO:root:5-Mode Avg: 139.60
+INFO:root:1st Quartile: 82
+INFO:root:Median: 142
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 138.42
+
+INFO:root:./TrainingData/healthy05.tif
+INFO:root:BLUE
+INFO:root:Mode: 234
+INFO:root:5-Mode Avg: 145.20
+INFO:root:1st Quartile: 95
+INFO:root:Median: 136
+INFO:root:3rd Quartile: 194
+INFO:root:Mean: 141.39
+
+INFO:root:GREEN
+INFO:root:Mode: 190
+INFO:root:5-Mode Avg: 149.80
+INFO:root:1st Quartile: 104
+INFO:root:Median: 153
+INFO:root:3rd Quartile: 201
+INFO:root:Mean: 153.61
+
+INFO:root:RED
+INFO:root:Mode: 206
+INFO:root:5-Mode Avg: 122.60
+INFO:root:1st Quartile: 84
+INFO:root:Median: 138
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 138.42
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 143
+INFO:root:5-Mode Avg: 184.40
+INFO:root:1st Quartile: 95
+INFO:root:Median: 147
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 147.93
+
+INFO:root:./TrainingData/healthy06.tif
+INFO:root:BLUE
+INFO:root:Mode: 132
+INFO:root:5-Mode Avg: 125.40
+INFO:root:1st Quartile: 59
+INFO:root:Median: 115
+INFO:root:3rd Quartile: 168
+INFO:root:Mean: 115.88
+
+INFO:root:GREEN
+INFO:root:Mode: 95
+INFO:root:5-Mode Avg: 150.20
+INFO:root:1st Quartile: 59
+INFO:root:Median: 112
+INFO:root:3rd Quartile: 174
+INFO:root:Mean: 119.55
+
+INFO:root:RED
+INFO:root:Mode: 233
+INFO:root:5-Mode Avg: 155.00
+INFO:root:1st Quartile: 82
+INFO:root:Median: 138
+INFO:root:3rd Quartile: 199
+INFO:root:Mean: 138.74
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 47
+INFO:root:5-Mode Avg: 124.40
+INFO:root:1st Quartile: 73
+INFO:root:Median: 138
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 134.12
+
+INFO:root:./TrainingData/healthy07.tif
+INFO:root:BLUE
+INFO:root:Mode: 220
+INFO:root:5-Mode Avg: 212.40
+INFO:root:1st Quartile: 57
+INFO:root:Median: 117
+INFO:root:3rd Quartile: 177
+INFO:root:Mean: 117.55
+
+INFO:root:GREEN
+INFO:root:Mode: 34
+INFO:root:5-Mode Avg: 68.00
+INFO:root:1st Quartile: 65
+INFO:root:Median: 127
+INFO:root:3rd Quartile: 192
+INFO:root:Mean: 127.51
+
+INFO:root:RED
+INFO:root:Mode: 39
+INFO:root:5-Mode Avg: 101.20
+INFO:root:1st Quartile: 65
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 129.18
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 25
+INFO:root:5-Mode Avg: 55.80
+INFO:root:1st Quartile: 62
+INFO:root:Median: 129
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 126.89
+
+INFO:root:./TrainingData/healthy08.tif
+INFO:root:BLUE
+INFO:root:Mode: 38
+INFO:root:5-Mode Avg: 99.00
+INFO:root:1st Quartile: 66
+INFO:root:Median: 124
+INFO:root:3rd Quartile: 180
+INFO:root:Mean: 124.44
+
+INFO:root:GREEN
+INFO:root:Mode: 227
+INFO:root:5-Mode Avg: 193.80
+INFO:root:1st Quartile: 77
+INFO:root:Median: 135
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 135.85
+
+INFO:root:RED
+INFO:root:Mode: 93
+INFO:root:5-Mode Avg: 148.40
+INFO:root:1st Quartile: 82
+INFO:root:Median: 144
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 139.19
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 57
+INFO:root:5-Mode Avg: 93.80
+INFO:root:1st Quartile: 74
+INFO:root:Median: 131
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 133.93
+
+INFO:root:./TrainingData/healthy09.tif
+INFO:root:BLUE
+INFO:root:Mode: 201
+INFO:root:5-Mode Avg: 165.80
+INFO:root:1st Quartile: 92
+INFO:root:Median: 141
+INFO:root:3rd Quartile: 191
+INFO:root:Mean: 140.41
+
+INFO:root:GREEN
+INFO:root:Mode: 106
+INFO:root:5-Mode Avg: 161.80
+INFO:root:1st Quartile: 95
+INFO:root:Median: 148
+INFO:root:3rd Quartile: 195
+INFO:root:Mean: 146.37
+
+INFO:root:RED
+INFO:root:Mode: 55
+INFO:root:5-Mode Avg: 109.60
+INFO:root:1st Quartile: 87
+INFO:root:Median: 141
+INFO:root:3rd Quartile: 201
+INFO:root:Mean: 142.48
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 122
+INFO:root:5-Mode Avg: 125.60
+INFO:root:1st Quartile: 90
+INFO:root:Median: 144
+INFO:root:3rd Quartile: 198
+INFO:root:Mean: 144.81
+
+INFO:root:./TrainingData/healthy10.tif
+INFO:root:BLUE
+INFO:root:Mode: 205
+INFO:root:5-Mode Avg: 190.40
+INFO:root:1st Quartile: 80
+INFO:root:Median: 132
+INFO:root:3rd Quartile: 190
+INFO:root:Mean: 134.61
+
+INFO:root:GREEN
+INFO:root:Mode: 124
+INFO:root:5-Mode Avg: 153.40
+INFO:root:1st Quartile: 108
+INFO:root:Median: 154
+INFO:root:3rd Quartile: 200
+INFO:root:Mean: 154.37
+
+INFO:root:RED
+INFO:root:Mode: 244
+INFO:root:5-Mode Avg: 140.20
+INFO:root:1st Quartile: 82
+INFO:root:Median: 142
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 141.45
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 235
+INFO:root:5-Mode Avg: 162.80
+INFO:root:1st Quartile: 103
+INFO:root:Median: 158
+INFO:root:3rd Quartile: 213
+INFO:root:Mean: 156.70
+
+INFO:root:./TrainingData/healthy11.tif
+INFO:root:BLUE
+INFO:root:Mode: 108
+INFO:root:5-Mode Avg: 109.20
+INFO:root:1st Quartile: 61
+INFO:root:Median: 124
+INFO:root:3rd Quartile: 180
+INFO:root:Mean: 122.18
+
+INFO:root:GREEN
+INFO:root:Mode: 235
+INFO:root:5-Mode Avg: 147.20
+INFO:root:1st Quartile: 72
+INFO:root:Median: 130
+INFO:root:3rd Quartile: 193
+INFO:root:Mean: 131.15
+
+INFO:root:RED
+INFO:root:Mode: 186
+INFO:root:5-Mode Avg: 185.60
+INFO:root:1st Quartile: 73
+INFO:root:Median: 133
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 135.94
+
+INFO:root:GRAYSCALE
+INFO:root:Mode: 110
+INFO:root:5-Mode Avg: 111.40
+INFO:root:1st Quartile: 75
+INFO:root:Median: 136
+INFO:root:3rd Quartile: 196
+INFO:root:Mean: 135.21
+
+INFO:root:EXIT_SUCCESS

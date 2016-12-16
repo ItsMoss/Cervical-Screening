@@ -37,7 +37,7 @@ def main():
         return
     cer.info("Calculated critical pixel density: %.5f" % x)
 
-    # 5. Determine y-axis parameter (blue mode)
+    # 5. Determine y-axis parameter (blue mean)
     channels = cer.extract_RGB(image)
     if channels == {}:
         cer.info(fail)
@@ -46,8 +46,8 @@ def main():
     if bluestats == {}:
         cer.info(fail)
         return
-    y = bluestats["mode"]
-    cer.info("Calculated blue channel mode: %d" % y)
+    y = bluestats["mean"]
+    cer.info("Calculated blue channel mean: %d" % y)
 
     # 6. Package x and y into one variable
     unknown = [x, y]

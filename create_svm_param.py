@@ -1,4 +1,5 @@
-# This file is for creating the parameters that would be used to create SVM in create_svm.py
+# This file is for creating the parameters that would
+# be used to create SVM in create_svm.py
 import cervical as cer
 import helpers as helps
 from logging import info
@@ -101,9 +102,9 @@ def svm_param1():
 
         hea_n += 1
 
-        #5. Save parameter
+        # 5. Save parameter
         with open('svm_param1.txt', 'w') as f:
-            json.dump({"dysplasia":allDysplasia, "healthy":allHealthy}, f)
+            json.dump({"dysplasia": allDysplasia, "healthy": allHealthy}, f)
 
     info("EXIT_SUCCESS")
 
@@ -221,9 +222,9 @@ def svm_param2():
         allHealthy.append(imagestats)
         hea_n += 1
 
-        #4. Save parameter
+        # 4. Save parameter
         with open('svm_param2.txt', 'w') as f:
-            json.dump({"dysplasia":allDysplasia, "healthy":allHealthy}, f)
+            json.dump({"dysplasia": allDysplasia, "healthy": allHealthy}, f)
 
     info("EXIT_SUCCESS")
 

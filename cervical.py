@@ -391,11 +391,12 @@ def find_svm(X, Y):
     return output
 
 
-def save_svm_model(clf):
+def save_svm_model(clf, filename):
     """
     save svm model
     :param clf: svm model
+    :param filename: filename to be saved
     :return:
     """
     from sklearn.externals import joblib
-    joblib.dump(clf, 'svm_model.pkl')
+    joblib.dump(clf, filename)

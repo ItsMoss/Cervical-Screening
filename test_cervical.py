@@ -404,9 +404,9 @@ def test_save_svm_model():
          [5, 2], [4, 3], [3, 4], [2, 5], [1, 6], [0, 7]]
     Y = [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
     clf = cer.find_svm(X, Y)
-    cer.save_svm_model(clf)
+    cer.save_svm_model(clf,'test_svm_model.pkl')
 
-    output = joblib.load('svm_model.pkl')
+    output = joblib.load('test_svm_model.pkl')
 
     assert output.predict([0, 0]) == 0
     assert output.predict([1, 1]) == 0

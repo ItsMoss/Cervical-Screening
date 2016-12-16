@@ -31,8 +31,6 @@ The following is a detailed list of files implemented in this project:
 
 + `test_cervical.py` - contains all unit tests for cervical.py
 
-+ `TrainingData/` - folder containing all test images used for SVM creation
-
 ### Running Main
 In order to properly run the main program do the following from your terminal:
 

@@ -366,3 +366,21 @@ def test_rearrange_svm():
 
     assert np.array_equal(outputX, [[1,8],[2,9],[8,1],[9,2]])
     assert outputY == [0,0,1,1]
+
+
+
+def test_find_svm():
+    """
+    Test find_svm functionality from cervical.py
+    """
+    X = [[5,0], [4,1], [3,2], [2,3], [1,4], [0,5],
+         [5,2], [4,3], [3,4], [2,5], [1,6], [0,7]]
+    Y = [0,0,0,0,0,0,1,1,1,1,1,1]
+    output = cer.find_svm(X, Y)
+
+    assert output.predict([0, 0]) == 0
+    assert output.predict([1, 1]) == 0
+    assert output.predict([2, 2]) == 0
+    assert output.predict([3, 3]) == 1
+    assert output.predict([4, 4]) == 1
+    assert output.predict([5, 5]) == 1

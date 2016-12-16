@@ -72,6 +72,7 @@ def read_image(image_name, color=True):
     not; default is True otherwise a grayscale image will be read
     :return ndarray image: resulting image matrix
     """
+    debug("Reading image")
     if color is True:
         image = cv2.imread(image_name, 1)
     else:
@@ -86,9 +87,19 @@ def extract_RGB(image):
 
     :return dict channels: intensity histograms for each color (R, G, B)
     """
-    # NOTE. Should add logging error if color image is not provided
-    rows = len(image)
-    cols = len(image[0])
+    debug("Extracting RGB channels from image")
+    try:
+        rows = len(image)
+        cols = len(image[0])
+        L = len(image[0][0])
+        if L != 3:
+            errmsg = "Color image should have exactly 3 components (R,G,B)."
+            error(errmsg)
+            return {}
+    except TypeError:
+        errmsg = "Color image must be provided as input to 'extract_RGB'."
+        error(errmsg)
+        return {}
 
     red = 0 * ones(COLORMAX, uint8)
     green = 0 * ones(COLORMAX, uint8)
@@ -113,9 +124,23 @@ def create_grayscale_channel(image):
 
     :return ndarray channel: intensity histogram for grayscale
     """
-    # NOTE. Should add logging error if color image is provided
-    rows = len(image)
-    cols = len(image[0])
+    debug("Extracting grayscale channel from image")
+    try:
+        rows = len(image)
+        cols = len(image[0])
+        try:
+            len(image[0][0])
+            # Should not reach this point! Otherwise, a color image was input
+            errmsg = "Color image was provided. Input image to \
+            'create_grayscale_channel' must be grayscale only!"
+            error(errmsg)
+            return []
+        except TypeError:
+            pass
+    except TypeError:
+        errmsg = "Invalid image. Should have 2 dimensions."
+        error(errmsg)
+        return []
 
     channel = 0 * ones(COLORMAX, uint8)
     for row in range(rows):
@@ -132,6 +157,7 @@ def channel_stats(channel):
     :param ndarray channel: input channel (red, gree, blue, or grayscale)
     :return dict stats: various stats on the input channel data
     """
+    debug("Calculating useful statistics on an input color channel")
     maximum = max(channel[1:])
     mode = 1
 
@@ -195,7 +221,7 @@ def remove_glare(input, threshold):
     :param threshold: threshold for removing glare (int)
     :return: output: List of RGB values from 0-255 after removing glare
     """
-
+    debug("Removing glare")
     # Check the size of input list
     if len(input) != 256:
         addlist = [0]*(256-len(input))
@@ -217,8 +243,19 @@ def blackout_glare(image, thr=240):
     in order to be considered glare
     :return ndarray image: image matrix without glare
     """
-    rows = len(image)
-    cols = len(image[0])
+    debug("Blacking out glare")
+    try:
+        rows = len(image)
+        cols = len(image[0])
+        L = len(image[0][0])
+        if L != 3:
+            errmsg = "Color image should have exactly 3 components (R,G,B)."
+            error(errmsg)
+            return None
+    except TypeError:
+        errmsg = "Color image must be provided as input to 'extract_RGB'."
+        error(errmsg)
+        return None
 
     try:
         len(image[0][0])
@@ -248,6 +285,7 @@ def parse_critical(filename):
     :param str filename: input file name containing critical values
     :return dict criticals: each color component matched to its critical range
     """
+    debug("Parsing critical values file")
     import re as regx
 
     criticals = {}
@@ -257,16 +295,21 @@ def parse_critical(filename):
             line = f.readline()
             mobj = regx.match(r'(\w*) (\d*) (\d*)', line, regx.I)
             if not mobj:
+                errmsg = "Improper syntax in input file. A line should read \
+                as follows: color num1 num2"
+                error(errmsg)
                 return {}
-                raise SyntaxError
             mvals = mobj.groups()
             try:
                 if int(mvals[1]) < 0 or int(mvals[2]) > 255:
+                    errmsg = "Critical value bounds are invalid. Cannot be \
+                    less than 0 or greater than 255."
+                    error(errmsg)
                     return {}
-                    raise SyntaxError
                 criticals[mvals[0]] = (int(mvals[1]), int(mvals[2]))
             except (TypeError, ValueError):
-                # Occurs if non-numbers provided for critical vals
+                errmsg = "Expected to parse number values"
+                error(errmsg)
                 return {}
 
     return criticals
@@ -281,6 +324,7 @@ def critical_pixel_density(image, critical_values):
     :param dict critical_values: critical value ranges for each color component
     :return float density: calculated density of critical pixels as decimal
     """
+    debug("Calculating critical pixell density")
     rmin = critical_values["red"][0]
     rmax = critical_values["red"][1]
     gmin = critical_values["green"][0]
@@ -288,9 +332,19 @@ def critical_pixel_density(image, critical_values):
     bmin = critical_values["blue"][0]
     bmax = critical_values["blue"][1]
 
-    rows = len(image)
-    cols = len(image[0])
-    # NOTE. add error handling for improperly sized input matrix
+    try:
+        rows = len(image)
+        cols = len(image[0])
+        L = len(image[0][0])
+        if L != 3:
+            errmsg = "Color image should have exactly 3 components (R,G,B)."
+            error(errmsg)
+            return None
+    except TypeError:
+        errmsg = "Color image must be provided as input to \
+        'critical_pixel_density'."
+        error(errmsg)
+        return None
 
     count = 0
     image_pixels = 0
@@ -305,30 +359,14 @@ def critical_pixel_density(image, critical_values):
                             bmax:
                         count += 1
 
-    density = count / image_pixels
-    # NOTE. add ZeroDivision error handling
+    try:
+        density = count / image_pixels
+    except ZeroDivisionError:
+        errmsg = "Invalid input image. It only contains black pixels."
+        error(errmsg)
+        return None
 
     return density
-
-
-def gaussian_threshold(image, neighborhood, fname, c=0):
-    """
-    Performs gaussian binary thresholding on a grayscale image
-
-    :param ndarray image: grayscale image
-    :param int neigborhood: length of square neighborhood size to calculate \
-    threshold off of
-    :param str fname: file name to write image to
-    :param int c: constant subtracted from calculated Gaussian threshold value
-    :return ndarray image: thresholded image
-    """
-    image = cv2.adaptiveThreshold(image, COLORMAX-1,
-                                  cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
-                                  cv2.THRESH_BINARY, neighborhood, c)
-
-    cv2.imwrite(fname+".png", image)
-
-    return image
 
 
 def read_jsonfile(infile):
@@ -338,6 +376,7 @@ def read_jsonfile(infile):
     :param str infile: input json filename
     :return dict params: contains all parsed key-value pairs from JSON object
     """
+    debug("Reading input JSON file")
     from json import load
 
     try:
@@ -360,7 +399,7 @@ def rearrange_svm(param1a, param1b, param2a, param2b):
     :param list param2b: 2nd statstical analysis of data that is in category b
     :return dict output: a map of for each set of data
     """
-
+    debug("Rearranging SVM data")
     import numpy as np
 
     # Rearrange data and convert to np.array
@@ -385,7 +424,7 @@ def find_svm(X, Y):
     :param list Y: list to specify groups of data
     :return dict output: metadata for support vector creation
     """
-
+    debug("Finding support vector")
     from sklearn import svm
 
     clf = svm.SVC(kernel='linear', C=1.0)
@@ -401,6 +440,7 @@ def save_svm_model(clf, filename):
     :param dict clf: metadata for svm model
     :param str filename: filename to be saved
     """
+    debug("Saving support vector")
     from sklearn.externals import joblib
     joblib.dump(clf, filename)
 
@@ -430,6 +470,12 @@ def parse_main():
                      type=str,
                      default="svm_model.pkl")
 
+    par.add_argument("--log_level",
+                     dest="log_level",
+                     help="Desired level of logging to log file for program",
+                     type=str,
+                     default="INFO")
+
     args = par.parse_args()
 
     return args
@@ -445,6 +491,7 @@ def print_diagnosis(img_name, classification_id, log=False):
     :param ble log: whether or not the printed message should also be logged \
     to a file
     """
+    debug("Printing diagnosis")
     diagnosis = img_name+" is %s.\n"
     if classification_id == 0:
         d_class = "healthy"

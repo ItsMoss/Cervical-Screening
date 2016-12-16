@@ -2,7 +2,7 @@
 import cv2 as cv2
 import helpers as helps
 from numpy import ones, uint8
-from logging import debug
+from logging import debug, info, error
 
 COLORMAX = 256
 
@@ -341,23 +341,24 @@ def read_jsonfile(infile):
     from json import load
 
     try:
-        file = open(infile,'r')
+        file = open(infile, 'r')
         params = load(file)
     except FileNotFoundError:
         print('Error: file not found')
-        params = {'a':[], 'b':[]}
+        params = {'a': [], 'b': []}
 
     return params
 
 
 def rearrange_svm(param1a, param1b, param2a, param2b):
     """
-    rearrange data for svm
-    :param param1a: first statstical analysis of data that is in category a (list)
-    :param param1b: first statstical analysis of data that is in category b (list)
-    :param param2a: second statstical analysis of data that is in category a (list)
-    :param param2b: second statstical analysis of data that is in category b (list)
-    :return: output(dict)
+    Rearrange data for svm
+
+    :param list param1a: 1st statstical analysis of data that is in category a
+    :param list param1b: 1st statstical analysis of data that is in category b
+    :param list param2a: 2nd statstical analysis of data that is in category a
+    :param list param2b: 2nd statstical analysis of data that is in category b
+    :return dict output: a map of for each set of data
     """
 
     import numpy as np
@@ -373,14 +374,16 @@ def rearrange_svm(param1a, param1b, param2a, param2b):
     # Differentiate two data set
     Y = [0] * len(param2a) + [1] * len(param2b)
 
-    return {'X':X, 'Y':Y}
+    return {'X': X, 'Y': Y}
+
 
 def find_svm(X, Y):
     """
     Find support vector machine from two parameters of input
-    :param X: rearranged array of input
-    :param Y: list to specify groups of data
-    :return: output
+
+    :param ndarray X: rearranged array of input
+    :param list Y: list to specify groups of data
+    :return dict output: metadata for support vector creation
     """
 
     from sklearn import svm
@@ -393,13 +396,15 @@ def find_svm(X, Y):
 
 def save_svm_model(clf, filename):
     """
-    save svm model
-    :param clf: svm model
-    :param filename: filename to be saved
-    :return:
+    Save svm model
+
+    :param dict clf: metadata for svm model
+    :param str filename: filename to be saved
     """
     from sklearn.externals import joblib
     joblib.dump(clf, filename)
+
+    return
 
 
 def parse_main():
@@ -413,19 +418,41 @@ def parse_main():
     par = ap.ArgumentParser(description="Accept user input argument",
                             formatter_class=ap.ArgumentDefaultsHelpFormatter)
 
-    par.add_argument("--full_dir_path",
-                     dest="directory",
-                     help="full pathname of the directory containing test \
-                     images for diagnosis",
-                     type=str,
-                     default="./TestingData/")
+    par.add_argument("-full_img_path",
+                     dest="image_name",
+                     help="full pathname of the image to be classified",
+                     type=str)
 
-    par.add_argument("--tif_filename",
-                     dest="json_filename",
-                     help="Data acquisition metadata in json file",
+    par.add_argument("--SVM_filename",
+                     dest="svm_file",
+                     help="Full filename containing metadata for the support \
+                     vector to be used to classify input image",
                      type=str,
-                     default="healthy25.json")
+                     default="svm_model.pkl")
 
     args = par.parse_args()
 
     return args
+
+
+def print_diagnosis(img_name, classification_id, log=False):
+    """
+    Prints the diagnosis of a cervix image
+
+    :param str img_name: name of the input cervix image
+    :param int classification_id: previously determined number that associates\
+     the cervical image with diagnostic class (0 for healthy, 1 for dysplastic)
+    :param ble log: whether or not the printed message should also be logged \
+    to a file
+    """
+    diagnosis = img_name+" is %s.\n"
+    if classification_id == 0:
+        d_class = "healthy"
+    else:
+        d_class = "dysplastic"
+
+    print(diagnosis % d_class)
+    if log is True:
+        info(diagnosis % d_class)
+
+    return

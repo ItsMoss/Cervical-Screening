@@ -389,3 +389,13 @@ def find_svm(X, Y):
     output = clf.fit(X, Y)
 
     return output
+
+
+def save_svm_model(clf):
+    """
+    save svm model
+    :param clf: svm model
+    :return:
+    """
+    from sklearn.externals import joblib
+    joblib.dump(clf, 'svm_model.pkl')

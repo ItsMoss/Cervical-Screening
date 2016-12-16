@@ -5,7 +5,7 @@ import json
 import matplotlib.pyplot as plt
 from matplotlib import style
 import numpy as np
-from sklearn import svm
+from sklearn import svm, datasets
 
 
 def main():
@@ -51,6 +51,10 @@ def main():
     filename = color+'-'+stat
     plt.savefig(filename, bbox_inches='tight')
     plt.show(fig1)
+
+    #5. Save SVM Model
+    cer.save_svm_model(clf)
+
 
 if __name__ == "__main__":
     main()

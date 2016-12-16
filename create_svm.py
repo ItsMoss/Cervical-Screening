@@ -16,14 +16,14 @@ def main():
 
     #2. Reorganize data
     color = 'blue'
-    stat = 'mode'
-    x1 = param1['heathy']
+    stat = 'mean'
+    x1 = param1['healthy']
     x2 = param1['dysplasia']
     x = x1+x2
-    y1 = [0]* len(param1['heathy'])
+    y1 = [0]* len(param1['healthy'])
     y2 = [0]* len(param1['dysplasia'])
-    for i in range (0,len(param1['heathy'])):
-        y1[i] = param2['heathy'][i][str(i)][color][stat]
+    for i in range (0,len(param1['healthy'])):
+        y1[i] = param2['healthy'][i][str(i)][color][stat]
 
     for i in range (0, len(param1['dysplasia'])):
         y2[i] = param2['dysplasia'][i][str(i)][color][stat]
@@ -39,7 +39,7 @@ def main():
     #4. Plot SVM
     w = clf.coef_[0]
     m = -w[0] / w[1]
-    xx = np.linspace(0, 1, 10)
+    xx = np.linspace(0, 0.1, 10)
     yy = m * xx - clf.intercept_[0] / w[1]
 
     fig1 = plt.scatter(x[0:len(x1)],y1, color = 'red')
@@ -53,7 +53,7 @@ def main():
     plt.show(fig1)
 
     #5. Save SVM Model
-    cer.save_svm_model(clf)
+    cer.save_svm_model(clf,'svm_model.pkl')
 
 
 if __name__ == "__main__":

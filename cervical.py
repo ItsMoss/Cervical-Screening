@@ -340,8 +340,12 @@ def read_jsonfile(infile):
     """
     from json import load
 
-    with open(infile) as file:
+    try:
+        file = open(infile,'r')
         params = load(file)
+    except FileNotFoundError:
+        print('Error: file not found')
+        params = {'a':[], 'b':[]}
 
     return params
 

@@ -2,7 +2,7 @@
 import cervical as cer
 import helpers as helps
 import cv2 as cv2
-from numpy import ones, uint8
+from numpy import ones, uint8, array_equal
 from numpy.testing import assert_array_equal as assert_equal
 from numpy.testing import assert_raises
 from random import randrange
@@ -336,24 +336,32 @@ def test_read_jsonfile():
     Tests read_jsonfile functionality from cervical.py
     """
 
-    infile = 'jsontest.json'
-    with open(infile, 'w') as f:
+    # Case 1
+    infile1 = 'jsontest.json'
+    with open(infile1, 'w') as f:
         dump({"a": [1,2,3,4,5], "b": [6,7,8,9,0]}, f)
 
-    output = cer.read_jsonfile(infile)
-    a = output['a']
-    b = output['b']
+    output1 = cer.read_jsonfile(infile1)
+    a1 = output1['a']
+    b1 = output1['b']
 
-    assert a == [1,2,3,4,5]
-    assert b == [6,7,8,9,0]
+    assert a1 == [1,2,3,4,5]
+    assert b1 == [6,7,8,9,0]
+
+    # Case2
+    infile2 = 'jsontest2.json'
+    output2 = cer.read_jsonfile(infile2)
+    a2 = output2['a']
+    b2 = output2['b']
+
+    assert a2 == []
+    assert b2 == []
 
 
 def test_rearrange_svm():
     """
     Test rearrange_svm functionality from cervical.py
     """
-
-    import numpy as np
 
     inlist1a = [1,2]
     inlist1b = [8,9]
@@ -364,7 +372,7 @@ def test_rearrange_svm():
     outputX = output['X']
     outputY = output['Y']
 
-    assert np.array_equal(outputX, [[1,8],[2,9],[8,1],[9,2]])
+    assert array_equal(outputX, [[1,8],[2,9],[8,1],[9,2]])
     assert outputY == [0,0,1,1]
 
 

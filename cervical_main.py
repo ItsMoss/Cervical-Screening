@@ -47,7 +47,7 @@ def main():
         cer.info(fail)
         return
     y = bluestats["mean"]
-    cer.info("Calculated blue channel mean: %d" % y)
+    cer.info("Calculated blue channel mean: %.2f" % y)
 
     # 6. Package x and y into one variable
     unknown = [x, y]

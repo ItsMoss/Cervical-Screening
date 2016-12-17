@@ -46,8 +46,8 @@ def main():
     fig1 = plt.scatter(x[0:len(x1)], y1, color='red')
     fig1 = plt.scatter(x[len(x1):], y2, color='blue')
     fig1 = plt.plot(xx, yy, 'k-')
-    plt.xlabel('param1')
-    plt.ylabel('param2')
+    plt.xlabel('Critical Pixel Density')
+    plt.ylabel('Blue Channel Mean')
     plt.title('SVM Classification of healthy and dysplasia cervix')
     filename = color+'-'+stat
     plt.savefig(filename, bbox_inches='tight')

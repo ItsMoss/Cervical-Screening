@@ -16,3 +16,10 @@ INFO:root:Calculated blue channel mode: 18
 INFO:root:testdata.tif is dysplastic.
 
 INFO:root:EXIT_SUCCESS
+INFO:root:This file is a SVM Training Data log for Cervical Imaging Classification
+
+INFO:root:Calculated critical pixel density: 0.06510
+INFO:root:Calculated blue channel mean: 124
+INFO:root:testdata.tif is dysplastic.
+
+INFO:root:EXIT_SUCCESS

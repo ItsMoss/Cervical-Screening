@@ -470,8 +470,7 @@ def parse_main():
     par = ap.ArgumentParser(description="Accept user input argument",
                             formatter_class=ap.ArgumentDefaultsHelpFormatter)
 
-    par.add_argument("-full_img_path",
-                     dest="image_name",
+    par.add_argument("full_img_path",
                      help="full pathname of the image to be classified",
                      type=str)
 

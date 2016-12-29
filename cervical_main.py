@@ -10,7 +10,7 @@ fail = "EXIT_FAILURE"
 def main():
     # 1. Parse Command Line arguments
     main_args = cer.parse_main()
-    imagename = main_args.image_name
+    imagename = main_args.full_img_path
     svmfile = main_args.svm_file
     loglevel = main_args.log_level
 
@@ -53,6 +53,7 @@ def main():
     unknown = [x, y]
 
     # 7. Use both calculated parameters to classify image from svmfile data
+    print(svmfile)
     svmdata = jl.load(svmfile)
     classification = svmdata.predict(unknown)
 

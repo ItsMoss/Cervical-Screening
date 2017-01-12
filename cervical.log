@@ -24,3 +24,10 @@ INFO:root:This file is a SVM Training Data log for Cervical Imaging Classificati
 
 INFO:root:Calculated critical pixel density: 0.04701
 INFO:root:Calculated blue channel mean: 126.19
+INFO:root:This file is a SVM Training Data log for Cervical Imaging Classification
+
+INFO:root:Calculated critical pixel density: 0.00072
+INFO:root:Calculated blue channel mean: 128.05
+INFO:root:../TrainingData/healthy00.tif is healthy.
+
+INFO:root:EXIT_SUCCESS

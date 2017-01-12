@@ -53,9 +53,8 @@ def main():
     unknown = [x, y]
 
     # 7. Use both calculated parameters to classify image from svmfile data
-    print(svmfile)
     svmdata = jl.load(svmfile)
-    classification = svmdata.predict(unknown)
+    classification = svmdata.predict(unknown)[0]
 
     # 8. Print to terminal & log file
     cer.print_diagnosis(imagename, classification, True)
